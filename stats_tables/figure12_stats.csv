@@ -1,0 +1,31 @@
+figure,panel,test,alternative,group_1,group_2,n_group_1,n_group_2,p_uncorrected,p_holm,reject_holm_0.05
+figure12,$\mathrm{DCA}_{\mathrm{post}}$,Mann-Whitney U,two-sided,Tel,Di,72,81,3.1736817314469977e-13,1.269472692578799e-12,True
+figure12,$\mathrm{DCA}_{\mathrm{post}}$,Mann-Whitney U,two-sided,Tel,Mes,72,38,4.9195101694538994e-17,2.4597550847269496e-16,True
+figure12,$\mathrm{DCA}_{\mathrm{post}}$,Mann-Whitney U,two-sided,Tel,Hind,72,233,3.822215370741425e-27,2.293329222444855e-26,True
+figure12,$\mathrm{DCA}_{\mathrm{post}}$,Mann-Whitney U,two-sided,Di,Mes,81,38,0.0002236622794503778,0.0004473245589007556,True
+figure12,$\mathrm{DCA}_{\mathrm{post}}$,Mann-Whitney U,two-sided,Di,Hind,81,233,0.9106342801735763,0.9106342801735763,False
+figure12,$\mathrm{DCA}_{\mathrm{post}}$,Mann-Whitney U,two-sided,Mes,Hind,38,233,2.0222638030904457e-05,6.066791409271337e-05,True
+figure12,$\mathrm{DCA}_{\mathrm{pre}}$,Mann-Whitney U,two-sided,Tel,Di,71,80,0.47296017081121156,0.47296017081121156,False
+figure12,$\mathrm{DCA}_{\mathrm{pre}}$,Mann-Whitney U,two-sided,Tel,Mes,71,40,0.03434646325498413,0.06869292650996826,False
+figure12,$\mathrm{DCA}_{\mathrm{pre}}$,Mann-Whitney U,two-sided,Tel,Hind,71,231,8.323063192343629e-06,2.4969189577030887e-05,True
+figure12,$\mathrm{DCA}_{\mathrm{pre}}$,Mann-Whitney U,two-sided,Di,Mes,80,40,5.11353399763684e-10,2.55676699881842e-09,True
+figure12,$\mathrm{DCA}_{\mathrm{pre}}$,Mann-Whitney U,two-sided,Di,Hind,80,231,7.514020769531258e-07,3.005608307812503e-06,True
+figure12,$\mathrm{DCA}_{\mathrm{pre}}$,Mann-Whitney U,two-sided,Mes,Hind,40,231,2.1326178861818526e-14,1.2795707317091115e-13,True
+figure12,Modularity Q,Mann-Whitney U,two-sided,Tel,Di,55,56,0.011688769044521154,0.02211152357071835,True
+figure12,Modularity Q,Mann-Whitney U,two-sided,Tel,Mes,55,35,0.011055761785359174,0.02211152357071835,True
+figure12,Modularity Q,Mann-Whitney U,two-sided,Tel,Hind,55,182,1.1775869553037173e-18,7.065521731822304e-18,True
+figure12,Modularity Q,Mann-Whitney U,two-sided,Di,Mes,56,35,1.298841757034428e-05,3.896525271103284e-05,True
+figure12,Modularity Q,Mann-Whitney U,two-sided,Di,Hind,56,182,1.7012216196052892e-12,6.804886478421157e-12,True
+figure12,Modularity Q,Mann-Whitney U,two-sided,Mes,Hind,35,182,4.4147404850352634e-16,2.2073702425176316e-15,True
+figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Tel,Di,79,82,0.003941289930613226,0.01970644965306613,True
+figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Tel,Mes,79,42,0.09194440547370468,0.3677776218948187,False
+figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Tel,Hind,79,247,0.00250574238721467,0.01503445432328802,True
+figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Di,Mes,82,42,0.10675992644247011,0.3677776218948187,False
+figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Di,Hind,82,247,0.5434136633712409,0.5989558811033717,False
+figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Mes,Hind,42,247,0.29947794055168586,0.5989558811033717,False
+figure12,OO fraction,Mann-Whitney U,two-sided,Tel,Di,46,53,0.002584554077918602,0.005169108155837204,True
+figure12,OO fraction,Mann-Whitney U,two-sided,Tel,Mes,46,19,2.331777384178013e-07,1.1658886920890064e-06,True
+figure12,OO fraction,Mann-Whitney U,two-sided,Tel,Hind,46,174,2.524032928790166e-13,1.5144197572740995e-12,True
+figure12,OO fraction,Mann-Whitney U,two-sided,Di,Mes,53,19,1.2448074729700675e-05,3.734422418910203e-05,True
+figure12,OO fraction,Mann-Whitney U,two-sided,Di,Hind,53,174,2.9536168942427296e-06,1.1814467576970919e-05,True
+figure12,OO fraction,Mann-Whitney U,two-sided,Mes,Hind,19,174,0.012188516102451055,0.012188516102451055,True

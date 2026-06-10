@@ -1,0 +1,258 @@
+species,recording_id,shared_fine_order,shared_fine_label,mean_fcv,n_nodes
+C. elegans,2023-01-05-01,0,olfactory / chemosensory,1.0981404351738009,4
+C. elegans,2023-01-05-01,2,other sensory,0.09227288484321682,27
+C. elegans,2023-01-05-01,3,sensorimotor output,0.17024206224604302,16
+C. elegans,2023-01-05-01,4,integrative relay,-0.4418725140222186,7
+C. elegans,2023-01-05-01,5,associative / learning,-0.15110500223529205,8
+C. elegans,2023-01-05-01,6,state-dependent / modulatory,-0.944808765842511,5
+C. elegans,2023-01-05-18,0,olfactory / chemosensory,0.15242667297376442,10
+C. elegans,2023-01-05-18,2,other sensory,0.08537252234364506,26
+C. elegans,2023-01-05-18,3,sensorimotor output,0.19256675794676315,19
+C. elegans,2023-01-05-18,4,integrative relay,-0.6255179777099289,6
+C. elegans,2023-01-05-18,5,associative / learning,-0.5138532364974899,7
+C. elegans,2023-01-05-18,6,state-dependent / modulatory,-0.0526401899192507,1
+C. elegans,2023-01-06-01,0,olfactory / chemosensory,0.5395461164205556,5
+C. elegans,2023-01-06-01,2,other sensory,-0.09225545031559496,26
+C. elegans,2023-01-06-01,3,sensorimotor output,0.17284362867822026,22
+C. elegans,2023-01-06-01,4,integrative relay,-0.040335124019342285,5
+C. elegans,2023-01-06-01,5,associative / learning,-0.13746877042140615,5
+C. elegans,2023-01-06-01,6,state-dependent / modulatory,-1.6063146163072175,2
+C. elegans,2023-01-06-08,0,olfactory / chemosensory,-0.12940372223960767,10
+C. elegans,2023-01-06-08,2,other sensory,0.150630375614389,26
+C. elegans,2023-01-06-08,3,sensorimotor output,-0.0038347271516544807,14
+C. elegans,2023-01-06-08,4,integrative relay,-0.38331464504934804,6
+C. elegans,2023-01-06-08,5,associative / learning,-0.19371524746876967,11
+C. elegans,2023-01-06-08,6,state-dependent / modulatory,0.46552230724944416,4
+C. elegans,2023-01-06-15,0,olfactory / chemosensory,0.1877801968750334,8
+C. elegans,2023-01-06-15,2,other sensory,-0.11711421134267734,25
+C. elegans,2023-01-06-15,3,sensorimotor output,-0.0008054121930794097,15
+C. elegans,2023-01-06-15,4,integrative relay,0.3927370379204322,6
+C. elegans,2023-01-06-15,5,associative / learning,-0.0511190144423623,7
+C. elegans,2023-01-06-15,6,state-dependent / modulatory,-0.5608942349633426,1
+C. elegans,2023-01-09-08,0,olfactory / chemosensory,-0.022111861336536587,4
+C. elegans,2023-01-09-08,2,other sensory,-0.17594600587083395,18
+C. elegans,2023-01-09-08,3,sensorimotor output,0.33310123575218537,12
+C. elegans,2023-01-09-08,4,integrative relay,-0.7322758432425349,5
+C. elegans,2023-01-09-08,5,associative / learning,0.8494752694193686,2
+C. elegans,2023-01-09-08,6,state-dependent / modulatory,1.2206893993688621,1
+C. elegans,2023-01-09-15,0,olfactory / chemosensory,0.6183809433352062,13
+C. elegans,2023-01-09-15,2,other sensory,-0.3181488364657899,28
+C. elegans,2023-01-09-15,3,sensorimotor output,0.17468561649913789,20
+C. elegans,2023-01-09-15,4,integrative relay,-0.6389406573810927,8
+C. elegans,2023-01-09-15,5,associative / learning,-0.06515885979654065,10
+C. elegans,2023-01-09-15,6,state-dependent / modulatory,0.7846541711789949,4
+C. elegans,2023-01-09-22,0,olfactory / chemosensory,0.3453700462115739,9
+C. elegans,2023-01-09-22,2,other sensory,-0.30931466085518616,30
+C. elegans,2023-01-09-22,3,sensorimotor output,0.37419764547278656,20
+C. elegans,2023-01-09-22,4,integrative relay,-0.3890894450083853,7
+C. elegans,2023-01-09-22,5,associative / learning,0.03767484616255423,14
+C. elegans,2023-01-09-22,6,state-dependent / modulatory,0.8833347690785366,1
+C. elegans,2023-01-10-07,0,olfactory / chemosensory,0.5427348611685158,11
+C. elegans,2023-01-10-07,2,other sensory,-0.30005990561534945,29
+C. elegans,2023-01-10-07,3,sensorimotor output,0.3007967814096628,20
+C. elegans,2023-01-10-07,4,integrative relay,-0.4603557869884056,8
+C. elegans,2023-01-10-07,5,associative / learning,0.17736544220236605,10
+C. elegans,2023-01-10-07,6,state-dependent / modulatory,-0.34377249107955,4
+C. elegans,2023-01-10-14,0,olfactory / chemosensory,0.1914536625339353,9
+C. elegans,2023-01-10-14,2,other sensory,-0.2662552435453764,31
+C. elegans,2023-01-10-14,3,sensorimotor output,0.44866409887129094,17
+C. elegans,2023-01-10-14,4,integrative relay,-0.17329104473519447,5
+C. elegans,2023-01-10-14,5,associative / learning,-0.006499187743331217,11
+C. elegans,2023-01-10-14,6,state-dependent / modulatory,-0.0792569024290069,2
+C. elegans,2023-01-13-07,0,olfactory / chemosensory,0.3367305452664347,11
+C. elegans,2023-01-13-07,2,other sensory,-0.1784646639114303,16
+C. elegans,2023-01-13-07,3,sensorimotor output,0.21374796894949535,23
+C. elegans,2023-01-13-07,4,integrative relay,-0.43882884498576147,5
+C. elegans,2023-01-13-07,5,associative / learning,-0.22793603846194574,8
+C. elegans,2023-01-13-07,6,state-dependent / modulatory,-0.5823907095207185,3
+C. elegans,2023-01-16-01,0,olfactory / chemosensory,0.13779858670942408,8
+C. elegans,2023-01-16-01,2,other sensory,0.17247451031803251,24
+C. elegans,2023-01-16-01,3,sensorimotor output,0.046035314925130855,17
+C. elegans,2023-01-16-01,4,integrative relay,-0.31384927626095077,6
+C. elegans,2023-01-16-01,5,associative / learning,-0.050532914079001054,9
+C. elegans,2023-01-16-01,6,state-dependent / modulatory,-1.2288284702528822,3
+C. elegans,2023-01-16-08,0,olfactory / chemosensory,0.02244393225294674,10
+C. elegans,2023-01-16-08,2,other sensory,-0.10551922409441383,23
+C. elegans,2023-01-16-08,3,sensorimotor output,0.2613936495258328,20
+C. elegans,2023-01-16-08,4,integrative relay,-0.19444081853674414,7
+C. elegans,2023-01-16-08,5,associative / learning,0.05861580053336919,8
+C. elegans,2023-01-16-08,6,state-dependent / modulatory,-0.7110702777948538,3
+C. elegans,2023-01-16-15,0,olfactory / chemosensory,0.27210076558635166,9
+C. elegans,2023-01-16-15,2,other sensory,-0.3644465341760158,30
+C. elegans,2023-01-16-15,3,sensorimotor output,0.3642318082512166,13
+C. elegans,2023-01-16-15,4,integrative relay,-0.03410905196758301,7
+C. elegans,2023-01-16-15,5,associative / learning,0.5565392649376452,9
+C. elegans,2023-01-16-15,6,state-dependent / modulatory,-0.5103071964640359,2
+C. elegans,2023-01-16-22,0,olfactory / chemosensory,0.30281255376303157,7
+C. elegans,2023-01-16-22,2,other sensory,-0.22052235985229243,28
+C. elegans,2023-01-16-22,3,sensorimotor output,0.136743619607383,17
+C. elegans,2023-01-16-22,4,integrative relay,-0.500227412182331,6
+C. elegans,2023-01-16-22,5,associative / learning,0.2346462837311237,10
+C. elegans,2023-01-16-22,6,state-dependent / modulatory,0.47703966039602486,5
+C. elegans,2023-01-17-07,0,olfactory / chemosensory,-0.07449923798986033,8
+C. elegans,2023-01-17-07,2,other sensory,-0.05009399504055361,24
+C. elegans,2023-01-17-07,3,sensorimotor output,0.2428345089215501,19
+C. elegans,2023-01-17-07,4,integrative relay,-0.2179815144799706,7
+C. elegans,2023-01-17-07,5,associative / learning,-0.23846422358940586,8
+C. elegans,2023-01-17-07,6,state-dependent / modulatory,0.30898925272874656,2
+C. elegans,2023-01-17-14,0,olfactory / chemosensory,0.5864674005472932,10
+C. elegans,2023-01-17-14,2,other sensory,-0.29662596570369787,32
+C. elegans,2023-01-17-14,3,sensorimotor output,0.15220420654556685,22
+C. elegans,2023-01-17-14,4,integrative relay,-0.3609100539168125,8
+C. elegans,2023-01-17-14,5,associative / learning,0.1407300028776125,11
+C. elegans,2023-01-17-14,6,state-dependent / modulatory,0.4045286881809087,4
+C. elegans,2023-01-18-01,0,olfactory / chemosensory,0.2372116186034134,10
+C. elegans,2023-01-18-01,2,other sensory,0.08384930951224341,25
+C. elegans,2023-01-18-01,3,sensorimotor output,0.056610039334131806,17
+C. elegans,2023-01-18-01,4,integrative relay,-0.17698864805333922,6
+C. elegans,2023-01-18-01,5,associative / learning,-0.2605232110179432,8
+C. elegans,2023-01-18-01,6,state-dependent / modulatory,-0.5711505040142069,4
+Drosophila,2017-10-26_1,0,olfactory / chemosensory,1.2946207037655117,4
+Drosophila,2017-10-26_1,1,visual / optic,-1.142690003109873,6
+Drosophila,2017-10-26_1,3,sensorimotor output,0.1330813103130986,10
+Drosophila,2017-10-26_1,4,integrative relay,-0.04800781060508234,44
+Drosophila,2017-10-26_1,5,associative / learning,1.2295938835445588,2
+Drosophila,2017-10-30_1,0,olfactory / chemosensory,1.354944435456757,4
+Drosophila,2017-10-30_1,1,visual / optic,-1.1922371118273598,4
+Drosophila,2017-10-30_1,3,sensorimotor output,0.6271167826110823,10
+Drosophila,2017-10-30_1,4,integrative relay,-0.25168569443639216,44
+Drosophila,2017-10-30_1,5,associative / learning,2.0760867172853112,2
+Drosophila,2017-10-30_2,0,olfactory / chemosensory,1.329190936893297,4
+Drosophila,2017-10-30_2,1,visual / optic,-0.9006945925186668,6
+Drosophila,2017-10-30_2,3,sensorimotor output,-0.24882875685430522,10
+Drosophila,2017-10-30_2,4,integrative relay,-0.03437681477958192,44
+Drosophila,2017-10-30_2,5,associative / learning,2.0441356131916066,2
+Drosophila,2017-11-08_1,0,olfactory / chemosensory,0.632052533898958,4
+Drosophila,2017-11-08_1,1,visual / optic,-1.2535325548009395,6
+Drosophila,2017-11-08_1,3,sensorimotor output,0.5077654110337464,10
+Drosophila,2017-11-08_1,4,integrative relay,-0.05484189570067886,44
+Drosophila,2017-11-08_1,5,associative / learning,1.1641872468515233,2
+Drosophila,2017-11-08_2,0,olfactory / chemosensory,-0.05727447227876514,4
+Drosophila,2017-11-08_2,1,visual / optic,-1.3226823517381419,6
+Drosophila,2017-11-08_2,3,sensorimotor output,0.698337869226034,10
+Drosophila,2017-11-08_2,4,integrative relay,7.583561614318077e-05,44
+Drosophila,2017-11-08_2,5,associative / learning,0.5892382700859609,2
+Drosophila,2017-11-16_1,0,olfactory / chemosensory,0.3380298068158534,4
+Drosophila,2017-11-16_1,1,visual / optic,-1.0619637090454643,6
+Drosophila,2017-11-16_1,3,sensorimotor output,0.945194548786264,10
+Drosophila,2017-11-16_1,4,integrative relay,-0.16969453040700144,44
+Drosophila,2017-11-16_1,5,associative / learning,1.5171384385277458,2
+Drosophila,2018-10-19_1,0,olfactory / chemosensory,0.04714161212153247,4
+Drosophila,2018-10-19_1,1,visual / optic,-1.8607682470510305,6
+Drosophila,2018-10-19_1,3,sensorimotor output,0.010611143879436836,10
+Drosophila,2018-10-19_1,4,integrative relay,0.22738439240568328,45
+Drosophila,2018-10-19_1,5,associative / learning,0.3188169683850056,2
+Drosophila,2018-10-19_2,0,olfactory / chemosensory,0.07124329593540969,4
+Drosophila,2018-10-19_2,1,visual / optic,-1.2436590341776907,6
+Drosophila,2018-10-19_2,3,sensorimotor output,0.0879881467869569,10
+Drosophila,2018-10-19_2,4,integrative relay,0.11437247601750286,45
+Drosophila,2018-10-19_2,5,associative / learning,0.5751690663331419,2
+Drosophila,2018-10-20_1,0,olfactory / chemosensory,-0.8021164609510594,4
+Drosophila,2018-10-20_1,1,visual / optic,-1.7705355435833299,6
+Drosophila,2018-10-20_1,3,sensorimotor output,0.7260092285455937,10
+Drosophila,2018-10-20_1,4,integrative relay,0.15276050291384452,45
+Drosophila,2018-10-20_1,5,associative / learning,-0.15131790563729453,2
+Drosophila,2018-10-31_1,0,olfactory / chemosensory,0.768370560160092,4
+Drosophila,2018-10-31_1,1,visual / optic,-1.1613775068066978,6
+Drosophila,2018-10-31_1,3,sensorimotor output,0.478926261646726,10
+Drosophila,2018-10-31_1,4,integrative relay,-0.09240657223933495,45
+Drosophila,2018-10-31_1,5,associative / learning,1.6319079672514607,2
+Drosophila,2018-11-03_2,0,olfactory / chemosensory,-0.006438714856885047,4
+Drosophila,2018-11-03_2,1,visual / optic,-1.1907923883969571,6
+Drosophila,2018-11-03_2,3,sensorimotor output,0.7843427494921642,10
+Drosophila,2018-11-03_2,4,integrative relay,-0.10691795000461954,45
+Drosophila,2018-11-03_2,5,associative / learning,2.0691947225466105,2
+Drosophila,2018-11-03_3,0,olfactory / chemosensory,-0.30260587732445027,4
+Drosophila,2018-11-03_3,1,visual / optic,-1.195042724622003,6
+Drosophila,2018-11-03_3,3,sensorimotor output,0.24901035221171722,10
+Drosophila,2018-11-03_3,4,integrative relay,0.026115570301474798,44
+Drosophila,2018-11-03_3,5,associative / learning,2.3707456208241013,2
+Drosophila,2018-11-03_4,0,olfactory / chemosensory,0.10581262055245971,4
+Drosophila,2018-11-03_4,1,visual / optic,-0.8645893927765118,6
+Drosophila,2018-11-03_4,3,sensorimotor output,0.8895600322283664,10
+Drosophila,2018-11-03_4,4,integrative relay,-0.181752491295925,44
+Drosophila,2018-11-03_4,5,associative / learning,1.9328975845936593,2
+Drosophila,2018-11-03_5,0,olfactory / chemosensory,0.769060829558212,4
+Drosophila,2018-11-03_5,1,visual / optic,-0.8109177290961996,6
+Drosophila,2018-11-03_5,3,sensorimotor output,0.5871303929551076,10
+Drosophila,2018-11-03_5,4,integrative relay,-0.15534435657915707,44
+Drosophila,2018-11-03_5,5,associative / learning,1.3765554081386195,2
+Drosophila,2018-12-12_2,0,olfactory / chemosensory,0.21616004360113408,4
+Drosophila,2018-12-12_2,1,visual / optic,-1.1285107385180673,6
+Drosophila,2018-12-12_2,3,sensorimotor output,0.5284863806586675,10
+Drosophila,2018-12-12_2,4,integrative relay,-0.018618861241319996,45
+Drosophila,2018-12-12_2,5,associative / learning,0.7297046029881042,2
+Drosophila,2018-12-12_3,0,olfactory / chemosensory,1.1771915610329455,4
+Drosophila,2018-12-12_3,1,visual / optic,-1.7156322922527287,6
+Drosophila,2018-12-12_3,3,sensorimotor output,0.9023174878379482,10
+Drosophila,2018-12-12_3,4,integrative relay,-0.13563734488073342,44
+Drosophila,2018-12-12_3,5,associative / learning,1.2649479028782673,2
+Drosophila,2018-12-12_4,0,olfactory / chemosensory,0.04789248990076958,4
+Drosophila,2018-12-12_4,1,visual / optic,-1.5777485470818915,5
+Drosophila,2018-12-12_4,3,sensorimotor output,0.9752742397926297,10
+Drosophila,2018-12-12_4,4,integrative relay,-0.09300332352636963,45
+Drosophila,2018-12-12_4,5,associative / learning,1.0647899682833766,2
+Drosophila,2018-12-14_1,0,olfactory / chemosensory,0.4058692456026176,4
+Drosophila,2018-12-14_1,1,visual / optic,-1.3515196471931359,6
+Drosophila,2018-12-14_1,3,sensorimotor output,0.781901721759809,10
+Drosophila,2018-12-14_1,4,integrative relay,-0.06459500237574403,45
+Drosophila,2018-12-14_1,5,associative / learning,0.7866993950293657,2
+Drosophila,2018-12-14_2,0,olfactory / chemosensory,0.22316465851630152,4
+Drosophila,2018-12-14_2,1,visual / optic,-1.550002136927339,6
+Drosophila,2018-12-14_2,3,sensorimotor output,1.0896110087534914,10
+Drosophila,2018-12-14_2,4,integrative relay,-0.14222016635813223,44
+Drosophila,2018-12-14_2,5,associative / learning,1.8844657098600892,2
+Drosophila,2018-12-14_3,0,olfactory / chemosensory,0.6334937245242948,4
+Drosophila,2018-12-14_3,1,visual / optic,-1.2386330986264469,6
+Drosophila,2018-12-14_3,3,sensorimotor output,0.4951756883657311,10
+Drosophila,2018-12-14_3,4,integrative relay,-0.06684578509665033,45
+Drosophila,2018-12-14_3,5,associative / learning,1.4770635696769943,2
+Zebrafish,subject_12,0,olfactory / chemosensory,1.6675410562739628,2
+Zebrafish,subject_12,1,visual / optic,0.15734471039713072,10
+Zebrafish,subject_12,2,other sensory,0.09508827162551488,3
+Zebrafish,subject_12,3,sensorimotor output,-0.6899668063238261,28
+Zebrafish,subject_12,4,integrative relay,0.39891073772756713,4
+Zebrafish,subject_12,5,associative / learning,1.538019381393748,4
+Zebrafish,subject_12,6,state-dependent / modulatory,0.6377556069186014,10
+Zebrafish,subject_13,0,olfactory / chemosensory,1.6201252289902919,2
+Zebrafish,subject_13,1,visual / optic,0.22253751006779918,10
+Zebrafish,subject_13,2,other sensory,-0.29209488564353464,4
+Zebrafish,subject_13,3,sensorimotor output,-0.6073890014881768,28
+Zebrafish,subject_13,4,integrative relay,0.25141353423970325,4
+Zebrafish,subject_13,5,associative / learning,1.7675031303714186,4
+Zebrafish,subject_13,6,state-dependent / modulatory,0.3309985262242829,14
+Zebrafish,subject_14,0,olfactory / chemosensory,2.2722327752188027,2
+Zebrafish,subject_14,1,visual / optic,-0.4599702366452032,10
+Zebrafish,subject_14,2,other sensory,-0.07440126053587066,3
+Zebrafish,subject_14,3,sensorimotor output,-0.18663737294680682,27
+Zebrafish,subject_14,4,integrative relay,0.43223867474286887,4
+Zebrafish,subject_14,5,associative / learning,0.7657732565907572,4
+Zebrafish,subject_14,6,state-dependent / modulatory,0.03754299584652806,14
+Zebrafish,subject_15,0,olfactory / chemosensory,0.5521034204177474,2
+Zebrafish,subject_15,1,visual / optic,-0.04366580497851695,10
+Zebrafish,subject_15,2,other sensory,-2.693797035435593,2
+Zebrafish,subject_15,3,sensorimotor output,0.0027835061628814673,28
+Zebrafish,subject_15,4,integrative relay,0.017589036159938246,4
+Zebrafish,subject_15,5,associative / learning,1.066428348071336,4
+Zebrafish,subject_15,6,state-dependent / modulatory,0.021859826452498825,14
+Zebrafish,subject_16,0,olfactory / chemosensory,1.2643580929194842,2
+Zebrafish,subject_16,1,visual / optic,-0.02618324905105347,10
+Zebrafish,subject_16,2,other sensory,-0.6397853408473385,4
+Zebrafish,subject_16,3,sensorimotor output,-0.05779667175334402,28
+Zebrafish,subject_16,4,integrative relay,0.22485479423955973,4
+Zebrafish,subject_16,5,associative / learning,1.4035970562004847,4
+Zebrafish,subject_16,6,state-dependent / modulatory,-0.3540956095850491,13
+Zebrafish,subject_17,0,olfactory / chemosensory,0.8310295231505715,2
+Zebrafish,subject_17,1,visual / optic,-0.05384891184365581,10
+Zebrafish,subject_17,2,other sensory,-0.5563577903138506,4
+Zebrafish,subject_17,3,sensorimotor output,-0.19729139801939666,28
+Zebrafish,subject_17,4,integrative relay,0.6027533138665488,4
+Zebrafish,subject_17,5,associative / learning,1.4032045874886518,4
+Zebrafish,subject_17,6,state-dependent / modulatory,-0.10752394057591999,13
+Zebrafish,subject_18,0,olfactory / chemosensory,1.0171965756896562,2
+Zebrafish,subject_18,1,visual / optic,-0.006100271746114161,10
+Zebrafish,subject_18,2,other sensory,-1.1393991729645792,3
+Zebrafish,subject_18,3,sensorimotor output,-0.1257977938682381,28
+Zebrafish,subject_18,4,integrative relay,0.5760283636300508,4
+Zebrafish,subject_18,5,associative / learning,1.3552752133119546,4
+Zebrafish,subject_18,6,state-dependent / modulatory,-0.19700492817727053,14

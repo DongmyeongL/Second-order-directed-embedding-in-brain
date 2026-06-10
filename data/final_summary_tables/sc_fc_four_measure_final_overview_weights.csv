@@ -1,0 +1,46 @@
+species,model,feature_set,feature,weight,standardized_beta
+C. elegans,PLS_LV1,FC,FCV,0.36824900334278116,
+C. elegans,PLS_LV1,FC,FCS,-0.000814250464757182,
+C. elegans,PLS_LV1,FC,Profile dist.,-0.7587137919308545,
+C. elegans,PLS_LV1,FC,NetTE,0.493200862351247,
+C. elegans,PLS_LV1,FC,Neighbor NetTE,-0.2133033048105878,
+C. elegans,PLS_LV1,SC,Post-DCA,-0.02535002630077379,
+C. elegans,PLS_LV1,SC,Pre-DCA,0.057730112645162396,
+C. elegans,PLS_LV1,SC,Modularity,0.2593777609531723,
+C. elegans,PLS_LV1,SC,log(out/in),-0.7141624104203573,
+C. elegans,PLS_LV1,SC,OO motif,-0.6470856503787038,
+C. elegans,FCV_from_SC_linear,SC,Post-DCA,,0.2545791702211165
+C. elegans,FCV_from_SC_linear,SC,Pre-DCA,,-0.18466488154159008
+C. elegans,FCV_from_SC_linear,SC,Modularity,,0.1584810450042791
+C. elegans,FCV_from_SC_linear,SC,log(out/in),,-0.2951868291875969
+C. elegans,FCV_from_SC_linear,SC,OO motif,,-0.07196380369061646
+Drosophila,PLS_LV1,FC,FCV,0.5344667840518055,
+Drosophila,PLS_LV1,FC,FCS,0.43519582705351784,
+Drosophila,PLS_LV1,FC,Profile dist.,-0.46013334412347445,
+Drosophila,PLS_LV1,FC,NetTE,0.41691597909769396,
+Drosophila,PLS_LV1,FC,Neighbor NetTE,-0.37337410309136937,
+Drosophila,PLS_LV1,SC,Post-DCA,-0.39462378164173223,
+Drosophila,PLS_LV1,SC,Pre-DCA,0.7281669966809654,
+Drosophila,PLS_LV1,SC,Modularity,0.2438779857129631,
+Drosophila,PLS_LV1,SC,log(out/in),-0.28516705200008113,
+Drosophila,PLS_LV1,SC,OO motif,0.41623091721491734,
+Drosophila,FCV_from_SC_linear,SC,Post-DCA,,-0.19024000995932183
+Drosophila,FCV_from_SC_linear,SC,Pre-DCA,,0.5630596788078057
+Drosophila,FCV_from_SC_linear,SC,Modularity,,-0.05819589726882632
+Drosophila,FCV_from_SC_linear,SC,log(out/in),,-0.2631417016439525
+Drosophila,FCV_from_SC_linear,SC,OO motif,,0.21456835073832678
+Zebrafish,PLS_LV1,FC,FCV,0.7145059992553059,
+Zebrafish,PLS_LV1,FC,FCS,-0.38021238841782073,
+Zebrafish,PLS_LV1,FC,Profile dist.,0.40584527947585114,
+Zebrafish,PLS_LV1,FC,NetTE,0.25047959813641973,
+Zebrafish,PLS_LV1,FC,Neighbor NetTE,0.3427379418249138,
+Zebrafish,PLS_LV1,SC,Post-DCA,0.5998146167184819,
+Zebrafish,PLS_LV1,SC,Pre-DCA,-0.3080095480191617,
+Zebrafish,PLS_LV1,SC,Modularity,0.3192574036610239,
+Zebrafish,PLS_LV1,SC,log(out/in),0.48751807567742544,
+Zebrafish,PLS_LV1,SC,OO motif,0.45360046295753914,
+Zebrafish,FCV_from_SC_linear,SC,Post-DCA,,0.2692181350895136
+Zebrafish,FCV_from_SC_linear,SC,Pre-DCA,,-0.12210190280159405
+Zebrafish,FCV_from_SC_linear,SC,Modularity,,0.14502620303216157
+Zebrafish,FCV_from_SC_linear,SC,log(out/in),,0.09147429453923002
+Zebrafish,FCV_from_SC_linear,SC,OO motif,,0.2869887901368064

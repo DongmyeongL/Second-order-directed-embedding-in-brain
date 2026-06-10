@@ -1,0 +1,228 @@
+species,node,class_order,class_label,broad_class_order,broad_class_label,fine_class,classification_note
+C. elegans,ADAL,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ADAR,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ADEL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ADER,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ADLL,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ADLR,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AIBL,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AIBR,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AIML,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AIMR,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AINL,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AINR,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AIYL,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AIYR,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AIZL,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AIZR,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ALA,6,state-dependent / modulatory,4,state-dependent / modulatory,state-modulatory interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AQR,2,other sensory,0,sensory input,thermo/gas sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ASEL,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ASER,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ASGL,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ASGR,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ASHL,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ASIL,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ASIR,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ASKL,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,ASKR,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AUAL,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AUAR,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVAL,3,sensorimotor output,1,sensorimotor output,locomotor command interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVAR,3,sensorimotor output,1,sensorimotor output,locomotor command interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVBL,3,sensorimotor output,1,sensorimotor output,locomotor command interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVBR,3,sensorimotor output,1,sensorimotor output,locomotor command interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVDL,3,sensorimotor output,1,sensorimotor output,locomotor command interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVDR,3,sensorimotor output,1,sensorimotor output,locomotor command interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVEL,3,sensorimotor output,1,sensorimotor output,locomotor command interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVER,3,sensorimotor output,1,sensorimotor output,locomotor command interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVHL,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVJL,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVJR,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVKL,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVKR,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AVL,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AWAL,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AWAR,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AWBL,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AWBR,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AWCL,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,AWCR,0,olfactory / chemosensory,0,sensory input,chemosensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,BAGL,2,other sensory,0,sensory input,thermo/gas sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,CEPDL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,CEPDR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,CEPVL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,CEPVR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,FLPL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,FLPR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL1DL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL1DR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL1L,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL1R,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL1VL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL1VR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL2DL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL2DR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL2L,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL2R,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL2VL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,IL2VR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,OLLL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,OLLR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,OLQDL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,OLQDR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,OLQVL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,OLQVR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIAL,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIAR,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIBL,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIBR,5,associative / learning,3,associative / learning,associative interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RICL,6,state-dependent / modulatory,4,state-dependent / modulatory,state-modulatory interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RICR,6,state-dependent / modulatory,4,state-dependent / modulatory,state-modulatory interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RID,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIH,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIML,6,state-dependent / modulatory,4,state-dependent / modulatory,state-modulatory interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIMR,6,state-dependent / modulatory,4,state-dependent / modulatory,state-modulatory interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIR,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIS,6,state-dependent / modulatory,4,state-dependent / modulatory,state-modulatory interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIVL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RIVR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMDDL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMDDR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMDL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMDR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMDVL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMDVR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMED,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMEL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMER,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMEV,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,RMGL,6,state-dependent / modulatory,4,state-dependent / modulatory,state-modulatory interneuron,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,SAADL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,SAADR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,SAAVL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,SAAVR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,SMBVR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,SMDDL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,SMDDR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,SMDVL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,SMDVR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URADL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URADR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URAVL,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URAVR,3,sensorimotor output,1,sensorimotor output,head motor / premotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URBL,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URBR,4,integrative relay,2,integrative relay,interneuron / integrative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URXL,2,other sensory,0,sensory input,thermo/gas sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URXR,2,other sensory,0,sensory input,thermo/gas sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URYDL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URYDR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URYVL,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+C. elegans,URYVR,2,other sensory,0,sensory input,mechanosensory / other sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,AL_R,0,olfactory / chemosensory,0,sensory input,olfactory system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,AME_L,1,visual / optic,0,sensory input,visual / optic,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,AOTU_L,1,visual / optic,0,sensory input,visual / optic,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,AOTU_R,1,visual / optic,0,sensory input,visual / optic,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,ATL_L,4,integrative relay,2,integrative relay,lateral/inferior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,ATL_R,4,integrative relay,2,integrative relay,lateral/inferior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,AVLP_L,4,integrative relay,2,integrative relay,visual-association protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,AVLP_R,4,integrative relay,2,integrative relay,visual-association protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,CRE_L,4,integrative relay,2,integrative relay,lateral/inferior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,CRE_R,4,integrative relay,2,integrative relay,lateral/inferior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,EPA_L,4,integrative relay,2,integrative relay,lateral/inferior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,EPA_R,4,integrative relay,2,integrative relay,lateral/inferior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,IB_L,4,integrative relay,2,integrative relay,lateral/inferior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,IB_R,4,integrative relay,2,integrative relay,lateral/inferior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,ICL_L,4,integrative relay,2,integrative relay,lateral/inferior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,ICL_R,4,integrative relay,2,integrative relay,lateral/inferior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,LAL_L,3,sensorimotor output,1,sensorimotor output,premotor / descending interface,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,LAL_R,3,sensorimotor output,1,sensorimotor output,premotor / descending interface,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,LH_L,0,olfactory / chemosensory,0,sensory input,olfactory system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,LH_R,0,olfactory / chemosensory,0,sensory input,olfactory system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,LO_R,1,visual / optic,0,sensory input,visual / optic,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,MB_L,5,associative / learning,3,associative / learning,mushroom body,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,MB_R,5,associative / learning,3,associative / learning,mushroom body,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,ME_L,1,visual / optic,0,sensory input,visual / optic,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,ME_R,1,visual / optic,0,sensory input,visual / optic,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,NO,3,sensorimotor output,1,sensorimotor output,central complex navigation / visuomotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,PB,3,sensorimotor output,1,sensorimotor output,central complex navigation / visuomotor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,PLP_L,4,integrative relay,2,integrative relay,visual-association protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,PLP_R,4,integrative relay,2,integrative relay,visual-association protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,PVLP_L,4,integrative relay,2,integrative relay,visual-association protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,PVLP_R,4,integrative relay,2,integrative relay,visual-association protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,SIP_L,4,integrative relay,2,integrative relay,superior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,SIP_R,4,integrative relay,2,integrative relay,superior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,SLP_R,4,integrative relay,2,integrative relay,superior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,SMP_L,4,integrative relay,2,integrative relay,superior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,SMP_R,4,integrative relay,2,integrative relay,superior protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,SPS_L,3,sensorimotor output,1,sensorimotor output,premotor / descending interface,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,SPS_R,3,sensorimotor output,1,sensorimotor output,premotor / descending interface,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,VES_L,3,sensorimotor output,1,sensorimotor output,premotor / descending interface,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,VES_R,3,sensorimotor output,1,sensorimotor output,premotor / descending interface,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Drosophila,WED_R,4,integrative relay,2,integrative relay,visual-association protocerebrum,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,MON,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,Cb,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,MOS1,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,MOS2,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,MOS3,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,MOS4,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,MOS5,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,IPN,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,IO,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,Hc,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,Ra,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,T,4,integrative relay,2,integrative relay,diencephalic / state relay,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,aRF,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,imRF,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,pRF,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,Hb,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,Hi,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,HR,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,OG,0,olfactory / chemosensory,0,sensory input,olfactory sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,OB,0,olfactory / chemosensory,0,sensory input,olfactory sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,OE,0,olfactory / chemosensory,0,sensory input,olfactory sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,P,5,associative / learning,3,associative / learning,telencephalic associative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,PT,1,visual / optic,0,sensory input,visual / optic midbrain,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,PO,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,PrT,1,visual / optic,0,sensory input,visual / optic midbrain,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,SP,5,associative / learning,3,associative / learning,telencephalic associative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,TeO,1,visual / optic,0,sensory input,visual / optic midbrain,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,Th,4,integrative relay,2,integrative relay,diencephalic / state relay,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,TL,1,visual / optic,0,sensory input,visual / optic midbrain,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,TS,1,visual / optic,0,sensory input,visual / optic midbrain,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,TG,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,VR,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,NX,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rMON,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rCb,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rMOS1,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rMOS2,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rMOS3,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rMOS4,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rMOS5,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rIPN,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rIO,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rHc,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rRa,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rT,4,integrative relay,2,integrative relay,diencephalic / state relay,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,raRF,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rimRF,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rpRF,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rHb,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rHi,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rHR,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rOG,0,olfactory / chemosensory,0,sensory input,olfactory sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rOB,0,olfactory / chemosensory,0,sensory input,olfactory sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rOE,0,olfactory / chemosensory,0,sensory input,olfactory sensory,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rP,5,associative / learning,3,associative / learning,telencephalic associative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rPT,1,visual / optic,0,sensory input,visual / optic midbrain,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rPO,6,state-dependent / modulatory,4,state-dependent / modulatory,habenular / hypothalamic / raphe state system,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rPrT,1,visual / optic,0,sensory input,visual / optic midbrain,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rSP,5,associative / learning,3,associative / learning,telencephalic associative,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rTeO,1,visual / optic,0,sensory input,visual / optic midbrain,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rTh,4,integrative relay,2,integrative relay,diencephalic / state relay,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rTL,1,visual / optic,0,sensory input,visual / optic midbrain,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rTS,1,visual / optic,0,sensory input,visual / optic midbrain,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rTG,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rVR,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.
+Zebrafish,rNX,3,sensorimotor output,1,sensorimotor output,hindbrain / cerebellar / motor,Literature-guided species-specific functional mapping for current FCV comparison plot.

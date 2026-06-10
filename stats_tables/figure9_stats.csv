@@ -1,0 +1,31 @@
+figure,panel,test,alternative,group_1,group_2,n_group_1,n_group_2,p_uncorrected,p_holm,reject_holm_0.05
+figure9,FCV,Mann-Whitney U,two-sided,Tel,Di,79,82,2.0437114924470638e-08,8.174845969788255e-08,True
+figure9,FCV,Mann-Whitney U,two-sided,Tel,Mes,79,42,5.069759277147976e-09,2.534879638573988e-08,True
+figure9,FCV,Mann-Whitney U,two-sided,Tel,Hind,79,247,7.473001558524585e-17,4.483800935114751e-16,True
+figure9,FCV,Mann-Whitney U,two-sided,Di,Mes,82,42,0.043439320076876425,0.08687864015375285,False
+figure9,FCV,Mann-Whitney U,two-sided,Di,Hind,82,247,0.00953999300480299,0.02861997901440897,True
+figure9,FCV,Mann-Whitney U,two-sided,Mes,Hind,42,247,0.9498370908360461,0.9498370908360461,False
+figure9,FCS,Mann-Whitney U,two-sided,Tel,Di,79,82,4.633762115594528e-16,2.316881057797264e-15,True
+figure9,FCS,Mann-Whitney U,two-sided,Tel,Mes,79,42,0.10295738411431755,0.2059147682286351,False
+figure9,FCS,Mann-Whitney U,two-sided,Tel,Hind,79,247,1.8337772235386464e-17,1.1002663341231878e-16,True
+figure9,FCS,Mann-Whitney U,two-sided,Di,Mes,82,42,2.7579824716239933e-10,1.1031929886495973e-09,True
+figure9,FCS,Mann-Whitney U,two-sided,Di,Hind,82,247,0.8005969910356748,0.8005969910356748,False
+figure9,FCS,Mann-Whitney U,two-sided,Mes,Hind,42,247,5.451090917235357e-09,1.635327275170607e-08,True
+figure9,ProfileCorrDistFCV,Mann-Whitney U,two-sided,Tel,Di,79,82,3.362123553480491e-05,0.00010086370660441474,True
+figure9,ProfileCorrDistFCV,Mann-Whitney U,two-sided,Tel,Mes,79,42,0.6810186492504954,0.6810186492504954,False
+figure9,ProfileCorrDistFCV,Mann-Whitney U,two-sided,Tel,Hind,79,247,8.909403593290874e-14,5.345642155974524e-13,True
+figure9,ProfileCorrDistFCV,Mann-Whitney U,two-sided,Di,Mes,82,42,5.405350020214516e-06,2.1621400080858063e-05,True
+figure9,ProfileCorrDistFCV,Mann-Whitney U,two-sided,Di,Hind,82,247,4.189013139874991e-05,0.00010086370660441474,True
+figure9,ProfileCorrDistFCV,Mann-Whitney U,two-sided,Mes,Hind,42,247,1.1044974321164713e-10,5.522487160582356e-10,True
+figure9,$\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Tel,Di,46,64,1.6544171906363774e-08,9.926503143818265e-08,True
+figure9,$\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Tel,Mes,46,19,0.029953996101858178,0.059907992203716356,False
+figure9,$\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Tel,Hind,46,174,0.005215184405745922,0.01899937960824621,True
+figure9,$\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Di,Mes,64,19,0.004749844902061553,0.01899937960824621,True
+figure9,$\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Di,Hind,64,174,1.0924397492814566e-06,5.4621987464072825e-06,True
+figure9,$\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Mes,Hind,19,174,0.6827145872090721,0.6827145872090721,False
+figure9,Neighbor $\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Tel,Di,46,64,0.02287804609847586,0.04575609219695172,True
+figure9,Neighbor $\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Tel,Mes,46,19,4.3325634215393164e-05,0.000259953805292359,True
+figure9,Neighbor $\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Tel,Hind,46,174,0.003023520276263754,0.009070560828791263,True
+figure9,Neighbor $\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Di,Mes,64,19,5.9243717135892155e-05,0.00026969019070139006,True
+figure9,Neighbor $\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Di,Hind,64,174,0.5962627374211884,0.5962627374211884,False
+figure9,Neighbor $\mathrm{TE}_{\mathrm{net}}$,Mann-Whitney U,two-sided,Mes,Hind,19,174,5.3938038140278016e-05,0.00026969019070139006,True

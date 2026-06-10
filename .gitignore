@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local Matplotlib/cache output.
+.cache/
+mpl_config/
+
+# Optional local virtual environments.
+.venv/
+venv/
+

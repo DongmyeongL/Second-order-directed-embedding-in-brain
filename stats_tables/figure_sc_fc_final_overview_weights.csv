@@ -1,0 +1,691 @@
+figure,panel,model,feature_set,feature,weight,left_out_region,left_out_division,standardized_beta
+figure_sc_fc_final_overview,C,PLS LV1,FC,FCV,0.6821156408462008,,,
+figure_sc_fc_final_overview,C,PLS LV1,FC,FCS,-0.4268152564252514,,,
+figure_sc_fc_final_overview,C,PLS LV1,FC,ProfileCorrDistFCV,0.4424499255978045,,,
+figure_sc_fc_final_overview,C,PLS LV1,FC,Net TE,0.20585075146666162,,,
+figure_sc_fc_final_overview,C,PLS LV1,FC,Neighbor TE,0.33824624292773886,,,
+figure_sc_fc_final_overview,D,PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6262538795142951,,,
+figure_sc_fc_final_overview,D,PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24072125377430376,,,
+figure_sc_fc_final_overview,D,PLS LV1,SC,Modularity Q,0.30986275915093153,,,
+figure_sc_fc_final_overview,D,PLS LV1,SC,log10 (Out/In),0.4706229498308794,,,
+figure_sc_fc_final_overview,D,PLS LV1,SC,OO fraction,0.4820357517430369,,,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.682182344599842,OB,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4311143165920084,OB,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.44494282005020436,OB,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.20473939984552206,OB,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.329962664224809,OB,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6957262994737355,P,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.40783773524370803,P,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4152411407112611,P,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.2419061824330788,P,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3445134132270162,P,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6645848332467671,PO,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4355317152742382,PO,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4562806511024433,PO,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.22723001847907778,PO,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.32986908090964534,PO,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6536621609476497,SP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4476977599658582,SP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.5099835417375747,SP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.11502523146320882,SP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.31460845244595026,SP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6686997320038388,rP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4378273452860319,rP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4526128189004747,rP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.20392114334048367,rP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3386822812068196,rP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6559327294565962,rPO,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4540534480784538,rPO,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.47045209814134736,rPO,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.16534385615827926,rPO,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.33900435587290007,rPO,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6721997989617077,rSP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.43999069328830387,rSP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.47547956389910356,rSP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.15231831838359872,rSP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3244594493840912,rSP,Tel,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.7890326249162712,Hb,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.2953517890742866,Hb,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.26703516028272434,Hb,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.33706327242462003,Hb,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.32446172511336696,Hb,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.680828178853259,PT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4282529674251697,PT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.440083317592839,PT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.2147488024898842,PT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3365739327050323,PT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6731064488541164,PrT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.42656347314118537,PrT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.46481500359513506,PrT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.18745286691379356,PrT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.33731253610173323,PrT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6777805448570281,Th,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.42791604449376947,Th,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4532157839451769,Th,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.19677862604178734,Th,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.33671206897612205,Th,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.7189574370824028,rHb,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.40333578336868864,rHb,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.3983167682577631,rHb,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.2567325533107159,rHb,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.30960070690087255,rHb,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6817328240753283,rPT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4296488973225014,rPT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4426697315811834,rPT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.20401232255584972,rPT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3362508923334575,rPT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6918563877207817,rPrT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4202091994695915,rPrT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4442190372944196,rPrT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.18948113644310716,rPrT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.33395405864957395,rPrT,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6836116187726704,rTh,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4282016029820639,rTh,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.43867522808422127,rTh,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.20636165073037568,rTh,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3380790665742118,rTh,Di,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.653093002921901,TS,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.41531559570057935,TS,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.43623680743103443,TS,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.19238982598665333,TS,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.4167326339531496,TS,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6720184503351537,TeO,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4342903752505356,TeO,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.45888731377040654,TeO,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.19534770644636604,TeO,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3332338206434206,TeO,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.7256225793026507,rTS,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.3771626629555117,rTS,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.39798821885019275,rTS,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.255227286365671,rTS,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3281533300598082,rTS,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6783822855783432,rTeO,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4290395278703168,rTeO,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.45268137941436654,rTeO,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.22987207342675095,rTeO,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3129871510594498,rTeO,Mes,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.675353952125268,Cb,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4293987197662385,Cb,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4553939874930632,Cb,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.20265330308093746,Cb,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.33325925901233294,Cb,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6555741591723615,MON,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.482916164797427,MON,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4596118862318315,MON,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.1717917261220231,MON,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3102563721718353,MON,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6975503426705483,MOS1,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4072473479862308,MOS1,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.42427132225105046,MOS1,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.2408531696729082,MOS1,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3309935237617803,MOS1,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6870626709143335,MOS2,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4140936765419898,MOS2,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.42433364018177927,MOS2,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.23136388757958348,MOS2,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3505467538262787,MOS2,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6926853808977502,MOS3,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.41511673526666565,MOS3,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.42859775271304595,MOS3,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.23047162165273785,MOS3,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.33324444057503366,MOS3,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6819805272530698,MOS4,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.42676268778244253,MOS4,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.44235538642121053,MOS4,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.20697511805013155,MOS4,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.33802245691167493,MOS4,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.678807759007088,MOS5,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4309072742340193,MOS5,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4470085532286924,MOS5,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.20688260755896568,MOS5,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.33304937675061946,MOS5,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.690304905218414,NX,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.41592899513170367,NX,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.42953273773924266,NX,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.219497457096862,NX,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.34322689635045983,NX,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6627978835378054,Ra,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.43559927674731247,Ra,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4609108227781471,Ra,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.17744732563763335,Ra,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.35640692437864624,Ra,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6795752872822789,T,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4291285922784668,T,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.448315565429488,T,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.19990827380785312,T,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3362676256512241,T,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6800200292679521,aRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4300139427928581,aRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.45027831784854483,aRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.19186635784444012,aRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.33629972643632566,aRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.680758649533906,imRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4194472281401956,imRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4255840427525093,imRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.2127049528067511,imRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3664239477656811,imRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6847379753743598,pRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.42644726340990435,pRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4236297390590891,pRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.21945546756908982,pRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3487890172427822,pRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6779932030139438,rCb,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4233520666166679,rCb,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.45126346674602874,rCb,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.20812634861918725,rCb,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3378504860868028,rCb,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6521253107691517,rMON,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.48806406617585607,rMON,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4704429817214169,rMON,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.16158912664713287,rMON,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.2984935534657418,rMON,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6894755550761055,rMOS1,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.41256288023646476,rMOS1,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.42557074946988677,rMOS1,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.22869395644552262,rMOS1,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.34785620633304853,rMOS1,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6827543902139205,rMOS2,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4168460670771142,rMOS2,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.43905593706397844,rMOS2,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.22020522422061295,rMOS2,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3447105196549422,rMOS2,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6840044568857593,rMOS3,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4276289272160007,rMOS3,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4388886417699628,rMOS3,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.21224832817817446,rMOS3,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.33406408199535037,rMOS3,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.669501510915623,rMOS4,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4454347749610731,rMOS4,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4599732649654288,rMOS4,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.18624676448830646,rMOS4,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3272496392232641,rMOS4,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.681147243449155,rMOS5,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.42741972848694615,rMOS5,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4449164092873238,rMOS5,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.2056096946787347,rMOS5,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3363403791440365,rMOS5,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6752713653719954,rNX,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.429474976929323,rNX,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.40848007592587504,rNX,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.2233818413233036,rNX,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.37789470469801434,rNX,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6674384388817795,rRa,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.43413576023263867,rRa,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4593447330058054,rRa,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.19091217645807648,rRa,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.34439371238474564,rRa,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6888076918918568,rT,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4182520200254816,rT,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.44243131020252563,rT,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.2005369095845805,rT,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3385981319823817,rT,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6745385009890993,raRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.43826976207408985,raRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4712549609687126,raRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.155519131459684,raRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3265730972497608,raRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6943593729190167,rimRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.40777027560048784,rimRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.4174597696291075,rimRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.2104100189248865,rimRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.36475118677456403,rimRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCV,0.6792194128092724,rpRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,FCS,-0.4183801057891683,rpRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,ProfileCorrDistFCV,0.41913800007389007,rpRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Net TE,0.21849829115809122,rpRF,Hind,
+figure_sc_fc_final_overview,C,leave-one-region-out PLS LV1,FC,Neighbor TE,0.3744341197032187,rpRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6089297253417538,OB,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.27290299846305094,OB,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.2861216143155221,OB,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.49452174143464955,OB,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.47781922533005394,OB,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6455855050148117,P,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.10978589700657697,P,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.2617255680584997,P,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4909680621277369,P,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.5114846053677682,P,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6305863001193478,PO,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.25332052540014044,PO,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.301012448446408,PO,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4707400024284584,PO,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4753787810859269,PO,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6172592900884785,SP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2156602412870042,SP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.366830843889368,SP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.48425297756228924,SP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.45101642411443194,SP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6367406956839572,rP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.21825603965917031,rP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.2977956371182577,rP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4837216879518924,rP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4735574671890493,rP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6196444914167795,rPO,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2632805665189064,rPO,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.32655995070625105,rPO,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.47442417270818676,rPO,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.46368561601068403,rPO,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6071945494901274,rSP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2636941526529895,rSP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.33633623162190657,rSP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.45715000869408895,rSP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4895630518896133,rSP,Tel,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6753011255124822,Hb,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2103881014181071,Hb,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.21912786597240813,Hb,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.39391791182595665,Hb,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.5445336479597149,Hb,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6293786558285154,PT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24515184214731345,PT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.30764725852421637,PT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4604222721437201,PT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.48697800516637063,PT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6224952239758127,PrT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24910839419640846,PrT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3218039618281777,PrT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.47169609671706686,PrT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4736979064359072,PrT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6253841802878369,Th,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24414116685051984,Th,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.31085646120560645,Th,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4790693820925441,Th,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.47238808765968227,Th,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6572171850149757,rHb,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2683981744989839,rHb,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.26021212247813114,rHb,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.402537864359546,rHb,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.5160241377289299,rHb,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6268837809557957,rPT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24411040596699538,rPT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3120252874142861,rPT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4687858766318838,rPT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4799029659813561,rPT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6224592223086579,rPrT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24685888710565823,rPrT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3241300928272783,rPrT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4683424051358338,rPrT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4766553061649675,rPrT,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6282378444716546,rTh,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.23853273044949921,rTh,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3054805314906696,rTh,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4764193412121377,rTh,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.477624961111839,rTh,Di,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6250165677424007,TS,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.23333443777804275,TS,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.32353288544549785,TS,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4569993483423628,TS,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.49131191502372434,TS,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.620502753042147,TeO,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24562302466635139,TeO,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3218217882214501,TeO,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4731191413468937,TeO,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.47669138647346554,TeO,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6169046969003772,rTS,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2518713148624209,rTS,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3249883727842809,rTS,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.45751589080401633,rTS,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4909696557920471,rTS,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6322426677685995,rTeO,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.23443796749181106,rTeO,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.2925079107967883,rTeO,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4712490645663908,rTeO,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4875156302291774,rTeO,Mes,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6238745291883044,Cb,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24442381143909,Cb,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3152336479813073,Cb,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4723429142208303,Cb,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.47807686703858593,Cb,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6148248509952569,MON,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2590133000928351,MON,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3406840825269934,MON,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.47536472715738903,MON,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4613732166706261,MON,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6280874248128824,MOS1,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2313660962665078,MOS1,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3086604199262903,MOS1,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4656469477715276,MOS1,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4897729897537273,MOS1,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6365780711035507,MOS2,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2174987190340856,MOS2,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.30471229582520953,MOS2,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4685554728390721,MOS2,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4848389962184331,MOS2,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6336997549235376,MOS3,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.23537021203920014,MOS3,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3023299542919868,MOS3,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.459379940530661,MOS3,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4905019397212626,MOS3,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6277404734297137,MOS4,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2372919337069948,MOS4,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.30953798692385553,MOS4,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4808296540431032,MOS4,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.47182996371547886,MOS4,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6268092651297068,MOS5,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24089593901828385,MOS5,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.30907972784591675,MOS5,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.47335891937169416,MOS5,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4790410702622602,MOS5,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6370511951889243,NX,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2225738959027418,NX,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.2815445147901853,NX,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.45903532053336965,NX,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.5046245101711012,NX,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6115597798870603,Ra,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2673080677674917,Ra,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3182245787413101,Ra,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.48596774291044015,Ra,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.465950107700758,Ra,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.617563414974977,T,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24668018198357175,T,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.31853714401342104,T,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4791124256707204,T,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.47618241016724594,T,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6215617818830298,aRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24675071252490338,aRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.31996010371773315,aRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.47634945055923406,aRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.47274916197884276,aRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.627106048729275,imRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2273069367093588,imRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3034378387879218,imRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4709973781539525,imRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.491076885970803,imRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6280090270672013,pRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24134566685602332,pRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.29960076770432637,pRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.47615388521779584,pRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.48049327632642735,pRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6252603461232461,rCb,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24173222805288808,rCb,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.31390294510697136,rCb,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.47184789751594713,rCb,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.47899846779439115,rCb,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6146590542889444,rMON,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.265188601146241,rMON,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.34152406826666754,rMON,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4783053547396773,rMON,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4543727007916033,rMON,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6225386151318578,rMOS1,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2217288923395766,rMOS1,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.28473085989588726,rMOS1,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4582087536540088,rMOS1,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.5217806497651682,rMOS1,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6422924258461948,rMOS2,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.20567799994399408,rMOS2,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.29051024039271917,rMOS2,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.43872902149977044,rMOS2,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.5179552547860352,rMOS2,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6268068000508369,rMOS3,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24423176755926485,rMOS3,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3052996729489209,rMOS3,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4728165259777035,rMOS3,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.48031314950203513,rMOS3,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.613349732683617,rMOS4,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2450145020543638,rMOS4,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.33950923091958246,rMOS4,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4811708526165078,rMOS4,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4658090723812534,rMOS4,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6251226811869911,rMOS5,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24301302499014413,rMOS5,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3076629655376541,rMOS5,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.475195559536338,rMOS5,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4792692176472942,rMOS5,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6358905506011905,rNX,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.22071614943695733,rNX,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.2910193791169779,rNX,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.46558963539124426,rNX,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.49544081526298767,rNX,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6264321121360172,rRa,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.25326266329560454,rRa,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3030360608114826,rRa,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4775314691750768,rRa,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4728357791671198,rRa,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6233210417520219,rT,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.24440199098962548,rT,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3091385225876089,rT,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.47693713310584246,rT,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4782289102789701,rT,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.5959807401789203,raRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.28137412262874584,raRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.3716675483668174,raRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.48014922439234364,raRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4437967060007537,raRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6196136986805078,rimRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.2312128130472367,rimRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.2995271056795387,rimRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4746104720516544,rimRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4976423537766738,rimRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{post}}$,0.6227697213800356,rpRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,$\mathbf{DCA}_{\mathbf{pre}}$,-0.23181204195488048,rpRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,Modularity Q,0.30046411238346993,rpRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,log10 (Out/In),0.4769222860207521,rpRF,Hind,
+figure_sc_fc_final_overview,D,leave-one-region-out PLS LV1,SC,OO fraction,0.4905991251554515,rpRF,Hind,
+figure_sc_fc_final_overview,F,linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,,,0.31054066918134543
+figure_sc_fc_final_overview,F,linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,,,-0.06126288630300175
+figure_sc_fc_final_overview,F,linear FCV prediction,SC,Modularity Q,,,,0.02950655715138056
+figure_sc_fc_final_overview,F,linear FCV prediction,SC,log10 (Out/In),,,,0.025988798695829075
+figure_sc_fc_final_overview,F,linear FCV prediction,SC,OO fraction,,,,0.3000142333137015
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,OB,Tel,0.2737892774965966
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,OB,Tel,-0.08163878900237803
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,OB,Tel,0.008532174573321151
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,OB,Tel,0.04490259077563984
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,OB,Tel,0.32557283934843345
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,P,Tel,0.2818724902280132
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,P,Tel,0.03647482935322896
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,P,Tel,0.0372436319287169
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,P,Tel,0.07059931380739214
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,P,Tel,0.30591744273203914
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,PO,Tel,0.2959392011124259
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,PO,Tel,-0.06545610077455616
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,PO,Tel,0.027117879462668557
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,PO,Tel,0.029760373925289813
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,PO,Tel,0.2957744702282891
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,SP,Tel,0.298514651621576
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,SP,Tel,0.010196942610104565
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,SP,Tel,0.05357290658596643
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,SP,Tel,0.037886421067516524
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,SP,Tel,0.28814383052410186
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rP,Tel,0.3004786518596784
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rP,Tel,-0.053289878696784865
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rP,Tel,0.024719843204245796
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rP,Tel,0.03133016581298265
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rP,Tel,0.287749495787913
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rPO,Tel,0.29692183426247415
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rPO,Tel,-0.0682648013596327
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rPO,Tel,0.025941479250892394
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rPO,Tel,0.032785308244653436
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rPO,Tel,0.2862429908565316
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rSP,Tel,0.1511513177304547
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rSP,Tel,-0.09471321080351158
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rSP,Tel,0.027531049234554357
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rSP,Tel,0.004669996997130891
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rSP,Tel,0.4564037168168556
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,Hb,Di,0.24477408560058622
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,Hb,Di,-0.012988924488463172
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,Hb,Di,0.02631993764354454
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,Hb,Di,0.14450187280772497
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,Hb,Di,0.3618838743904152
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,PT,Di,0.3189174603548265
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,PT,Di,-0.06832856157829631
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,PT,Di,0.030190176647720238
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,PT,Di,0.009440588637745181
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,PT,Di,0.30234105521660537
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,PrT,Di,0.30705358993116416
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,PrT,Di,-0.06252924178215896
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,PrT,Di,0.02951597523877101
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,PrT,Di,0.02573224725796
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,PrT,Di,0.2981234822717124
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,Th,Di,0.32055709379462705
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,Th,Di,-0.06405108235120971
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,Th,Di,0.01894260316265539
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,Th,Di,0.030288162818166132
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,Th,Di,0.2886550315437259
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rHb,Di,0.3199300910950368
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rHb,Di,-0.09361474396337202
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rHb,Di,0.008043346884516462
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rHb,Di,-0.04105673951322212
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rHb,Di,0.30276350548511516
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rPT,Di,0.29878289209425246
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rPT,Di,-0.0568970631981941
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rPT,Di,0.02858634089205254
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rPT,Di,0.03846263716085429
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rPT,Di,0.30637998859537374
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rPrT,Di,0.3439831522266495
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rPrT,Di,-0.05822657124746533
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rPrT,Di,0.013278100633252144
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rPrT,Di,0.020023393047078505
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rPrT,Di,0.2878478257500643
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rTh,Di,0.35863575191582564
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rTh,Di,-0.054068545197105994
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rTh,Di,0.02470821207258417
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rTh,Di,0.036282261601766494
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rTh,Di,0.2442662145427759
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,TS,Mes,0.3353354443686757
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,TS,Mes,-0.09199425911499362
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,TS,Mes,0.03601589944922167
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,TS,Mes,-0.004907344824370943
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,TS,Mes,0.2936315810328361
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,TeO,Mes,0.31989921461415655
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,TeO,Mes,-0.05953220339147497
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,TeO,Mes,0.040549466497228126
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,TeO,Mes,0.020857084449509712
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,TeO,Mes,0.2871296647388302
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rTS,Mes,0.2697590722039424
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rTS,Mes,-0.1129018457270406
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rTS,Mes,0.1606687939680868
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rTS,Mes,0.05216202739343065
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rTS,Mes,0.3386532993735304
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rTeO,Mes,0.32025325513946384
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rTeO,Mes,-0.05790217321349256
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rTeO,Mes,0.000628990926819009
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rTeO,Mes,0.03436420479301636
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rTeO,Mes,0.3113749560137784
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,Cb,Hind,0.31501381610609386
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,Cb,Hind,-0.057517914049414864
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,Cb,Hind,0.03174362185619723
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,Cb,Hind,0.031045917676086776
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,Cb,Hind,0.28912384134805
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,MON,Hind,0.36865943407771623
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,MON,Hind,-0.07906596994860812
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,MON,Hind,-0.01823341499294315
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,MON,Hind,0.031743685787307095
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,MON,Hind,0.2356728447698271
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,MOS1,Hind,0.29452166119564765
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,MOS1,Hind,-0.0557626753330378
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,MOS1,Hind,0.08304015211059576
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,MOS1,Hind,0.03996403954950562
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,MOS1,Hind,0.3014085794856812
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,MOS2,Hind,0.29637033818225955
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,MOS2,Hind,-0.07166311571330836
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,MOS2,Hind,0.02438660341508208
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,MOS2,Hind,0.028576692845033464
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,MOS2,Hind,0.31285181574091153
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,MOS3,Hind,0.38439860721197583
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,MOS3,Hind,-0.07431217675918514
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,MOS3,Hind,0.05881737755473656
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,MOS3,Hind,-0.049263055448525966
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,MOS3,Hind,0.2840147800592564
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,MOS4,Hind,0.3313864666833275
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,MOS4,Hind,-0.05564068524646135
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,MOS4,Hind,0.03066911531663542
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,MOS4,Hind,0.03148323234455015
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,MOS4,Hind,0.270698656088932
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,MOS5,Hind,0.3347525422115466
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,MOS5,Hind,-0.058153730855543595
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,MOS5,Hind,0.025027463058034903
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,MOS5,Hind,0.02764905025234434
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,MOS5,Hind,0.272228783593705
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,NX,Hind,0.33769923260641693
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,NX,Hind,-0.0580371245026014
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,NX,Hind,-0.015248343515419807
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,NX,Hind,-0.0017207548764638216
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,NX,Hind,0.32643786873346686
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,Ra,Hind,0.30400792536775423
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,Ra,Hind,-0.07263790915542945
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,Ra,Hind,0.02412319366178968
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,Ra,Hind,0.03549484854784634
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,Ra,Hind,0.30253970733537083
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,T,Hind,0.3069522363526788
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,T,Hind,-0.061374110804195026
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,T,Hind,0.029816916667591058
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,T,Hind,0.027007303118956064
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,T,Hind,0.30095438283129305
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,aRF,Hind,0.3091813820092163
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,aRF,Hind,-0.06108787342099581
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,aRF,Hind,0.03360538406454179
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,aRF,Hind,0.03258418893194379
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,aRF,Hind,0.29115454507544014
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,imRF,Hind,0.27834829321540894
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,imRF,Hind,-0.05877435578891704
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,imRF,Hind,0.030510493787395527
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,imRF,Hind,0.03501219922659245
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,imRF,Hind,0.31730778435463225
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,pRF,Hind,0.3272635451486236
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,pRF,Hind,-0.07312005783883019
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,pRF,Hind,0.028231869235656237
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,pRF,Hind,0.03841183288193662
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,pRF,Hind,0.27831259698564453
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rCb,Hind,0.3090320326447902
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rCb,Hind,-0.06118010269066515
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rCb,Hind,0.030299252863922398
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rCb,Hind,0.026836035560306653
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rCb,Hind,0.29555015903041315
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rMON,Hind,0.34010759440213334
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rMON,Hind,-0.07368433489780882
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rMON,Hind,-0.004230129313801422
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rMON,Hind,0.028694562824706133
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rMON,Hind,0.2627845644439564
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rMOS1,Hind,0.29986124725632046
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rMOS1,Hind,-0.062375037422716995
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rMOS1,Hind,0.018516432418012478
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rMOS1,Hind,0.02505256963749395
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rMOS1,Hind,0.30605407338743174
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rMOS2,Hind,0.35656351360973876
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rMOS2,Hind,-0.030283398999154137
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rMOS2,Hind,0.02581509481466532
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rMOS2,Hind,-0.04250539169378728
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rMOS2,Hind,0.3266674938858812
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rMOS3,Hind,0.3736580393204661
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rMOS3,Hind,-0.032332836902454615
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rMOS3,Hind,0.05441173373929056
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rMOS3,Hind,-0.00718926378852816
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rMOS3,Hind,0.26771025678150084
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rMOS4,Hind,0.30170081711561797
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rMOS4,Hind,-0.05387913091229485
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rMOS4,Hind,0.04026239436174807
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rMOS4,Hind,0.03548432978139776
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rMOS4,Hind,0.30446184867926285
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rMOS5,Hind,0.31479819897469435
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rMOS5,Hind,-0.07051296327198037
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rMOS5,Hind,0.008543463654197751
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rMOS5,Hind,0.03425045226770631
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rMOS5,Hind,0.2947149405605533
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rNX,Hind,0.29607272818635527
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rNX,Hind,-0.05982737153561207
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rNX,Hind,0.02662715514293809
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rNX,Hind,0.02647946810222411
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rNX,Hind,0.30906657749332933
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rRa,Hind,0.323223217788383
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rRa,Hind,-0.0813908184054622
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rRa,Hind,0.0026214832423544546
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rRa,Hind,0.03205810272418714
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rRa,Hind,0.2968893748858714
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rT,Hind,0.3369096109516507
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rT,Hind,-0.05760150939438627
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rT,Hind,0.0329551832012517
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rT,Hind,0.007651604365295176
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rT,Hind,0.2913552327206363
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,raRF,Hind,0.2854529831280505
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,raRF,Hind,-0.06759333872995893
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,raRF,Hind,0.04447764753412981
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,raRF,Hind,0.03689751210784966
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,raRF,Hind,0.29957817382086405
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rimRF,Hind,0.2715923588391281
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rimRF,Hind,-0.06250910800909365
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rimRF,Hind,0.026787725724293082
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rimRF,Hind,0.034562319949066896
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rimRF,Hind,0.32254676776275926
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{post}}$,,rpRF,Hind,0.2822399750468983
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,$\mathbf{DCA}_{\mathbf{pre}}$,,rpRF,Hind,-0.06698991606701499
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,Modularity Q,,rpRF,Hind,0.03296566208757411
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,log10 (Out/In),,rpRF,Hind,0.043087729735159855
+figure_sc_fc_final_overview,F,leave-one-region-out linear FCV prediction,SC,OO fraction,,rpRF,Hind,0.31706648181111896

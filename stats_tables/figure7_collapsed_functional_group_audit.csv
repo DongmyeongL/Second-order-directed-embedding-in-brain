@@ -1,0 +1,16 @@
+species,plot_order,plot_label,n_mapped_nodes,nodes,fine_classes,source_groups_before_collapse,fcv_recording_points,postdca_points,predca_points
+C. elegans,0,olf./chemo,15,"ADLL, ADLR, ASEL, ASER, ASGL, ASGR, ASHL, ASIL, ASIR, AWAL, AWAR, AWBL, AWBR, AWCL, AWCR",chemosensory,0:olfactory / chemosensory,18,15,15
+C. elegans,2,other sensory,36,"ADEL, ADER, AQR, ASKL, ASKR, BAGL, CEPDL, CEPDR, CEPVL, CEPVR, FLPL, FLPR, IL1DL, IL1DR, IL1L, IL1R, IL1VL, IL1VR, IL2DL, IL2DR, IL2L, IL2R, IL2VL, IL2VR, OLLL, OLLR, OLQDL, OLQDR, OLQVL, OLQVR, URXL, URXR, URYDL, URYDR, URYVL, URYVR",mechanosensory; other sensory neuron; thermo/gas sensory,2:other sensory,18,36,36
+C. elegans,3,sensorimotor,33,"AVAL, AVAR, AVBL, AVBR, AVDL, AVDR, AVEL, AVER, RIVL, RIVR, RMDDL, RMDDR, RMDL, RMDR, RMDVL, RMDVR, RMED, RMEL, RMER, RMEV, SAADL, SAADR, SAAVL, SAAVR, SMBVR, SMDDL, SMDDR, SMDVL, SMDVR, URADL, URADR, URAVL, URAVR",head motor / command; locomotor command interneuron; other interneuron; other motor neuron,3:sensorimotor output,18,33,33
+C. elegans,4,integrative,13,"ADAL, ADAR, AVHL, AVJL, AVJR, AVKL, AVKR, AVL, RID, RIH, RIR, URBL, URBR",integrative interneuron; other interneuron,4:integrative relay,18,13,13
+C. elegans,5,assoc./state,23,"AIBL, AIBR, AIML, AIMR, AINL, AINR, AIYL, AIYR, AIZL, AIZR, ALA, AUAL, AUAR, RIAL, RIAR, RIBL, RIBR, RICL, RICR, RIML, RIMR, RIS, RMGL",associative interneuron; state-modulatory interneuron,"5:associative / learning,6:state-dependent / modulatory",36,23,23
+Drosophila,0,olf./chemo,4,"AL_L, AL_R, LH_L, LH_R",olfactory system,0:olfactory / chemosensory,20,3,3
+Drosophila,1,visual,6,"AME_L, AME_R, LO_L, LO_R, ME_L, ME_R",visual / optic,1:visual / optic,20,4,4
+Drosophila,3,sensorimotor,6,"LAL_L, LAL_R, SPS_L, SPS_R, VES_L, VES_R",premotor / descending interface,3:sensorimotor output,20,6,6
+Drosophila,4,integrative,45,"AMMC_L, AMMC_R, ATL_L, ATL_R, AVLP_L, AVLP_R, CRE_L, CRE_R, EPA_L, EPA_R, FLA, GA_L, GA_R, GOR_L, GOR_R, IB_L, IB_R, ICL_L, ICL_R, IPS_L, IPS_R, IVLP_L, IVLP_R, LB_L, LB_R, LOP_R, OTU_L, OTU_R, PLP_L, PLP_R, PRW, PVLP_L, PVLP_R, SAD, SCL_L, SCL_R, SIP_L, SIP_R, SLP_L, SLP_R, SMP_L, SMP_R, SOG, WED_L, WED_R",lateral/inferior protocerebrum; other fly brain; superior protocerebrum; visual-association protocerebrum,4:integrative relay,20,22,22
+Drosophila,5,assoc./state,6,"EB, FB, MB_L, MB_R, NO, PB",central complex; mushroom body,"5:associative / learning,6:state-dependent / modulatory",40,2,2
+Zebrafish,0,olf./chemo,1,OB,olfactory bulb,0:olfactory / chemosensory,4,2,2
+Zebrafish,1,visual,8,"PT, PrT, TS, TeO, rPT, rPrT, rTS, rTeO",optic tectum / midbrain; pretectal visual,1:visual / optic,7,9,9
+Zebrafish,3,sensorimotor,22,"Cb, MON, MOS1, MOS2, MOS3, MOS4, MOS5, NX, aRF, imRF, pRF, rCb, rMON, rMOS1, rMOS2, rMOS3, rMOS4, rMOS5, rNX, raRF, rimRF, rpRF",cerebellar; hindbrain/reticular; other zebrafish region,3:sensorimotor output,7,22,22
+Zebrafish,4,integrative,4,"T, Th, rT, rTh",optic tectum / midbrain; thalamic/pretectal,4:integrative relay,7,4,4
+Zebrafish,5,assoc./state,14,"HR, Hb, Hi, P, PO, Ra, SP, rHR, rHb, rHi, rP, rPO, rRa, rSP",habenula; hypothalamic / preoptic state; interpeduncular / raphe state; pallium; subpallium,"5:associative / learning,6:state-dependent / modulatory",14,10,10
