@@ -147,7 +147,7 @@ def draw_significance_bars(
         )
         ax.text(
             (i + j) / 2,
-            y + bar_h,
+            y + bar_h*0.1,
             p_to_stars(p_value),
             ha="center",
             va="bottom",

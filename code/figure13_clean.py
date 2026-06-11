@@ -340,7 +340,7 @@ def draw_layer_fc_panel(ax, eps, values, sem, args, ylabel, title, show_legend=F
             color=color,
             label=label,
         )
-    ax.set_xlabel(r" $\epsilon$)", fontsize=AXIS_FS)
+    ax.set_xlabel(r" $\epsilon$", fontsize=AXIS_FS)
     ax.set_ylabel(ylabel, fontsize=AXIS_FS)
     ax.set_title("")
     ax.grid(False)
