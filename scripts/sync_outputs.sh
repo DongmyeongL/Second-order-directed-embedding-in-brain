@@ -7,6 +7,7 @@ mkdir -p figures outputs/supplementary
 # scripts write directly to figures/, while others write to output/png; this
 # step makes figures/ the complete working PNG figure set.
 cp output/png/figure_supply_0.png figures/
+cp output/png/figure_supply_1.png figures/
 cp output/png/figure_supply_5.png figures/
 cp output/png/figure_supply_13.png figures/
 cp output/png/figure_supply_15.png figures/
@@ -23,6 +24,7 @@ cp figures/figure_supply_10_proc.png outputs/supplementary/
 cp figures/figure_supply_14.png outputs/supplementary/
 
 cp figures/figure_supply_0.png outputs/supplementary/
+cp figures/figure_supply_1.png outputs/supplementary/
 cp figures/figure_supply_5.png outputs/supplementary/
 cp figures/figure_supply_13.png outputs/supplementary/
 cp figures/figure_supply_15.png outputs/supplementary/

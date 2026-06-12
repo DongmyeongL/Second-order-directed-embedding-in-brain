@@ -26,6 +26,7 @@ Standalone figure reproduction package for the manuscript main and supplementary
 ## Included Supplementary Figure Outputs
 
 - `outputs/supplementary/figure_supply_0.png`
+- `outputs/supplementary/figure_supply_1.png`
 - `outputs/supplementary/figure_supply_2_proc.png`
 - `outputs/supplementary/figure_supply_5.png`
 - `outputs/supplementary/figure_supply_10_proc.png`

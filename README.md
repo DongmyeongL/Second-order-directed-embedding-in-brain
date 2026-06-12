@@ -54,6 +54,7 @@ Only PNG versions are retained in this pack.
 | Supplementary output | Main topic | Script |
 |---|---|---|
 | `outputs/supplementary/figure_supply_0.png` | FCV/window or supporting overview analysis | `code/figure_supply_0.py` |
+| `outputs/supplementary/figure_supply_1.png` | Synapse endpoint-distance and distance--FC model inputs | `code/figure_supply_1.py` |
 | `outputs/supplementary/figure_supply_2_proc.png` | Zebrafish regional SC topology and directional bias | `code/figure_supply_2_proc.py` |
 | `outputs/supplementary/figure_supply_5.png` | Supporting simulation or null-model analysis | `code/figure_supply_5.py` |
 | `outputs/supplementary/figure_supply_10_proc.png` | Zebrafish regional FC dynamics and directed information flow | `code/figure_supply_10_proc.py` |
@@ -93,6 +94,7 @@ python3.10 code/figure14_15_celegans_drosophila_AFHI_combined.py
 python3.10 code/figure7_by_species_with_figure5_abc.py
 
 python3.10 code/figure_supply_0.py
+python3.10 code/figure_supply_1.py
 python3.10 code/figure_supply_2_proc.py
 python3.10 code/figure_supply_5.py
 python3.10 code/figure_supply_10_proc.py
