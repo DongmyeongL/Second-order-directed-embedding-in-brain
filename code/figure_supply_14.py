@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 from matplotlib.colors import ListedColormap
 
+import figure7_by_species_with_figure5_abc as fig7abc
 import figure_style as fs
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
@@ -32,6 +33,7 @@ IN_CSV = os.path.join(
 OUT_PNG = os.path.join(PROJECT_ROOT, "output", "png", "figure_supply_14.png")
 OUT_CSV = os.path.join(PROJECT_ROOT, "output", "stats", "figure_supply_14_stimulus_fcv_heatmap_values.csv")
 FIG_PNG = os.path.join(PROJECT_ROOT, "figures", "figure_supply_14.png")
+SUPP_PNG = os.path.join(PROJECT_ROOT, "outputs", "supplementary", "figure_supply_14.png")
 
 DIVISION_ORDER = ["Tel", "Di", "Mes", "Hind"]
 DIVISION_COLORS = {
@@ -100,7 +102,7 @@ def load_heatmap_table():
     return matrix, stim_values, region_meta
 
 
-def add_division_bar(ax, region_meta):
+def add_division_bar(ax, region_meta, label_inside=False):
     divisions = region_meta["Division"].astype(str).tolist()
     div_to_idx = {div: i for i, div in enumerate(DIVISION_ORDER)}
     div_arr = np.array([[div_to_idx[d] for d in divisions]])
@@ -119,14 +121,15 @@ def add_division_bar(ax, region_meta):
     for div in DIVISION_ORDER:
         n = sum(d == div for d in divisions)
         if n:
+            y_pos = 0.0 if label_inside else -0.65
             ax.text(
                 x0 + (n - 1) / 2,
-                -0.65,
+                y_pos,
                 div,
                 ha="center",
-                va="bottom",
+                va="center" if label_inside else "bottom",
                 fontsize=fs.TICK_FS_2COL,
-                color=DIVISION_COLORS[div],
+                color="white" if label_inside else DIVISION_COLORS[div],
                 fontweight="bold",
             )
         x0 += n
@@ -140,29 +143,76 @@ def division_boundaries(divisions):
     ]
 
 
+def attach_bar_to_heatmap(ax_bar, ax_heat, gap=0.006, height=0.026):
+    heat_pos = ax_heat.get_position()
+    ax_bar.set_position([
+        heat_pos.x0,
+        heat_pos.y1 + gap,
+        heat_pos.width,
+        height,
+    ])
+
+
 def make_figure():
     matrix, stim_values, region_meta = load_heatmap_table()
     regions = region_meta["Region"].tolist()
     divisions = region_meta["Division"].astype(str).tolist()
+    ce, zf_region_values = fig7abc.load_stimulus_tables()
 
-    fig = plt.figure(figsize=(8.4, 3.2))
+    fig = plt.figure(figsize=(8.4, 7.1))
     gs = fig.add_gridspec(
-        3,
-        2,
-        height_ratios=[0.12, 1.0, 0.05],
-        width_ratios=[1.0, 0.035],
+        4,
+        4,
+        height_ratios=[1.08, 0.12, 0.94, 0.04],
+        width_ratios=[1.0, 1.0, 1.0, 0.040],
         left=0.08,
-        right=0.94,
-        top=0.90,
-        bottom=0.26,
-        hspace=0.04,
-        wspace=0.04,
+        right=0.95,
+        top=0.94,
+        bottom=0.14,
+        hspace=0.78,
+        wspace=0.34,
     )
-    ax_bar = fig.add_subplot(gs[0, 0])
-    ax = fig.add_subplot(gs[1, 0])
-    cax = fig.add_subplot(gs[1, 1])
+    scatter_axes = [fig.add_subplot(gs[0, col]) for col in range(3)]
+    ax_bar = fig.add_subplot(gs[1, 0:3])
+    ax = fig.add_subplot(gs[2, 0:3])
+    cax = fig.add_subplot(gs[2, 3])
 
-    add_division_bar(ax_bar, region_meta)
+    fig7abc.scatter_with_functional_group(
+        scatter_axes[0],
+        ce,
+        "SpontaneousFCV",
+        "HeatFCV",
+        "spontaneous FCV",
+        "Heat FCV",
+    )
+    fig7abc.scatter_with_functional_group(
+        scatter_axes[1],
+        zf_region_values,
+        "SpontaneousFCV",
+        "StdStimulusFCVZ",
+        "spontaneous FCV",
+        "Std OMR FCV",
+    )
+    fig7abc.scatter_with_functional_group(
+        scatter_axes[2],
+        zf_region_values,
+        "SpontaneousFCV",
+        "MeanStimulusFCV",
+        "spontaneous FCV",
+        "Mean OMR FCV",
+    )
+    for scatter_ax, species in zip(scatter_axes, ["C. elegans", "Zebrafish", "Zebrafish"], strict=False):
+        scatter_ax.set_title(
+            species,
+            fontsize=fig7abc.SCATTER_TITLE_FS,
+            fontweight="bold",
+            color=fig7abc.SPECIES_COLORS.get(species, "#111111"),
+            pad=3,
+        )
+    fig7abc.style_scatter_axes(scatter_axes)
+
+    add_division_bar(ax_bar, region_meta, label_inside=True)
+    attach_bar_to_heatmap(ax_bar, ax, gap=0.008, height=0.028)
     vmax = np.nanpercentile(np.abs(matrix), 98)
     im = ax.imshow(
         matrix,
@@ -194,8 +244,20 @@ def make_figure():
     cbar.set_label("Mean subject z-scored FCV")
     cbar.ax.tick_params(labelsize=fs.TICK_FS_2COL)
 
+    ax.text(
+        -0.065,
+        1.12,
+        "D",
+        transform=ax.transAxes,
+        fontsize=fs.PANEL_LABEL_FS_2COL,
+        fontweight="bold",
+        ha="left",
+        va="bottom",
+    )
+
     fig.savefig(OUT_PNG, dpi=600, bbox_inches="tight")
     fig.savefig(FIG_PNG, dpi=600, bbox_inches="tight")
+    fig.savefig(SUPP_PNG, dpi=600, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -203,6 +265,7 @@ def main():
     make_figure()
     print(f"Saved {OUT_PNG}")
     print(f"Saved {FIG_PNG}")
+    print(f"Saved {SUPP_PNG}")
     print(f"Saved {OUT_CSV}")
 
 
