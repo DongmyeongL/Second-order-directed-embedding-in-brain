@@ -1,0 +1,6 @@
+figure,panel,measure,test,H,p,eta2_H,n_total,n_Tel,n_Di,n_Mes,n_Hind,groups
+figure12,D,DCA_post,Kruskal-Wallis,135.359,3.78e-29,0.315,424,72,81,38,233,"Tel;Di;Mes;Hind"
+figure12,E,DCA_pre,Kruskal-Wallis,80.039,3.01e-17,0.184,424,72,81,38,233,"Tel;Di;Mes;Hind"
+figure12,F,Modularity Q,Kruskal-Wallis,143.833,5.63e-31,0.435,424,72,81,38,233,"Tel;Di;Mes;Hind"
+figure12,G,log10(out/in),Kruskal-Wallis,11.973,7.48e-03,0.020,424,72,81,38,233,"Tel;Di;Mes;Hind"
+figure12,H,OO fraction,Kruskal-Wallis,74.998,3.63e-16,0.250,424,72,81,38,233,"Tel;Di;Mes;Hind"

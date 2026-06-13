@@ -1,0 +1,177 @@
+predictor,raw_predictor,label,raw_label,outcome,method,n,sign_multiplier,r,abs_r,p,q_bh
+IntraPostDCA_Corrected_FCVAligned,IntraPostDCA_Corrected,Intra Post-DCA (FCV-aligned),Intra Post-DCA,ZFCV,pearson,47,1.0,0.5867540731190715,0.5867540731190715,1.4604008356366783e-05,0.00029208016712733563
+IntraPostDCA_Corrected_FCVAligned,IntraPostDCA_Corrected,Intra Post-DCA (FCV-aligned),Intra Post-DCA,ZFCV,spearman,47,1.0,0.49410268270120256,0.49410268270120256,0.00041589198192725673,0.008317839638545134
+IntraPostDCA_Corrected_FCVAligned,IntraPostDCA_Corrected,Intra Post-DCA (FCV-aligned),Intra Post-DCA,RawFCV,pearson,47,1.0,0.5927762707208711,0.5927762707208711,1.1325702510082607e-05,0.00022651405020165214
+IntraPostDCA_Corrected_FCVAligned,IntraPostDCA_Corrected,Intra Post-DCA (FCV-aligned),Intra Post-DCA,RawFCV,spearman,47,1.0,0.48704902867715083,0.48704902867715083,0.0005169292752509904,0.010338585505019808
+IntraPostDCA_Corrected_FCVAligned,IntraPostDCA_Corrected,Intra Post-DCA (FCV-aligned),Intra Post-DCA,ZFCS,pearson,47,1.0,-0.3126207484823439,0.3126207484823439,0.032398980051232235,0.05399830008538706
+IntraPostDCA_Corrected_FCVAligned,IntraPostDCA_Corrected,Intra Post-DCA (FCV-aligned),Intra Post-DCA,ZFCS,spearman,47,1.0,-0.3712997224791859,0.3712997224791859,0.010183360605489189,0.02262969023442042
+IntraPostDCA_Corrected_FCVAligned,IntraPostDCA_Corrected,Intra Post-DCA (FCV-aligned),Intra Post-DCA,RawFCS,pearson,47,1.0,-0.3086679569854396,0.3086679569854396,0.034773300899589514,0.05922172844055043
+IntraPostDCA_Corrected_FCVAligned,IntraPostDCA_Corrected,Intra Post-DCA (FCV-aligned),Intra Post-DCA,RawFCS,spearman,47,1.0,-0.38748843663274746,0.38748843663274746,0.007124287546896212,0.017810718867240533
+IntraPreDCA_Corrected_FCVAligned,IntraPreDCA_Corrected,Intra Pre-DCA (FCV-aligned),Intra Pre-DCA,ZFCV,pearson,47,-1.0,0.27845675649920465,0.27845675649920465,0.05805620927139064,0.12901379838086807
+IntraPreDCA_Corrected_FCVAligned,IntraPreDCA_Corrected,Intra Pre-DCA (FCV-aligned),Intra Pre-DCA,ZFCV,spearman,47,-1.0,0.09851988899167437,0.09851988899167437,0.5100006939191812,0.6800009252255751
+IntraPreDCA_Corrected_FCVAligned,IntraPreDCA_Corrected,Intra Pre-DCA (FCV-aligned),Intra Pre-DCA,RawFCV,pearson,47,-1.0,0.2945118527029313,0.2945118527029313,0.04448242044891519,0.09884982321981155
+IntraPreDCA_Corrected_FCVAligned,IntraPreDCA_Corrected,Intra Pre-DCA (FCV-aligned),Intra Pre-DCA,RawFCV,spearman,47,-1.0,0.1112395929694727,0.1112395929694727,0.45663476623345434,0.6523353803335061
+IntraPreDCA_Corrected_FCVAligned,IntraPreDCA_Corrected,Intra Pre-DCA (FCV-aligned),Intra Pre-DCA,ZFCS,pearson,47,-1.0,-0.4467180933849089,0.4467180933849089,0.0016456689529073681,0.0039027285831090275
+IntraPreDCA_Corrected_FCVAligned,IntraPreDCA_Corrected,Intra Pre-DCA (FCV-aligned),Intra Pre-DCA,ZFCS,spearman,47,-1.0,-0.3847132284921369,0.3847132284921369,0.00758364212700979,0.02048432336951648
+IntraPreDCA_Corrected_FCVAligned,IntraPreDCA_Corrected,Intra Pre-DCA (FCV-aligned),Intra Pre-DCA,RawFCS,pearson,47,-1.0,-0.4630082830260594,0.4630082830260594,0.0010484637752615543,0.0026211594381538856
+IntraPreDCA_Corrected_FCVAligned,IntraPreDCA_Corrected,Intra Pre-DCA (FCV-aligned),Intra Pre-DCA,RawFCS,spearman,47,-1.0,-0.40020814061054577,0.40020814061054577,0.005314137719942404,0.017417826682062595
+GlobalPreDCA_FCVAligned,GlobalPreDCA,Global Pre-DCA (FCV-aligned),Global Pre-DCA,ZFCV,pearson,47,-1.0,0.061004366937941944,0.061004366937941944,0.6837562080149,0.8158314317185149
+GlobalPreDCA_FCVAligned,GlobalPreDCA,Global Pre-DCA (FCV-aligned),Global Pre-DCA,ZFCV,spearman,47,-1.0,-0.028908418131359855,0.028908418131359855,0.8470453745561374,0.891626710059092
+GlobalPreDCA_FCVAligned,GlobalPreDCA,Global Pre-DCA (FCV-aligned),Global Pre-DCA,RawFCV,pearson,47,-1.0,0.07017963212210367,0.07017963212210367,0.6392480623726017,0.7883355310375146
+GlobalPreDCA_FCVAligned,GlobalPreDCA,Global Pre-DCA (FCV-aligned),Global Pre-DCA,RawFCV,spearman,47,-1.0,-0.030874190564292324,0.030874190564292324,0.8367813526858259,0.9197091653830366
+GlobalPreDCA_FCVAligned,GlobalPreDCA,Global Pre-DCA (FCV-aligned),Global Pre-DCA,ZFCS,pearson,47,-1.0,-0.17070765122348935,0.17070765122348935,0.2512808252759356,0.3141010315949195
+GlobalPreDCA_FCVAligned,GlobalPreDCA,Global Pre-DCA (FCV-aligned),Global Pre-DCA,ZFCS,spearman,47,-1.0,-0.08938482886216467,0.08938482886216467,0.5501813123547292,0.5835079943718252
+GlobalPreDCA_FCVAligned,GlobalPreDCA,Global Pre-DCA (FCV-aligned),Global Pre-DCA,RawFCS,pearson,47,-1.0,-0.18247206203426844,0.18247206203426844,0.2195904279446827,0.2744880349308534
+GlobalPreDCA_FCVAligned,GlobalPreDCA,Global Pre-DCA (FCV-aligned),Global Pre-DCA,RawFCS,spearman,47,-1.0,-0.09146623496762257,0.09146623496762257,0.5408953864980939,0.5693635647348356
+GlobalPostDCA_FCVAligned,GlobalPostDCA,Global Post-DCA (FCV-aligned),Global Post-DCA,ZFCV,pearson,47,1.0,0.2106702151041491,0.2106702151041491,0.155200478849866,0.2586674647497767
+GlobalPostDCA_FCVAligned,GlobalPostDCA,Global Post-DCA (FCV-aligned),Global Post-DCA,ZFCV,spearman,47,1.0,0.15772432932469935,0.15772432932469935,0.2896764484717795,0.6437254410483989
+GlobalPostDCA_FCVAligned,GlobalPostDCA,Global Post-DCA (FCV-aligned),Global Post-DCA,RawFCV,pearson,47,1.0,0.22951107364319864,0.22951107364319864,0.12069178630590144,0.2088942986325688
+GlobalPostDCA_FCVAligned,GlobalPostDCA,Global Post-DCA (FCV-aligned),Global Post-DCA,RawFCV,spearman,47,1.0,0.17183163737280294,0.17183163737280294,0.24812652618877,0.5513922804194888
+GlobalPostDCA_FCVAligned,GlobalPostDCA,Global Post-DCA (FCV-aligned),Global Post-DCA,ZFCS,pearson,47,1.0,-0.31429288841608993,0.31429288841608993,0.031435786882434084,0.05399830008538706
+GlobalPostDCA_FCVAligned,GlobalPostDCA,Global Post-DCA (FCV-aligned),Global Post-DCA,ZFCS,spearman,47,1.0,-0.24444958371877892,0.24444958371877892,0.0977290291605171,0.15622933718052306
+GlobalPostDCA_FCVAligned,GlobalPostDCA,Global Post-DCA (FCV-aligned),Global Post-DCA,RawFCS,pearson,47,1.0,-0.3356401305152712,0.3356401305152712,0.021086869098905652,0.042173738197811304
+GlobalPostDCA_FCVAligned,GlobalPostDCA,Global Post-DCA (FCV-aligned),Global Post-DCA,RawFCS,spearman,47,1.0,-0.2593663274745606,0.2593663274745606,0.07832123829074387,0.13214979150555975
+GlobalPostDCA_TargetAreaEqualMean_FCVAligned,GlobalPostDCA_TargetAreaEqualMean,"Global Post-DCA
+(target-area equal) (FCV-aligned)","Global Post-DCA
+(target-area equal)",ZFCV,pearson,47,1.0,0.10498472855770777,0.10498472855770777,0.4824904493222201,0.6433205990962935
+GlobalPostDCA_TargetAreaEqualMean_FCVAligned,GlobalPostDCA_TargetAreaEqualMean,"Global Post-DCA
+(target-area equal) (FCV-aligned)","Global Post-DCA
+(target-area equal)",ZFCV,spearman,47,1.0,0.12014338575393155,0.12014338575393155,0.42116474468188636,0.647945761049056
+GlobalPostDCA_TargetAreaEqualMean_FCVAligned,GlobalPostDCA_TargetAreaEqualMean,"Global Post-DCA
+(target-area equal) (FCV-aligned)","Global Post-DCA
+(target-area equal)",RawFCV,pearson,47,1.0,0.11891289055827134,0.11891289055827134,0.4259714649391616,0.5679619532522154
+GlobalPostDCA_TargetAreaEqualMean_FCVAligned,GlobalPostDCA_TargetAreaEqualMean,"Global Post-DCA
+(target-area equal) (FCV-aligned)","Global Post-DCA
+(target-area equal)",RawFCV,spearman,47,1.0,0.13390379278445885,0.13390379278445885,0.36954337235995205,0.568528265169157
+GlobalPostDCA_TargetAreaEqualMean_FCVAligned,GlobalPostDCA_TargetAreaEqualMean,"Global Post-DCA
+(target-area equal) (FCV-aligned)","Global Post-DCA
+(target-area equal)",ZFCS,pearson,47,1.0,-0.05511079202031228,0.05511079202031228,0.712927984567105,0.7504505100706368
+GlobalPostDCA_TargetAreaEqualMean_FCVAligned,GlobalPostDCA_TargetAreaEqualMean,"Global Post-DCA
+(target-area equal) (FCV-aligned)","Global Post-DCA
+(target-area equal)",ZFCS,spearman,47,1.0,-0.04544403330249769,0.04544403330249769,0.7616490045130893,0.7616490045130893
+GlobalPostDCA_TargetAreaEqualMean_FCVAligned,GlobalPostDCA_TargetAreaEqualMean,"Global Post-DCA
+(target-area equal) (FCV-aligned)","Global Post-DCA
+(target-area equal)",RawFCS,pearson,47,1.0,-0.08259275950919792,0.08259275950919792,0.5809999434501796,0.6835293452355053
+GlobalPostDCA_TargetAreaEqualMean_FCVAligned,GlobalPostDCA_TargetAreaEqualMean,"Global Post-DCA
+(target-area equal) (FCV-aligned)","Global Post-DCA
+(target-area equal)",RawFCS,spearman,47,1.0,-0.06683626271970398,0.06683626271970398,0.6553317141705335,0.6553317141705335
+RegionMeanGlobalDCA_FCVAligned,RegionMeanGlobalDCA,Region mean global DCA (FCV-aligned),Region mean global DCA,ZFCV,pearson,47,-1.0,0.019791145605155273,0.019791145605155273,0.8949522347990126,0.9229765317156783
+RegionMeanGlobalDCA_FCVAligned,RegionMeanGlobalDCA,Region mean global DCA (FCV-aligned),Region mean global DCA,ZFCV,spearman,47,-1.0,-0.19010175763182238,0.19010175763182238,0.2005850902503146,0.6437254410483989
+RegionMeanGlobalDCA_FCVAligned,RegionMeanGlobalDCA,Region mean global DCA (FCV-aligned),Region mean global DCA,RawFCV,pearson,47,-1.0,0.027913669766624797,0.027913669766624797,0.8522490025169284,0.8943732498211141
+RegionMeanGlobalDCA_FCVAligned,RegionMeanGlobalDCA,Region mean global DCA (FCV-aligned),Region mean global DCA,RawFCV,spearman,47,-1.0,-0.18709528214616097,0.18709528214616097,0.2079305884459379,0.5513922804194888
+RegionMeanGlobalDCA_FCVAligned,RegionMeanGlobalDCA,Region mean global DCA (FCV-aligned),Region mean global DCA,ZFCS,pearson,47,-1.0,0.06653953404126438,0.06653953404126438,0.6567667902826555,0.7448237402825492
+RegionMeanGlobalDCA_FCVAligned,RegionMeanGlobalDCA,Region mean global DCA (FCV-aligned),Region mean global DCA,ZFCS,spearman,47,-1.0,0.11864014801110083,0.11864014801110083,0.4270410585841443,0.5338013232301804
+RegionMeanGlobalDCA_FCVAligned,RegionMeanGlobalDCA,Region mean global DCA (FCV-aligned),Region mean global DCA,RawFCS,pearson,47,-1.0,0.04936657652953329,0.04936657652953329,0.7417567702453566,0.78079660025827
+RegionMeanGlobalDCA_FCVAligned,RegionMeanGlobalDCA,Region mean global DCA (FCV-aligned),Region mean global DCA,RawFCS,spearman,47,-1.0,0.11343663274745605,0.11343663274745605,0.4477348833238092,0.5267469215574225
+GlobalPostCOut_FCVAligned,GlobalPostCOut,Target global c_out (FCV-aligned),Target global c_out,ZFCV,pearson,47,-1.0,0.3638410561352367,0.3638410561352367,0.011936215202274942,0.03978738400758314
+GlobalPostCOut_FCVAligned,GlobalPostCOut,Target global c_out (FCV-aligned),Target global c_out,ZFCV,spearman,47,-1.0,0.1837419056429232,0.1837419056429232,0.21634365154466764,0.6437254410483989
+GlobalPostCOut_FCVAligned,GlobalPostCOut,Target global c_out (FCV-aligned),Target global c_out,RawFCV,pearson,47,-1.0,0.36772644217572537,0.36772644217572537,0.01099333751277608,0.036644458375920265
+GlobalPostCOut_FCVAligned,GlobalPostCOut,Target global c_out (FCV-aligned),Target global c_out,RawFCV,spearman,47,-1.0,0.18709528214616097,0.18709528214616097,0.2079305884459379,0.5513922804194888
+GlobalPostCOut_FCVAligned,GlobalPostCOut,Target global c_out (FCV-aligned),Target global c_out,ZFCS,pearson,47,-1.0,-0.5331585395290432,0.5331585395290432,0.00011408797918973275,0.000456351916758931
+GlobalPostCOut_FCVAligned,GlobalPostCOut,Target global c_out (FCV-aligned),Target global c_out,ZFCS,spearman,47,-1.0,-0.4601063829787234,0.4601063829787234,0.0011379878298160234,0.005689939149080117
+GlobalPostCOut_FCVAligned,GlobalPostCOut,Target global c_out (FCV-aligned),Target global c_out,RawFCS,pearson,47,-1.0,-0.5121361323649353,0.5121361323649353,0.00023335737596335217,0.0007778579198778405
+GlobalPostCOut_FCVAligned,GlobalPostCOut,Target global c_out (FCV-aligned),Target global c_out,RawFCS,spearman,47,-1.0,-0.4459990749306198,0.4459990749306198,0.001677896422918232,0.00838948211459116
+GlobalPostCIn_FCVAligned,GlobalPostCIn,Target global c_in (FCV-aligned),Target global c_in,ZFCV,pearson,47,-1.0,0.3646311003993444,0.3646311003993444,0.011739075338685104,0.03978738400758314
+GlobalPostCIn_FCVAligned,GlobalPostCIn,Target global c_in (FCV-aligned),Target global c_in,ZFCV,spearman,47,-1.0,0.20455596669750237,0.20455596669750237,0.16782172771778145,0.6437254410483989
+GlobalPostCIn_FCVAligned,GlobalPostCIn,Target global c_in (FCV-aligned),Target global c_in,RawFCV,pearson,47,-1.0,0.38425100918023475,0.38425100918023475,0.007662589118769379,0.030650356475077516
+GlobalPostCIn_FCVAligned,GlobalPostCIn,Target global c_in (FCV-aligned),Target global c_in,RawFCV,spearman,47,-1.0,0.21970397779833487,0.21970397779833487,0.13784774108861597,0.5513922804194888
+GlobalPostCIn_FCVAligned,GlobalPostCIn,Target global c_in (FCV-aligned),Target global c_in,ZFCS,pearson,47,-1.0,-0.5396099840042069,0.5396099840042069,9.071870168915812e-05,0.0004535935084457906
+GlobalPostCIn_FCVAligned,GlobalPostCIn,Target global c_in (FCV-aligned),Target global c_in,ZFCS,spearman,47,-1.0,-0.4184782608695653,0.4184782608695653,0.003418738841319911,0.013674955365279646
+GlobalPostCIn_FCVAligned,GlobalPostCIn,Target global c_in (FCV-aligned),Target global c_in,RawFCS,pearson,47,-1.0,-0.5503137853836072,0.5503137853836072,6.137618407098571e-05,0.0004091745604732381
+GlobalPostCIn_FCVAligned,GlobalPostCIn,Target global c_in (FCV-aligned),Target global c_in,RawFCS,spearman,47,-1.0,-0.4226410730804811,0.4226410730804811,0.0030812846350625664,0.012325138540250266
+TargetDCAEnrichmentZ_FCVAligned,TargetDCAEnrichmentZ,Target-cell DCA enrichment (FCV-aligned),Target-cell DCA enrichment,ZFCV,pearson,47,1.0,0.10742087089633919,0.10742087089633919,0.47232984771738407,0.6433205990962935
+TargetDCAEnrichmentZ_FCVAligned,TargetDCAEnrichmentZ,Target-cell DCA enrichment (FCV-aligned),Target-cell DCA enrichment,ZFCV,spearman,47,1.0,0.12014338575393155,0.12014338575393155,0.42116474468188636,0.647945761049056
+TargetDCAEnrichmentZ_FCVAligned,TargetDCAEnrichmentZ,Target-cell DCA enrichment (FCV-aligned),Target-cell DCA enrichment,RawFCV,pearson,47,1.0,0.13396448172467007,0.13396448172467007,0.3693244820884236,0.5679619532522154
+TargetDCAEnrichmentZ_FCVAligned,TargetDCAEnrichmentZ,Target-cell DCA enrichment (FCV-aligned),Target-cell DCA enrichment,RawFCV,spearman,47,1.0,0.14465772432932472,0.14465772432932472,0.33197973883480936,0.5585231154432942
+TargetDCAEnrichmentZ_FCVAligned,TargetDCAEnrichmentZ,Target-cell DCA enrichment (FCV-aligned),Target-cell DCA enrichment,ZFCS,pearson,47,1.0,-0.2459605314293092,0.2459605314293092,0.09560877362030118,0.13658396231471598
+TargetDCAEnrichmentZ_FCVAligned,TargetDCAEnrichmentZ,Target-cell DCA enrichment (FCV-aligned),Target-cell DCA enrichment,ZFCS,spearman,47,1.0,-0.1332099907493062,0.1332099907493062,0.37205128132940724,0.4960683751058763
+TargetDCAEnrichmentZ_FCVAligned,TargetDCAEnrichmentZ,Target-cell DCA enrichment (FCV-aligned),Target-cell DCA enrichment,RawFCS,pearson,47,1.0,-0.28681276627989094,0.28681276627989094,0.05062746375312353,0.0778884057740362
+TargetDCAEnrichmentZ_FCVAligned,TargetDCAEnrichmentZ,Target-cell DCA enrichment (FCV-aligned),Target-cell DCA enrichment,RawFCS,spearman,47,1.0,-0.16732192414431085,0.16732192414431085,0.26094519556673085,0.3727788508096155
+MeanTargetLocalOutIn_FCVAligned,MeanTargetLocalOutIn,Target local out/in (FCV-aligned),Target local out/in,ZFCV,pearson,47,-1.0,0.13015133332769416,0.13015133332769416,0.38322853143344204,0.5895823560514493
+MeanTargetLocalOutIn_FCVAligned,MeanTargetLocalOutIn,Target local out/in (FCV-aligned),Target local out/in,ZFCV,spearman,47,-1.0,0.10672987974098058,0.10672987974098058,0.47520019115066636,0.6788574159295234
+MeanTargetLocalOutIn_FCVAligned,MeanTargetLocalOutIn,Target local out/in (FCV-aligned),Target local out/in,RawFCV,pearson,47,-1.0,0.12044150099411392,0.12044150099411392,0.4200048539018768,0.5679619532522154
+MeanTargetLocalOutIn_FCVAligned,MeanTargetLocalOutIn,Target local out/in (FCV-aligned),Target local out/in,RawFCV,spearman,47,-1.0,0.09216003700277521,0.09216003700277521,0.5378169867659577,0.7170893156879435
+MeanTargetLocalOutIn_FCVAligned,MeanTargetLocalOutIn,Target local out/in (FCV-aligned),Target local out/in,ZFCS,pearson,47,-1.0,-0.023568913208664888,0.023568913208664888,0.8750469537737794,0.8750469537737795
+MeanTargetLocalOutIn_FCVAligned,MeanTargetLocalOutIn,Target local out/in (FCV-aligned),Target local out/in,ZFCS,spearman,47,-1.0,0.10360777058279372,0.10360777058279372,0.48828378133960504,0.5744515074583588
+MeanTargetLocalOutIn_FCVAligned,MeanTargetLocalOutIn,Target local out/in (FCV-aligned),Target local out/in,RawFCS,pearson,47,-1.0,-0.00453509468355888,0.00453509468355888,0.9758645101354123,0.9758645101354123
+MeanTargetLocalOutIn_FCVAligned,MeanTargetLocalOutIn,Target local out/in (FCV-aligned),Target local out/in,RawFCS,spearman,47,-1.0,0.13031914893617022,0.13031914893617022,0.3826101803531493,0.47826272544143666
+MeanTargetLocal2StepPathCount_FCVAligned,MeanTargetLocal2StepPathCount,Target local 2-step paths (FCV-aligned),Target local 2-step paths,ZFCV,pearson,47,-1.0,0.0508555829108212,0.0508555829108212,0.7342482885466635,0.8158314317185149
+MeanTargetLocal2StepPathCount_FCVAligned,MeanTargetLocal2StepPathCount,Target local 2-step paths (FCV-aligned),Target local 2-step paths,ZFCV,spearman,47,-1.0,-0.06313598519888992,0.06313598519888992,0.6733138942486807,0.8416423678108509
+MeanTargetLocal2StepPathCount_FCVAligned,MeanTargetLocal2StepPathCount,Target local 2-step paths (FCV-aligned),Target local 2-step paths,RawFCV,pearson,47,-1.0,0.046113760699509745,0.046113760699509745,0.7582414511365866,0.8424905012628741
+MeanTargetLocal2StepPathCount_FCVAligned,MeanTargetLocal2StepPathCount,Target local 2-step paths (FCV-aligned),Target local 2-step paths,RawFCV,spearman,47,-1.0,-0.06487049028677151,0.06487049028677151,0.6648615095149137,0.8310768868936422
+MeanTargetLocal2StepPathCount_FCVAligned,MeanTargetLocal2StepPathCount,Target local 2-step paths (FCV-aligned),Target local 2-step paths,ZFCS,pearson,47,-1.0,-0.2252678440486051,0.2252678440486051,0.12790491111381494,0.1705398814850866
+MeanTargetLocal2StepPathCount_FCVAligned,MeanTargetLocal2StepPathCount,Target local 2-step paths (FCV-aligned),Target local 2-step paths,ZFCS,spearman,47,-1.0,-0.16732192414431085,0.16732192414431085,0.26094519556673085,0.3727788508096155
+MeanTargetLocal2StepPathCount_FCVAligned,MeanTargetLocal2StepPathCount,Target local 2-step paths (FCV-aligned),Target local 2-step paths,RawFCS,pearson,47,-1.0,-0.1920283847792321,0.1920283847792321,0.19597522470206247,0.26130029960275
+MeanTargetLocal2StepPathCount_FCVAligned,MeanTargetLocal2StepPathCount,Target local 2-step paths (FCV-aligned),Target local 2-step paths,RawFCS,spearman,47,-1.0,-0.13806660499537465,0.13806660499537465,0.35471015541203643,0.4729468738827152
+MeanTargetInterOutDegree_FCVAligned,MeanTargetInterOutDegree,Target inter out-degree (FCV-aligned),Target inter out-degree,ZFCV,pearson,47,-1.0,0.34350384391278416,0.34350384391278416,0.018080683359501908,0.047463482360175044
+MeanTargetInterOutDegree_FCVAligned,MeanTargetInterOutDegree,Target inter out-degree (FCV-aligned),Target inter out-degree,ZFCV,spearman,47,-1.0,0.13656336725254395,0.13656336725254395,0.3600241473976761,0.647945761049056
+MeanTargetInterOutDegree_FCVAligned,MeanTargetInterOutDegree,Target inter out-degree (FCV-aligned),Target inter out-degree,RawFCV,pearson,47,-1.0,0.35082277067519807,0.35082277067519807,0.015616725759532078,0.043658155277888425
+MeanTargetInterOutDegree_FCVAligned,MeanTargetInterOutDegree,Target inter out-degree (FCV-aligned),Target inter out-degree,RawFCV,spearman,47,-1.0,0.14373265494912119,0.14373265494912119,0.3351138692659765,0.5585231154432942
+MeanTargetInterOutDegree_FCVAligned,MeanTargetInterOutDegree,Target inter out-degree (FCV-aligned),Target inter out-degree,ZFCS,pearson,47,-1.0,-0.48020127332470264,0.48020127332470264,0.0006356289563266008,0.0018160827323617165
+MeanTargetInterOutDegree_FCVAligned,MeanTargetInterOutDegree,Target inter out-degree (FCV-aligned),Target inter out-degree,ZFCS,spearman,47,-1.0,-0.3812442183163738,0.3812442183163738,0.008193729347806591,0.02048432336951648
+MeanTargetInterOutDegree_FCVAligned,MeanTargetInterOutDegree,Target inter out-degree (FCV-aligned),Target inter out-degree,RawFCS,pearson,47,-1.0,-0.4712716251314114,0.4712716251314114,0.000826991178933553,0.0023628319398101517
+MeanTargetInterOutDegree_FCVAligned,MeanTargetInterOutDegree,Target inter out-degree (FCV-aligned),Target inter out-degree,RawFCS,spearman,47,-1.0,-0.37534690101757634,0.37534690101757634,0.009328449859145166,0.020729888575878146
+MeanTargetDownstreamRegionCount_FCVAligned,MeanTargetDownstreamRegionCount,Target downstream regions (FCV-aligned),Target downstream regions,ZFCV,pearson,47,-1.0,0.39061216418784583,0.39061216418784583,0.006636290604140599,0.033181453020702995
+MeanTargetDownstreamRegionCount_FCVAligned,MeanTargetDownstreamRegionCount,Target downstream regions (FCV-aligned),Target downstream regions,ZFCV,spearman,47,-1.0,0.1628122109158187,0.1628122109158187,0.2741989598476375,0.6437254410483989
+MeanTargetDownstreamRegionCount_FCVAligned,MeanTargetDownstreamRegionCount,Target downstream regions (FCV-aligned),Target downstream regions,RawFCV,pearson,47,-1.0,0.4001679469326009,0.4001679469326009,0.005319156791869942,0.026595783959349712
+MeanTargetDownstreamRegionCount_FCVAligned,MeanTargetDownstreamRegionCount,Target downstream regions (FCV-aligned),Target downstream regions,RawFCV,spearman,47,-1.0,0.17611008325624425,0.17611008325624425,0.23636519026475472,0.5513922804194888
+MeanTargetDownstreamRegionCount_FCVAligned,MeanTargetDownstreamRegionCount,Target downstream regions (FCV-aligned),Target downstream regions,ZFCS,pearson,47,-1.0,-0.5221306535888008,0.5221306535888008,0.0001670333054485448,0.0005567776848284826
+MeanTargetDownstreamRegionCount_FCVAligned,MeanTargetDownstreamRegionCount,Target downstream regions (FCV-aligned),Target downstream regions,ZFCS,spearman,47,-1.0,-0.3929232192414431,0.3929232192414431,0.006294189307360024,0.02048432336951648
+MeanTargetDownstreamRegionCount_FCVAligned,MeanTargetDownstreamRegionCount,Target downstream regions (FCV-aligned),Target downstream regions,RawFCS,pearson,47,-1.0,-0.5200801779235626,0.5200801779235626,0.00017904588176699196,0.0007161835270679678
+MeanTargetDownstreamRegionCount_FCVAligned,MeanTargetDownstreamRegionCount,Target downstream regions (FCV-aligned),Target downstream regions,RawFCS,spearman,47,-1.0,-0.3943108233117484,0.3943108233117484,0.006096239338721908,0.017417826682062595
+AreaDCA_FCVAligned,AreaDCA,Area-level DCA (FCV-aligned),Area-level DCA,ZFCV,pearson,47,-1.0,0.014492478376181166,0.014492478376181166,0.9229765317156783,0.9229765317156783
+AreaDCA_FCVAligned,AreaDCA,Area-level DCA (FCV-aligned),Area-level DCA,ZFCV,spearman,47,-1.0,-0.006244218316373728,0.006244218316373728,0.9667730478729228,0.966773047872923
+AreaDCA_FCVAligned,AreaDCA,Area-level DCA (FCV-aligned),Area-level DCA,RawFCV,pearson,47,-1.0,0.019900846935537956,0.019900846935537956,0.8943732498211141,0.8943732498211141
+AreaDCA_FCVAligned,AreaDCA,Area-level DCA (FCV-aligned),Area-level DCA,RawFCV,spearman,47,-1.0,-0.004856614246068455,0.004856614246068455,0.9741539624274385,0.9741539624274385
+AreaDCA_FCVAligned,AreaDCA,Area-level DCA (FCV-aligned),Area-level DCA,ZFCS,pearson,47,-1.0,0.06374502852832026,0.06374502852832026,0.6703413662542943,0.7448237402825492
+AreaDCA_FCVAligned,AreaDCA,Area-level DCA (FCV-aligned),Area-level DCA,ZFCS,spearman,47,-1.0,-0.08845975948196115,0.08845975948196115,0.554332594653234,0.5835079943718252
+AreaDCA_FCVAligned,AreaDCA,Area-level DCA (FCV-aligned),Area-level DCA,RawFCS,pearson,47,-1.0,0.055750005702396827,0.055750005702396827,0.7097434485422899,0.78079660025827
+AreaDCA_FCVAligned,AreaDCA,Area-level DCA (FCV-aligned),Area-level DCA,RawFCS,spearman,47,-1.0,-0.09747918593894543,0.09747918593894543,0.5145021374860006,0.5693635647348356
+AreaLogOutInStrength_FCVAligned,AreaLogOutInStrength,Area out/in strength (FCV-aligned),Area out/in strength,ZFCV,pearson,47,-1.0,0.26648470447306166,0.26648470447306166,0.07019822211790426,0.14039644423580852
+AreaLogOutInStrength_FCVAligned,AreaLogOutInStrength,Area out/in strength (FCV-aligned),Area out/in strength,ZFCV,spearman,47,-1.0,0.19923681776133212,0.19923681776133212,0.17939373034722622,0.6437254410483989
+AreaLogOutInStrength_FCVAligned,AreaLogOutInStrength,Area out/in strength (FCV-aligned),Area out/in strength,RawFCV,pearson,47,-1.0,0.2699804571991676,0.2699804571991676,0.06646147021954288,0.13292294043908576
+AreaLogOutInStrength_FCVAligned,AreaLogOutInStrength,Area out/in strength (FCV-aligned),Area out/in strength,RawFCV,spearman,47,-1.0,0.19287696577243296,0.19287696577243296,0.19396879564941305,0.5513922804194888
+AreaLogOutInStrength_FCVAligned,AreaLogOutInStrength,Area out/in strength (FCV-aligned),Area out/in strength,ZFCS,pearson,47,-1.0,-0.2767544929243095,0.2767544929243095,0.05967185699031648,0.09180285690817919
+AreaLogOutInStrength_FCVAligned,AreaLogOutInStrength,Area out/in strength (FCV-aligned),Area out/in strength,ZFCS,spearman,47,-1.0,-0.2417900092506938,0.2417900092506938,0.10154906916734,0.15622933718052306
+AreaLogOutInStrength_FCVAligned,AreaLogOutInStrength,Area out/in strength (FCV-aligned),Area out/in strength,RawFCS,pearson,47,-1.0,-0.2779999735973666,0.2779999735973666,0.05848626195007901,0.08355180278582716
+AreaLogOutInStrength_FCVAligned,AreaLogOutInStrength,Area out/in strength (FCV-aligned),Area out/in strength,RawFCS,spearman,47,-1.0,-0.2332331174838113,0.2332331174838113,0.11462166241740983,0.17634101910370742
+AreaReach2_FCVAligned,AreaReach2,Area 2-step reach (FCV-aligned),Area 2-step reach,ZFCV,pearson,47,-1.0,0.3410279070166967,0.3410279070166967,0.018985392944070017,0.047463482360175044
+AreaReach2_FCVAligned,AreaReach2,Area 2-step reach (FCV-aligned),Area 2-step reach,ZFCV,spearman,47,-1.0,0.03773158924521706,0.03773158924521706,0.8011965379330315,0.8902183754811461
+AreaReach2_FCVAligned,AreaReach2,Area 2-step reach (FCV-aligned),Area 2-step reach,RawFCV,pearson,47,-1.0,0.34525442889355484,0.34525442889355484,0.01746326211115537,0.043658155277888425
+AreaReach2_FCVAligned,AreaReach2,Area 2-step reach (FCV-aligned),Area 2-step reach,RawFCV,spearman,47,-1.0,0.04341161343266909,0.04341161343266909,0.7720170217523994,0.9082553197087052
+AreaReach2_FCVAligned,AreaReach2,Area 2-step reach (FCV-aligned),Area 2-step reach,ZFCS,pearson,47,-1.0,-0.5409917327031757,0.5409917327031757,8.632024742372196e-05,0.0004535935084457906
+AreaReach2_FCVAligned,AreaReach2,Area 2-step reach (FCV-aligned),Area 2-step reach,ZFCS,spearman,47,-1.0,-0.5069711384453358,0.5069711384453358,0.00027626555142223907,0.0024870600359030233
+AreaReach2_FCVAligned,AreaReach2,Area 2-step reach (FCV-aligned),Area 2-step reach,RawFCS,pearson,47,-1.0,-0.5236240543476792,0.5236240543476792,0.00015875033315802687,0.0007161835270679678
+AreaReach2_FCVAligned,AreaReach2,Area 2-step reach (FCV-aligned),Area 2-step reach,RawFCS,spearman,47,-1.0,-0.5070870573063042,0.5070870573063042,0.0002752290714547556,0.0027522907145475562
+LogNRegionNeurons_FCVAligned,LogNRegionNeurons,Region neuron count (FCV-aligned),Region neuron count,ZFCV,pearson,47,-1.0,0.05813707282946058,0.05813707282946058,0.697894810472936,0.8158314317185149
+LogNRegionNeurons_FCVAligned,LogNRegionNeurons,Region neuron count (FCV-aligned),Region neuron count,ZFCV,spearman,47,-1.0,-0.038274745605920445,0.038274745605920445,0.7983939237112971,0.8902183754811461
+LogNRegionNeurons_FCVAligned,LogNRegionNeurons,Region neuron count (FCV-aligned),Region neuron count,RawFCV,pearson,47,-1.0,0.06379756199798983,0.06379756199798983,0.6700852013818874,0.7883355310375146
+LogNRegionNeurons_FCVAligned,LogNRegionNeurons,Region neuron count (FCV-aligned),Region neuron count,RawFCV,spearman,47,-1.0,-0.02382053654024052,0.02382053654024052,0.8737237071138848,0.9197091653830366
+LogNRegionNeurons_FCVAligned,LogNRegionNeurons,Region neuron count (FCV-aligned),Region neuron count,ZFCS,pearson,47,-1.0,-0.34022553888592744,0.34022553888592744,0.019286660960519834,0.03857332192103967
+LogNRegionNeurons_FCVAligned,LogNRegionNeurons,Region neuron count (FCV-aligned),Region neuron count,ZFCS,spearman,47,-1.0,-0.28850601295097134,0.28850601295097134,0.0492202253393395,0.0894913187987991
+LogNRegionNeurons_FCVAligned,LogNRegionNeurons,Region neuron count (FCV-aligned),Region neuron count,RawFCS,pearson,47,-1.0,-0.30745022186179055,0.30745022186179055,0.03553303706433026,0.05922172844055043
+LogNRegionNeurons_FCVAligned,LogNRegionNeurons,Region neuron count (FCV-aligned),Region neuron count,RawFCS,spearman,47,-1.0,-0.2585568917668825,0.2585568917668825,0.07928987490333585,0.13214979150555975
+LogIntraEdges_FCVAligned,LogIntraEdges,Intra-area edges (FCV-aligned),Intra-area edges,ZFCV,pearson,47,-1.0,0.21329391339309917,0.21329391339309917,0.15000354461625706,0.2586674647497767
+LogIntraEdges_FCVAligned,LogIntraEdges,Intra-area edges (FCV-aligned),Intra-area edges,ZFCV,spearman,47,-1.0,0.14269195189639222,0.14269195189639222,0.33866169979692995,0.647945761049056
+LogIntraEdges_FCVAligned,LogIntraEdges,Intra-area edges (FCV-aligned),Intra-area edges,RawFCV,pearson,47,-1.0,0.22675753390184672,0.22675753390184672,0.12533657917954127,0.2088942986325688
+LogIntraEdges_FCVAligned,LogIntraEdges,Intra-area edges (FCV-aligned),Intra-area edges,RawFCV,spearman,47,-1.0,0.16038390379278447,0.16038390379278447,0.28151646675094577,0.5585231154432942
+LogIntraEdges_FCVAligned,LogIntraEdges,Intra-area edges (FCV-aligned),Intra-area edges,ZFCS,pearson,47,-1.0,-0.4443013172676603,0.4443013172676603,0.0017562278623990625,0.0039027285831090275
+LogIntraEdges_FCVAligned,LogIntraEdges,Intra-area edges (FCV-aligned),Intra-area edges,ZFCS,spearman,47,-1.0,-0.3286308973172988,0.3286308973172988,0.024110786873358405,0.04822157374671681
+LogIntraEdges_FCVAligned,LogIntraEdges,Intra-area edges (FCV-aligned),Intra-area edges,RawFCS,pearson,47,-1.0,-0.4195625480514791,0.4195625480514791,0.003327851927262211,0.007395226505027136
+LogIntraEdges_FCVAligned,LogIntraEdges,Intra-area edges (FCV-aligned),Intra-area edges,RawFCS,spearman,47,-1.0,-0.3016882516188714,0.3016882516188714,0.039315701711985195,0.07863140342397039
+LogInterOutEdges_FCVAligned,LogInterOutEdges,Inter-area out edges (FCV-aligned),Inter-area out edges,ZFCV,pearson,47,-1.0,0.5080132908320916,0.5080132908320916,0.00026707279244367804,0.0026707279244367805
+LogInterOutEdges_FCVAligned,LogInterOutEdges,Inter-area out edges (FCV-aligned),Inter-area out edges,ZFCV,spearman,47,-1.0,0.19380203515263647,0.19380203515263647,0.1917981604425368,0.6437254410483989
+LogInterOutEdges_FCVAligned,LogInterOutEdges,Inter-area out edges (FCV-aligned),Inter-area out edges,RawFCV,pearson,47,-1.0,0.516074330306268,0.516074330306268,0.0002048032037234569,0.002048032037234569
+LogInterOutEdges_FCVAligned,LogInterOutEdges,Inter-area out edges (FCV-aligned),Inter-area out edges,RawFCV,spearman,47,-1.0,0.2021276595744681,0.2021276595744681,0.17303551406689852,0.5513922804194888
+LogInterOutEdges_FCVAligned,LogInterOutEdges,Inter-area out edges (FCV-aligned),Inter-area out edges,ZFCS,pearson,47,-1.0,-0.7078875008838215,0.7078875008838215,2.626595058611536e-08,5.253190117223071e-07
+LogInterOutEdges_FCVAligned,LogInterOutEdges,Inter-area out edges (FCV-aligned),Inter-area out edges,ZFCS,spearman,47,-1.0,-0.5590888066604995,0.5590888066604995,4.410642730109168e-05,0.0008821285460218336
+LogInterOutEdges_FCVAligned,LogInterOutEdges,Inter-area out edges (FCV-aligned),Inter-area out edges,RawFCS,pearson,47,-1.0,-0.688408255267557,0.688408255267557,8.897469120147498e-08,1.7794938240294997e-06
+LogInterOutEdges_FCVAligned,LogInterOutEdges,Inter-area out edges (FCV-aligned),Inter-area out edges,RawFCS,spearman,47,-1.0,-0.5442876965772433,0.5442876965772433,7.660278636341396e-05,0.001532055727268279
+LogInterInEdges_FCVAligned,LogInterInEdges,Inter-area in edges (FCV-aligned),Inter-area in edges,ZFCV,pearson,47,-1.0,0.4202150085942015,0.4202150085942015,0.00327419183581937,0.021827945572129134
+LogInterInEdges_FCVAligned,LogInterInEdges,Inter-area in edges (FCV-aligned),Inter-area in edges,ZFCV,spearman,47,-1.0,0.1599213691026827,0.1599213691026827,0.2829246566531275,0.6437254410483989
+LogInterInEdges_FCVAligned,LogInterInEdges,Inter-area in edges (FCV-aligned),Inter-area in edges,RawFCV,pearson,47,-1.0,0.4273963368955339,0.4273963368955339,0.0027320011536911947,0.018213341024607966
+LogInterInEdges_FCVAligned,LogInterInEdges,Inter-area in edges (FCV-aligned),Inter-area in edges,RawFCV,spearman,47,-1.0,0.17356614246068455,0.17356614246068455,0.2433116227694611,0.5513922804194888
+LogInterInEdges_FCVAligned,LogInterInEdges,Inter-area in edges (FCV-aligned),Inter-area in edges,ZFCS,pearson,47,-1.0,-0.651815888540628,0.651815888540628,6.948449874688693e-07,6.948449874688693e-06
+LogInterInEdges_FCVAligned,LogInterInEdges,Inter-area in edges (FCV-aligned),Inter-area in edges,ZFCS,spearman,47,-1.0,-0.4975716928769658,0.4975716928769658,0.0003730590053854535,0.0024870600359030233
+LogInterInEdges_FCVAligned,LogInterInEdges,Inter-area in edges (FCV-aligned),Inter-area in edges,RawFCS,pearson,47,-1.0,-0.6276706148017731,0.6276706148017731,2.333762366969238e-06,2.3337623669692378e-05
+LogInterInEdges_FCVAligned,LogInterInEdges,Inter-area in edges (FCV-aligned),Inter-area in edges,RawFCS,spearman,47,-1.0,-0.47548566142460685,0.47548566142460685,0.0007310508752185966,0.004873672501457311

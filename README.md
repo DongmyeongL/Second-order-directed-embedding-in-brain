@@ -13,6 +13,7 @@ The pack includes figure-ready processed inputs only. It does not include the fu
 - Processed data used by the scripts: `data/`
 - Key statistics and figure tables: `data/final_summary_tables/` and `stats_tables/`
 - Manuscript/SI notes and figure documentation: `docs/`
+- Sensitivity/control provenance: `docs/sensitivity_and_control_provenance.md`
 - Package inventory: `MANIFEST.md`
 
 Most users only need `outputs/` to inspect the finished figures. Users who want to reproduce or modify figures should start from the tables below and run the corresponding script from this folder.
@@ -136,6 +137,12 @@ Some scripts also use image or plotting utilities such as `Pillow` through Matpl
 ## Data Scope
 
 This pack is designed for figure reproduction, not full raw-data reanalysis. Included data are processed summaries, figure-specific matrices, cached model outputs, and compact network/trace inputs required by the scripts. Full source datasets should be cited and obtained from the original publications or public repositories described in the manuscript.
+
+## Statistics And Sensitivity Tables
+
+Caption-level global statistics for the zebrafish FC and SC division panels are stored in `data/final_summary_tables/figure9_global_stats.csv` and `data/final_summary_tables/figure12_global_stats.csv`; pairwise Holm-corrected tests are stored in `figure9_stats.csv` and `figure12_stats.csv`.
+
+Additional provenance for threshold sensitivity, SC-based FCV prediction residual controls, and sliding-window FCV sensitivity is summarized in `docs/sensitivity_and_control_provenance.md`. The associated scripts and tables are included under `code/` and `data/final_summary_tables/`.
 
 ## Notes For Editing
 

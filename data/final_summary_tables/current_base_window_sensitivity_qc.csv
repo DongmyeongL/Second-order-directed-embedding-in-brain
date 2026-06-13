@@ -1,0 +1,76 @@
+species,window_config,recording_id,window,step,n_nodes,n_windows
+C. elegans,short,2023-01-05-01,10,4,68,199
+C. elegans,short,2023-01-05-18,10,4,69,199
+C. elegans,short,2023-01-06-01,10,4,65,199
+C. elegans,short,2023-01-06-08,10,4,71,199
+C. elegans,short,2023-01-06-15,10,4,62,199
+C. elegans,short,2023-01-09-08,10,4,42,199
+C. elegans,short,2023-01-09-15,10,4,83,199
+C. elegans,short,2023-01-09-22,10,4,81,199
+C. elegans,short,2023-01-10-07,10,4,82,199
+C. elegans,short,2023-01-10-14,10,4,75,199
+C. elegans,short,2023-01-13-07,10,4,66,199
+C. elegans,short,2023-01-16-01,10,4,67,199
+C. elegans,short,2023-01-16-08,10,4,71,199
+C. elegans,short,2023-01-16-15,10,4,70,199
+C. elegans,short,2023-01-16-22,10,4,73,199
+C. elegans,short,2023-01-17-07,10,4,68,199
+C. elegans,short,2023-01-17-14,10,4,87,199
+C. elegans,short,2023-01-18-01,10,4,70,199
+Zebrafish,short,subject_12,10,3,115,211
+Zebrafish,short,subject_13,10,3,133,397
+Zebrafish,short,subject_14,10,3,133,164
+Zebrafish,short,subject_15,10,3,99,197
+Zebrafish,short,subject_16,10,3,120,170
+Zebrafish,short,subject_17,10,3,123,264
+Zebrafish,short,subject_18,10,3,110,331
+C. elegans,current,2023-01-05-01,20,8,68,98
+C. elegans,current,2023-01-05-18,20,8,69,98
+C. elegans,current,2023-01-06-01,20,8,65,98
+C. elegans,current,2023-01-06-08,20,8,71,98
+C. elegans,current,2023-01-06-15,20,8,62,98
+C. elegans,current,2023-01-09-08,20,8,42,98
+C. elegans,current,2023-01-09-15,20,8,83,98
+C. elegans,current,2023-01-09-22,20,8,81,98
+C. elegans,current,2023-01-10-07,20,8,82,98
+C. elegans,current,2023-01-10-14,20,8,75,98
+C. elegans,current,2023-01-13-07,20,8,66,98
+C. elegans,current,2023-01-16-01,20,8,67,98
+C. elegans,current,2023-01-16-08,20,8,71,98
+C. elegans,current,2023-01-16-15,20,8,70,98
+C. elegans,current,2023-01-16-22,20,8,73,98
+C. elegans,current,2023-01-17-07,20,8,68,98
+C. elegans,current,2023-01-17-14,20,8,87,98
+C. elegans,current,2023-01-18-01,20,8,70,98
+Zebrafish,current,subject_12,20,5,115,125
+Zebrafish,current,subject_13,20,5,133,237
+Zebrafish,current,subject_14,20,5,133,97
+Zebrafish,current,subject_15,20,5,99,117
+Zebrafish,current,subject_16,20,5,120,100
+Zebrafish,current,subject_17,20,5,123,157
+Zebrafish,current,subject_18,20,5,110,197
+C. elegans,long,2023-01-05-01,40,16,68,48
+C. elegans,long,2023-01-05-18,40,16,69,48
+C. elegans,long,2023-01-06-01,40,16,65,48
+C. elegans,long,2023-01-06-08,40,16,71,48
+C. elegans,long,2023-01-06-15,40,16,62,48
+C. elegans,long,2023-01-09-08,40,16,42,48
+C. elegans,long,2023-01-09-15,40,16,83,48
+C. elegans,long,2023-01-09-22,40,16,81,48
+C. elegans,long,2023-01-10-07,40,16,82,48
+C. elegans,long,2023-01-10-14,40,16,75,48
+C. elegans,long,2023-01-13-07,40,16,66,48
+C. elegans,long,2023-01-16-01,40,16,67,48
+C. elegans,long,2023-01-16-08,40,16,71,48
+C. elegans,long,2023-01-16-15,40,16,70,48
+C. elegans,long,2023-01-16-22,40,16,73,48
+C. elegans,long,2023-01-17-07,40,16,68,48
+C. elegans,long,2023-01-17-14,40,16,87,48
+C. elegans,long,2023-01-18-01,40,16,70,48
+Zebrafish,long,subject_12,40,10,115,61
+Zebrafish,long,subject_13,40,10,133,117
+Zebrafish,long,subject_14,40,10,133,47
+Zebrafish,long,subject_15,40,10,99,57
+Zebrafish,long,subject_16,40,10,120,48
+Zebrafish,long,subject_17,40,10,123,77
+Zebrafish,long,subject_18,40,10,110,97
