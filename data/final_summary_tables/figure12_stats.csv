@@ -17,12 +17,12 @@ figure12,Modularity Q,Mann-Whitney U,two-sided,Tel,Hind,55,182,1.177586955303717
 figure12,Modularity Q,Mann-Whitney U,two-sided,Di,Mes,56,35,1.298841757034428e-05,3.896525271103284e-05,True
 figure12,Modularity Q,Mann-Whitney U,two-sided,Di,Hind,56,182,1.7012216196052892e-12,6.804886478421157e-12,True
 figure12,Modularity Q,Mann-Whitney U,two-sided,Mes,Hind,35,182,4.4147404850352634e-16,2.2073702425176316e-15,True
-figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Tel,Di,79,82,0.003941289930613226,0.01970644965306613,True
-figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Tel,Mes,79,42,0.09194440547370468,0.3677776218948187,False
-figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Tel,Hind,79,247,0.00250574238721467,0.01503445432328802,True
-figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Di,Mes,82,42,0.10675992644247011,0.3677776218948187,False
-figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Di,Hind,82,247,0.5434136633712409,0.5989558811033717,False
-figure12,$\log_{10}(\mathrm{out/in})$,Mann-Whitney U,two-sided,Mes,Hind,42,247,0.29947794055168586,0.5989558811033717,False
+figure12,$\log(\mathrm{out/in})$,Mann-Whitney U,two-sided,Tel,Di,79,82,0.003941289930613226,0.01970644965306613,True
+figure12,$\log(\mathrm{out/in})$,Mann-Whitney U,two-sided,Tel,Mes,79,42,0.09194440547370468,0.3677776218948187,False
+figure12,$\log(\mathrm{out/in})$,Mann-Whitney U,two-sided,Tel,Hind,79,247,0.00250574238721467,0.01503445432328802,True
+figure12,$\log(\mathrm{out/in})$,Mann-Whitney U,two-sided,Di,Mes,82,42,0.10675992644247011,0.3677776218948187,False
+figure12,$\log(\mathrm{out/in})$,Mann-Whitney U,two-sided,Di,Hind,82,247,0.5434136633712409,0.5989558811033717,False
+figure12,$\log(\mathrm{out/in})$,Mann-Whitney U,two-sided,Mes,Hind,42,247,0.29947794055168586,0.5989558811033717,False
 figure12,OO fraction,Mann-Whitney U,two-sided,Tel,Di,46,53,0.002584554077918602,0.005169108155837204,True
 figure12,OO fraction,Mann-Whitney U,two-sided,Tel,Mes,46,19,2.331777384178013e-07,1.1658886920890064e-06,True
 figure12,OO fraction,Mann-Whitney U,two-sided,Tel,Hind,46,174,2.524032928790166e-13,1.5144197572740995e-12,True

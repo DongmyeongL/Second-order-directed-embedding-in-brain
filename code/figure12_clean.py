@@ -99,7 +99,7 @@ def _load_panel_a_feature_matrix():
         (r"$\mathbf{DCA}_{\mathbf{post}}$", "PostDCA"),
         (r"$\mathbf{DCA}_{\mathbf{pre}}$", "PreDCA"),
         ("Modularity\nQ", "Modularity"),
-        ("log10\n(Out/In)", "LogOutIn"),
+        ("log\n(Out/In)", "LogOutIn"),
         ("OO\nfraction", "OO_fraction"),
     ]
     summary = (
@@ -676,7 +676,7 @@ def main():
     ax_c.yaxis.set_major_formatter(FormatStrFormatter("%.2f"))
     _boxplot_panel(ax_d, bottom_panel_data["Pre-DCA"], r"$\mathrm{DCA}_{\mathrm{pre}}$", ylim=(-0.050, 0.025))
     _boxplot_panel(ax_e, bottom_panel_data["Modularity Q"], "Modularity Q")
-    _boxplot_panel(ax_f, bottom_panel_data["log10(Out/In)"], r"$\log_{10}(\mathrm{out/in})$", ylim=(-3.5, 5.0))
+    _boxplot_panel(ax_f, bottom_panel_data["log10(Out/In)"], r"$\log(\mathrm{out/in})$", ylim=(-3.5, 5.0))
     _boxplot_panel(ax_g, bottom_panel_data["OO-fraction"], "OO fraction")
 
 
