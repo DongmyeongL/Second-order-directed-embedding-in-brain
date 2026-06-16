@@ -16,7 +16,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from statsmodels.stats.multitest import multipletests
 from scipy.stats import mannwhitneyu, rankdata
-from scipy.cluster.hierarchy import dendrogram, linkage
+from scipy.cluster.hierarchy import dendrogram, fcluster, linkage
 from matplotlib.gridspec import GridSpec
 import matplotlib.patches as mpatches
 import matplotlib.patheffects as pe
@@ -84,6 +84,75 @@ STATS_ROWS = []
 def _zscore(values):
     values = np.asarray(values, dtype=float)
     return (values - np.nanmean(values)) / np.nanstd(values)
+
+def _reorder_linkage_tel_left_hind_right(z_linkage, divisions):
+    """Flip dendrogram branches while preserving clustering topology.
+
+    Branches enriched for Tel are placed left when possible, and branches
+    enriched for Hind are placed right. This does not force division blocks;
+    it only chooses the left/right orientation of existing dendrogram branches.
+    """
+    reordered = np.array(z_linkage, copy=True)
+    n_leaves = len(divisions)
+    divisions = np.asarray(divisions).astype(str)
+    stats_by_id = {}
+    display_rank = {"Tel": 0.0, "Di": 1.0, "Mes": 2.0, "Hind": 5.0}
+    for idx, div in enumerate(divisions):
+        stats_by_id[idx] = {
+            "n": 1,
+            "tel": int(div == "Tel"),
+            "hind": int(div == "Hind"),
+            "rank_sum": float(display_rank.get(div, max(display_rank.values()) + 1.0)),
+        }
+
+    def _score(stats):
+        n = max(int(stats["n"]), 1)
+        mean_rank = stats["rank_sum"] / n
+        # Smaller scores are placed to the left. Mean division rank encourages
+        # the left-to-right progression Tel -> Di -> Mes -> Hind, so Mes-rich
+        # branches tend to stay between forebrain and hindbrain clusters while
+        # preserving the original Ward clustering topology.
+        hind_minus_tel = (stats["hind"] - stats["tel"]) / n
+        return (mean_rank, hind_minus_tel)
+
+    for row_idx, row in enumerate(reordered):
+        left = int(row[0])
+        right = int(row[1])
+        parent = n_leaves + row_idx
+
+        left_stats = stats_by_id[left]
+        right_stats = stats_by_id[right]
+        if _score(right_stats) < _score(left_stats):
+            reordered[row_idx, 0], reordered[row_idx, 1] = reordered[row_idx, 1], reordered[row_idx, 0]
+            left, right = right, left
+            left_stats, right_stats = right_stats, left_stats
+
+        stats_by_id[parent] = {
+            "n": left_stats["n"] + right_stats["n"],
+            "tel": left_stats["tel"] + right_stats["tel"],
+            "hind": left_stats["hind"] + right_stats["hind"],
+            "rank_sum": left_stats["rank_sum"] + right_stats["rank_sum"],
+        }
+
+    return reordered
+
+def _move_last_cluster_run_to_middle(z_linkage, leaf_order, n_clusters=3):
+    """Cut leaves into contiguous cluster runs and move the last run to middle."""
+    leaf_order = np.asarray(leaf_order, dtype=int)
+    cluster_labels = fcluster(z_linkage, t=n_clusters, criterion="maxclust")
+    runs = []
+    start = 0
+    current_label = cluster_labels[leaf_order[0]]
+    for pos, leaf_idx in enumerate(leaf_order[1:], start=1):
+        label = cluster_labels[leaf_idx]
+        if label != current_label:
+            runs.append(leaf_order[start:pos])
+            start = pos
+            current_label = label
+    runs.append(leaf_order[start:])
+    if len(runs) != n_clusters:
+        return leaf_order
+    return np.concatenate([runs[0], runs[-1], *runs[1:-1]])
 
 def _load_subject_causality(subject_id):
     return np.load(f"{BASE_NET}/subject_{subject_id}/subject_{subject_id}_causality.npz")
@@ -209,9 +278,49 @@ fig1_zf_rec = fig1_zf_rec.sort_values(
     ["_group_order", "anatomy_group", "recording_id", "node"]
 ).reset_index(drop=True)
 
-# The final node-summary table collapses OB to a single node. Keep that
-# convention for Panel A, but add rOB back for Panel B where all other root
-# areas are displayed with left/right labels.
+def _add_panel_a_missing_root_nodes(summary_df, recording_df, nodes):
+    """Add root nodes missing from the final summary, filling absent measures by division mean."""
+    rows = []
+    existing = set(summary_df["node"].astype(str))
+    for node in nodes:
+        if node in existing:
+            continue
+        node_division = _zebrafish_anatomy_group(node)
+        node_rec = recording_df.loc[recording_df["node"].astype(str).eq(node)]
+        division_summary = summary_df.loc[summary_df["anatomy_group"].astype(str).eq(node_division)]
+
+        row = {col: np.nan for col in summary_df.columns}
+        row.update({
+            "species": "Zebrafish",
+            "node": node,
+            "anatomy_group": node_division,
+            "level": "root_area_from_louvain_communities",
+        })
+        if "n_recordings" in row:
+            row["n_recordings"] = int(node_rec["recording_id"].nunique()) if not node_rec.empty else 0
+
+        for col in _measure_cols:
+            value = float(node_rec[col].mean()) if (not node_rec.empty and col in node_rec) else np.nan
+            if not np.isfinite(value):
+                value = float(division_summary[col].mean()) if col in division_summary else np.nan
+            row[col] = value
+        rows.append(row)
+
+    if not rows:
+        return summary_df
+
+    out = pd.concat([summary_df, pd.DataFrame(rows)], ignore_index=True)
+    out["_group_order"] = out["anatomy_group"].map(
+        {group: idx for idx, group in enumerate(ZF_GROUP_ORDER)}
+    ).fillna(len(ZF_GROUP_ORDER)).astype(int)
+    return out.sort_values(["_group_order", "anatomy_group", "node"]).reset_index(drop=True)
+
+# The final node-summary table collapses OB to a single node. For Panel A and
+# Panel B, restore rOB from the recording-level table where available; measures
+# missing for rOB, such as TE summaries, are filled with the corresponding
+# division mean so the node can be displayed without dropping complete rows.
+fig1_zf = _add_panel_a_missing_root_nodes(fig1_zf, fig1_zf_rec, ["rOB"])
+
 fig1_zf_panel_b = fig1_zf.copy()
 _panel_summary_missing_nodes = ["rOB"]
 _panel_summary_rows = []
@@ -260,11 +369,17 @@ div_color_map = {
 }
 
 # ── 클러스터링: out_data.T = (n_regions × 5 features) ──
+# Panel A preserves Ward clustering of the measured FC features, but flips
+# dendrogram branches so clusters enriched for Tel tend to appear on the left
+# and Hind-enriched clusters on the right when this is possible within the
+# existing hierarchy.
 Z = linkage(out_data.T, method='ward')
+Z = _reorder_linkage_tel_left_hind_right(Z, divs_d)
 
 # 덴드로그램 leaf 순서 추출
 dend_info  = dendrogram(Z, no_plot=True)
 leaf_order = np.array(dend_info['leaves'])
+leaf_order = _move_last_cluster_run_to_middle(Z, leaf_order, n_clusters=3)
 
 # 클러스터링 순서로 데이터 재정렬
 out_data_c = out_data[:, leaf_order]
@@ -475,7 +590,7 @@ for tick_label, div in zip(ax_heat.get_xticklabels(), divs_c):
 for y in np.arange(-0.5, len(y_labels), 1):
     ax_heat.axhline(y=y, color='white', linewidth=0.4)
 
-_highlight_regions = {"P", "rP", "SP", "rSP"}
+_highlight_regions = {"P", "rP", "SP", "rSP","OB","rOB"}
 _highlight_idx = [i for i, name in enumerate(regions_c) if str(name) in _highlight_regions]
 if _highlight_idx:
     _x0 = min(_highlight_idx) - 0.5
@@ -549,10 +664,22 @@ net_nodes = (
     .sort_values(["anatomy_group", "node"])
     .reset_index(drop=True)
 )
+if "rOB" not in set(net_nodes["node"].astype(str)):
+    rob_rec = fig1_zf_rec.loc[fig1_zf_rec["node"].astype(str).eq("rOB")]
+    if not rob_rec.empty:
+        rob_row = {
+            "node": "rOB",
+            "anatomy_group": "Tel",
+            "EdgeStdFCV": float(rob_rec["EdgeStdFCV"].mean()),
+            "ObservedNetTE": float(net_nodes.loc[net_nodes["anatomy_group"].eq("Tel"), "ObservedNetTE"].mean()),
+        }
+        net_nodes = pd.concat([net_nodes, pd.DataFrame([rob_row])], ignore_index=True)
+        net_nodes = net_nodes.sort_values(["anatomy_group", "node"]).reset_index(drop=True)
 node_names = net_nodes["node"].to_numpy()
 node_groups = net_nodes["anatomy_group"].to_numpy()
 node_to_pos = {name: idx for idx, name in enumerate(node_names)}
 n_nodes_b = len(node_names)
+PANEL_B_NODE_ROWS = net_nodes.copy()
 
 te_sum_b = np.zeros((n_nodes_b, n_nodes_b), dtype=float)
 te_cnt_b = np.zeros((n_nodes_b, n_nodes_b), dtype=int)
@@ -735,6 +862,10 @@ os.makedirs(STATS_DIR, exist_ok=True)
 pd.DataFrame(STATS_ROWS).to_csv(STATS_CSV, index=False)
 pd.DataFrame(PANEL_B_EDGE_ROWS).to_csv(
     os.path.join(STATS_DIR, "figure9_panel_b_root_area_fc_te_edges.csv"),
+    index=False,
+)
+PANEL_B_NODE_ROWS.to_csv(
+    os.path.join(STATS_DIR, "figure9_panel_b_root_area_nodes.csv"),
     index=False,
 )
 print(f"Saved {STATS_CSV}")

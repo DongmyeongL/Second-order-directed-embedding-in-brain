@@ -493,6 +493,14 @@ def _load_figure9_region_order():
     for node in fig9_summary["display_node"].astype(str):
         if node in regions:
             selected.append(regions.index(node))
+    if "rOB" in regions:
+        rob_idx = regions.index("rOB")
+        if rob_idx not in selected:
+            try:
+                ob_pos = selected.index(regions.index("OB")) + 1
+            except ValueError:
+                ob_pos = sum(brain_division_list[idx] == 2 for idx in selected)
+            selected.insert(ob_pos, rob_idx)
     return selected
 
 

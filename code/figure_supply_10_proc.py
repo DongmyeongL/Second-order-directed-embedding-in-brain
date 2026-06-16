@@ -149,7 +149,7 @@ def ordered_lists_to_region_lists(region_order, ordered_lists):
         arr = arr[np.isfinite(arr)]
         if len(arr) > 0:
             region_lists[int(region_idx)] = arr.tolist()
-            selected.append(int(region_idx))
+        selected.append(int(region_idx))
     return region_lists, selected
 
 
@@ -184,10 +184,8 @@ def draw_region_bar_main(ax, region_lists, selected_regions):
     for idx in selected_regions:
         arr = np.asarray(region_lists[idx], dtype=float)
         arr = arr[np.isfinite(arr)]
-        if arr.size == 0:
-            continue
-        means.append(float(np.mean(arr)))
-        sems.append(float(np.std(arr, ddof=1) / np.sqrt(arr.size)) if arr.size > 1 else 0.0)
+        means.append(float(np.mean(arr)) if arr.size else np.nan)
+        sems.append(float(np.std(arr, ddof=1) / np.sqrt(arr.size)) if arr.size > 1 else np.nan)
         ordered_names.append(display_region_name(fs.region[idx]))
         ordered_divisions.append(int(fs.brain_division_list[idx]))
 
@@ -258,6 +256,15 @@ fig9_summary = (
 )
 regions_for_heatmap = fig9_summary["display_node"].to_numpy()
 region_order = fig9_summary["region_index"].astype(int).tolist()
+if "rOB" in fs.region:
+    rob_idx = fs.region.index("rOB")
+    if rob_idx not in region_order:
+        try:
+            ob_pos = region_order.index(node_to_region_index("OB")) + 1
+        except ValueError:
+            ob_pos = sum(zebrafish_division(display_region_name(fs.region[idx])) == "Tel" for idx in region_order)
+        region_order.insert(ob_pos, rob_idx)
+        regions_for_heatmap = np.insert(regions_for_heatmap, ob_pos, "rOB")
 
 def metric_lists_from_recording_table(value_col):
     table_path = first_existing_path(

@@ -75,6 +75,19 @@ def _load_latest_zebrafish_sc_values():
     out = sc.merge(oo[oo_cols].drop_duplicates(merge_cols), on=merge_cols, how="left")
     out = out.replace([np.inf, -np.inf], np.nan)
     out["Division"] = out["node"].map(_zebrafish_division)
+    feature_cols = ["PostDCA", "PreDCA", "Modularity", "LogOutIn", "OO_fraction"]
+    rob_mask = out["node"].astype(str).eq("rOB")
+    for col in feature_cols:
+        if col not in out.columns:
+            continue
+        missing_mask = rob_mask & out[col].isna()
+        if not missing_mask.any():
+            continue
+        tel_values = out.loc[out["Division"].eq("Tel") & ~rob_mask, col].dropna()
+        if tel_values.empty:
+            tel_values = out.loc[out["Division"].eq("Tel"), col].dropna()
+        fill_value = float(tel_values.mean()) if not tel_values.empty else float(out[col].dropna().mean())
+        out.loc[missing_mask, col] = fill_value
     return out
 
 
