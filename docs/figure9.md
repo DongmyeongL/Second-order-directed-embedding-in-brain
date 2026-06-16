@@ -1,21 +1,18 @@
-# Figure 9
+# Figure 9 / Main Fig. 1
 
 ## Purpose
 
-Figure 9 summarizes regional functional dynamics and directed interaction
-features across anatomical divisions.  In this packaged version, the previous
-coherence-time readout is replaced by regionwise metastability.
+This figure summarizes regional functional dynamics and directed interaction
+features across zebrafish anatomical divisions. Panel A shows five regional FC
+features, Panel B shows the region-level directed TE network, and Panels C-G
+show division-level summaries.
 
 ## Input Data
 
-- `data/fig1_prism_D_FCS_FCV_bar.csv`: region-level spontaneous FCS, FCV, and
-  their SEM values.
-- `data/fig2_prism_A_FCS.csv`: division-formatted FCS values used for the FCS
-  boxplot.
-- `data/fig2_prism_B_FCV.csv`: division-formatted FCV values used for the FCV
-  boxplot.
-- `data/fc_dynamics_metastability_by_subject_region.csv`: precomputed
-  subject-by-region metastability table.
+- `data/final_summary_tables/figure1_dynamic_fc_fingerprint_overview_values.csv`:
+  compact regional FC/TE feature summary used for Panel A.
+- `data/source_inputs/ncomms_tables/highpass_ce_zf_plot_measures_recording_node.csv`:
+  recording-level FC feature table used to restore `rOB` where available.
 - `data/region_community_io/subject_*/subject_*_causality.npz`: subject-level
   transfer-entropy matrices and region order.
 - `data/region_community_io/subject_*/subject_*_net_te_drive_fc_neighbors.npz`:
@@ -23,44 +20,43 @@ coherence-time readout is replaced by regionwise metastability.
 
 ## Calculation
 
-The script first assigns each region to `Tel`, `Di`, `Mes`, or `Hind` from the
-region-name prefix.  FCS and FCV are read directly from
-`fig1_prism_D_FCS_FCV_bar.csv` and z-scored across regions.
+The script assigns each region to `Tel`, `Di`, `Mes`, or `Hind`, aligns the
+regional features, z-scores each feature across regions, and clusters Panel A
+using Ward linkage on the five measured features. The display order is derived
+from the dendrogram leaves, with a three-cluster display adjustment used for the
+Panel A heatmap order. `rOB` is restored from the recording-level FC table; TE
+features missing for `rOB` are filled by the corresponding telencephalic
+division mean so that the node can be displayed in the main figure.
 
-Metastability is read from
-`fc_dynamics_metastability_by_subject_region.csv`.  The script averages
-`RegionwiseMetastability` across subjects for each region, aligns the result to
-the FCS/FCV region order, and z-scores the regional mean.
-
-Net TE is computed from each subject causality file as the mean outgoing net
-transfer entropy for each region.  Subject-level values are mapped back to the
-shared region list, averaged across subjects, and z-scored.  Neighbor Net TE is
-loaded from the precomputed `fc_neighbor_mean_drive` arrays, aligned in the same
-way, averaged across subjects, and z-scored.
+Net TE is computed from each subject causality file as the mean outgoing net TE
+for each region. Neighbor Net TE is loaded from the precomputed
+`fc_neighbor_mean_drive` arrays and aligned in the same way.
 
 Panel A displays the aligned regional matrix:
 
-- FCS
 - FCV
-- Metastability
+- FCS
+- FC partner reconfiguration
 - Net TE
 - Neighbor Net TE
 
-Panels C-G show division-level boxplots for FCS, FCV, metastability, Net TE,
-and Neighbor Net TE.  Pairwise division comparisons use two-sided
+Panels C-G show division-level boxplots for FCV, FCS, FC partner
+reconfiguration, Net TE, and Neighbor Net TE. Pairwise division comparisons use two-sided
 Mann-Whitney U tests followed by Holm correction.  Panel B uses the same
 regional feature set to show the hierarchical organization/ordering used in
 the figure.
 
 ## Output
 
-- `output/png/figure9_final.png`
-- `output/pdf/figure9_final.pdf`
-- `output/stats/figure9_stats.csv`: pairwise division Mann-Whitney U tests
+- `figures/figure9_final.png`
+- `outputs/figure9_final.png`
+- `data/final_summary_tables/figure9_stats.csv`: pairwise division Mann-Whitney U tests
   with uncorrected and Holm-corrected p values for panels C-G.
+- `data/final_summary_tables/figure9_panel_b_root_area_nodes.csv`: Panel B
+  node table, including the displayed `rOB` node.
 
-Run from `paper_project/`:
+Run from the root of `final_figure_pack/`:
 
 ```bash
-python3.10 figures/figure9_clean.py
+python3.10 code/figure9_clean.py
 ```

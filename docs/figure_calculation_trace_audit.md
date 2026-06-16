@@ -318,7 +318,10 @@ Main inputs:
 
 Audit status:
 
-- Figure, code, and SI reference are aligned.
+- Figure, code, and SI reference are aligned. `rOB` is included in the displayed
+  region order after `OB`; structural metrics are shown where available, while
+  absent values such as the `rOB` OO fraction remain blank rather than being
+  imputed.
 
 ### Fig. S3: `figure_supply_10_proc.png`
 
@@ -338,7 +341,9 @@ Main inputs:
 
 Audit status:
 
-- Figure, code, and SI reference are aligned.
+- Figure, code, and SI reference are aligned. `rOB` is included in the displayed
+  region order after `OB`; FCV/FCS/FC-partner values are shown where available,
+  while missing TE and neighbor-TE values remain blank.
 
 ### Fig. S4: `figure_supply_13.png`
 

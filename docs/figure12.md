@@ -1,48 +1,44 @@
-# Figure 12
+# Figure 12 / Main Fig. 2
 
 ## Purpose
 
-Figure 12 summarizes structural-connectivity organization.  It combines a
-region-level SC feature heatmap, representative network diagrams, and
-division-level graph/DCA summaries.
+This figure summarizes zebrafish directed structural-connectivity organization.
+It combines a region-level SC feature heatmap, a directed region-level SC
+network, representative pair diagrams, and division-level structural summaries.
 
 ## Input Data
 
-- `data/sc_original_per_area_network_metrics.pkl`: per-region samples for
-  clustering coefficient, modularity Q, and global efficiency.
-- `data/total_selected_region_dac_data.npz`: raw pre-DCA and post-DCA arrays by
-  region.
-- `data/fig1_prism_D_FCS_FCV_bar.csv`: reference region list for alignment.
-- `data/fig4_prism_C_degree_FCV.csv`: degree-related feature matched to the
-  FCV table.
-- `data/fig3_prism_A_PostDCA.csv`: division-formatted post-DCA values.
-- `data/fig3_prism_B_PreDCA.csv`: division-formatted pre-DCA values.
-- `data/temp_*_network_diagram.png`: representative diagrams for panel B.
-- `data/network_*_network_diagarm.png`: representative pair diagrams for the
-  lower network panel.
+- `data/final_summary_tables/sc_four_measures_vs_fcv_all_species_values.csv`:
+  zebrafish DCA, modularity, and log out/in values.
+- `data/final_summary_tables/oo_fraction_recomputed_values_by_species.csv`:
+  zebrafish output-output motif fraction values.
+- `data/zebrafish_heatmap_matched_region_sc_network_data.npz`: cached
+  region-level directed SC network used for Panel B.
+- `data/total_selected_region_dac_data.npz`: region-level DCA axis used for
+  Panel B node placement.
+- `data/network_*_network_diagarm.png`: representative pair diagrams used for
+  Panel C.
 
 ## Calculation
 
-Panel A is produced by `figure_supply_sc_heatmap.py`.  For each region, the
-script builds a structural feature vector containing clustering, modularity Q,
-global efficiency, post-DCA, pre-DCA, and log10 out/in-degree.  Values that are
-stored as repeated samples are averaged within region.  Each feature row is
-z-scored across regions, missing values are filled by the feature mean, and the
-regional columns are ordered by hierarchical clustering with Ward linkage.  The
-display keeps telencephalic regions grouped first when reordering the linkage.
+Panel A builds a structural feature vector for each region containing
+post-DCA, pre-DCA, modularity Q, log out/in ratio, and OO fraction. Values are
+averaged within region, each feature row is z-scored across regions, and
+columns are ordered by Ward linkage. `rOB` is retained where SC values are
+available; its missing OO fraction is filled only for this main figure by the
+telencephalic division mean so that the node can be displayed with complete
+Panel A features.
 
-Panel B shows pre-rendered representative network diagrams.  The image files
-are copied into `data/` so the figure can be redrawn without the original
-network-generation scripts.  The lower diagrams are annotated with the paired
-area names in the order shown in the panel.
+Panel B shows the cached directed SC network arranged by anatomical division
+and post-DCA axis. Panel C shows representative local network diagrams.
 
-Panels C-G summarize division-level structural values:
+Panels D-H summarize division-level structural values:
 
-- C: clustering coefficient
-- D: modularity Q
-- E: global efficiency
-- F: post-DCA
-- G: pre-DCA
+- D: post-DCA
+- E: pre-DCA
+- F: modularity Q
+- G: log out/in ratio
+- H: OO fraction
 
 Division labels are `Tel`, `Di`, `Mes`, and `Hind`.  Pairwise comparisons use
 two-sided Mann-Whitney U tests with Holm correction.  These panels are
@@ -51,13 +47,13 @@ of the original graph construction.
 
 ## Output
 
-- `output/png/figure12_final.png`
-- `output/pdf/figure12_final.pdf`
-- `output/stats/figure12_stats.csv`: pairwise division Mann-Whitney U tests
-  with uncorrected and Holm-corrected p values for panels C-G.
+- `figures/figure12_final.png`
+- `outputs/figure12_final.png`
+- `data/final_summary_tables/figure12_stats.csv`: pairwise division Mann-Whitney U tests
+  with uncorrected and Holm-corrected p values for panels D-H.
 
-Run from `paper_project/`:
+Run from the root of `final_figure_pack/`:
 
 ```bash
-python3.10 figures/figure12_clean.py
+python3.10 code/figure12_clean.py
 ```
