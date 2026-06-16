@@ -43,7 +43,6 @@ FIG.mkdir(parents=True, exist_ok=True)
 
 ZSCORE_FCV = TAB / "highpass_ce_zf_plot_measures_recording_zscore_node_summary.csv"
 RECORDING_FCV = TAB / "highpass_ce_zf_plot_measures_recording_node.csv"
-DCA_VALUES = TAB / "prepost_dca_signed_plus_minus_edge_fcv_node_values.csv"
 TARGET_SUMMARY = TAB / "edge_target_dca_distribution_summary_by_unit.csv"
 TARGET_SAMPLE = TAB / "edge_target_dca_distribution_sample_by_unit.csv"
 PRE_SUMMARY = TAB / "pre_edge_source_dca_distribution_summary_by_unit.csv"
@@ -60,7 +59,7 @@ OUT_CORR = TAB / "sc_four_measures_vs_fcv_all_species_correlations.csv"
 ZF_SUBJECT_POSTDCA = ROOT / "data" / "source_inputs" / "external_processed" / "fcv_postdca_raw_recompute" / "out_data" / "zebrafish" / "post_dca_rank1" / "zebrafish_rank1_subject_region_post_dca.csv"
 ZF_SUBJECT_MOD = TAB / "region_subsc_modularity_subject_values.csv"
 ZF_SUBJECT_LOG = TAB / "zebrafish_subject_region_clustering_inter_out_in_ratio.csv"
-OO_II_VALUES = TAB / "oo_ii_fraction_recomputed_values_by_species.csv"
+OO_II_VALUES = TAB / "oo_fraction_recomputed_values_by_species.csv"
 
 SPECIES = ["C. elegans", "Drosophila", "Zebrafish"]
 SPECIES_COLORS = {
@@ -181,37 +180,24 @@ def load_values() -> pd.DataFrame:
     dca_units = dca_units[dca_units["species"].isin(SPECIES)]
     fcv = fcv.merge(dca_units, on=["species", "node"], how="inner")
 
+    bundled_features = pd.read_csv(OO_II_VALUES).replace([np.inf, -np.inf], np.nan)
+    bundled_features = bundled_features[
+        (
+            bundled_features["species"].isin(["C. elegans", "Drosophila"])
+            & bundled_features["oo_level"].isin(["neuron", "side-aware region"])
+        )
+        | (bundled_features["species"].eq("Zebrafish") & bundled_features["oo_level"].eq("region mean"))
+    ].drop_duplicates(["species", "node"])
+
     post = pd.read_csv(TARGET_SUMMARY)[["species", "node", "PostDCA"]].drop_duplicates(["species", "node"])
-    pre = pd.read_csv(DCA_VALUES)[["species", "node", "PreDCA"]].drop_duplicates(["species", "node"])
+    pre = bundled_features[["species", "node", "PreDCA"]].drop_duplicates(["species", "node"])
     dca = post.merge(pre, on=["species", "node"], how="left")
 
-    mod = pd.read_csv(SUBSC_MOD)[["species", "node", "subsc_modularity_q"]].rename(
-        columns={"subsc_modularity_q": "Modularity"}
-    )
-    mod["modularity_definition"] = "within-region cell-level induced sub-SC modularity Q"
-    mod = pd.concat([ce_ego_modularity(), mod], ignore_index=True)
-
-    ce_log = pd.read_csv(CE_LOG)[["species", "node", "out_in_log_ratio"]].rename(
-        columns={"out_in_log_ratio": "LogOutIn"}
-    )
-    fly_log = pd.read_csv(FLY_LOG)[["node", "inter_out_in_log_ratio"]].rename(
-        columns={"inter_out_in_log_ratio": "LogOutIn"}
-    )
-    fly_log.insert(0, "species", "Drosophila")
-    zf_log = pd.read_csv(ZF_LOG)[["node", "inter_out_in_log_ratio"]].rename(
-        columns={"inter_out_in_log_ratio": "LogOutIn"}
-    )
-    zf_log.insert(0, "species", "Zebrafish")
-    logout = pd.concat([ce_log, fly_log, zf_log], ignore_index=True).drop_duplicates(["species", "node"])
-
-    oo = pd.read_csv(OO_II_VALUES).replace([np.inf, -np.inf], np.nan)
-    oo_region = oo[
-        (
-            oo["species"].isin(["C. elegans", "Drosophila"])
-            & oo["oo_level"].isin(["neuron", "side-aware region"])
-        )
-        | (oo["species"].eq("Zebrafish") & oo["oo_level"].eq("region mean"))
-    ][["species", "node", "OO_fraction"]].drop_duplicates(["species", "node"])
+    mod = bundled_features[
+        ["species", "node", "Modularity", "modularity_definition", "modularity_edges", "modularity_n_modules"]
+    ].drop_duplicates(["species", "node"])
+    logout = bundled_features[["species", "node", "LogOutIn"]].drop_duplicates(["species", "node"])
+    oo_region = bundled_features[["species", "node", "OO_fraction"]].drop_duplicates(["species", "node"])
 
     values = fcv.merge(dca, on=["species", "node"], how="left")
     values = values.merge(mod, on=["species", "node"], how="left")
