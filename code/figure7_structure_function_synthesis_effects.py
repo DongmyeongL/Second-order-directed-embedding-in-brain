@@ -30,7 +30,6 @@ BUILD_TAB.mkdir(parents=True, exist_ok=True)
 
 FCV_TABLE = TAB / "figure7_recording_functional_group_points.csv"
 FCV_RECORDING_NODE_TABLE = TAB / "highpass_ce_zf_plot_measures_recording_node.csv"
-FCV_NODE_GROUP_TABLE = TAB / "figure7_comparative_fcv_fine_class_node_map.csv"
 POST_TABLE = TAB / "figure7_postdca_functional_group_node_values.csv"
 PRE_TABLE = TAB / "figure7_predca_functional_group_node_values.csv"
 ZEBRAFISH_SUBJECT_DCA_TABLE = (

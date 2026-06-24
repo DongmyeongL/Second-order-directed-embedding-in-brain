@@ -59,6 +59,7 @@ def zscore(values):
 
 
 def load_heatmap_table():
+    os.makedirs(os.path.dirname(OUT_CSV), exist_ok=True)
     df = pd.read_csv(IN_CSV)
     df = df[df["StimulusIndex"].isin(STIM_KEEP)].copy()
     if "SubjectZFCV" in df.columns:
@@ -154,6 +155,9 @@ def attach_bar_to_heatmap(ax_bar, ax_heat, gap=0.006, height=0.026):
 
 
 def make_figure():
+    os.makedirs(os.path.dirname(OUT_PNG), exist_ok=True)
+    os.makedirs(os.path.dirname(FIG_PNG), exist_ok=True)
+    os.makedirs(os.path.dirname(SUPP_PNG), exist_ok=True)
     matrix, stim_values, region_meta = load_heatmap_table()
     regions = region_meta["Region"].tolist()
     divisions = region_meta["Division"].astype(str).tolist()

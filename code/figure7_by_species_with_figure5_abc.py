@@ -51,8 +51,10 @@ OUT_GROUP = BUILD_TAB / "figure7_by_species_with_figure5_abc_group_signature.csv
 OUT_GROUP_PERM = BUILD_TAB / "figure7_by_species_with_figure5_abc_group_permutation_tests.csv"
 NODE_GROUP_TABLE = (
     ROOT
-    / "stats_tables"
-    / "figure7_comparative_fcv_fine_class_node_map.csv"
+    / "data"
+    / "source_inputs"
+    / "ncomms_tables"
+    / "figure7_postdca_functional_group_node_values.csv"
 )
 ZEBRAFISH_LEGACY_FCV_DCA_TABLE = (
     ROOT
