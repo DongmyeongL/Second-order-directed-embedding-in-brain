@@ -30,6 +30,10 @@ The main cross-species FC and SC summaries are stored as CSV files in
 | `final_summary_tables/figure7_by_species_with_figure5_abc_group_signature.csv` | Functional-group mean signatures used in manuscript Fig. 6. |
 | `final_summary_tables/figure7_by_species_with_figure5_abc_group_permutation_tests.csv` | Functional-group enrichment statistics used in manuscript Fig. 6. |
 
+For a figure-by-figure index of statistics and plotted-value tables, see
+`statistics_by_figure/README.md`. The machine-readable version is
+`statistics_by_figure/statistics_index.csv`.
+
 ## Figure-Specific Inputs
 
 | Figure output | Main code | Primary data inputs |
@@ -59,6 +63,7 @@ The main cross-species FC and SC summaries are stored as CSV files in
 | Folder or file | Purpose |
 |---|---|
 | `final_summary_tables/` | Core figure-ready statistics, measure tables, correlations, model outputs, and group summaries. |
+| `statistics_by_figure/` | Human-readable and machine-readable index of which statistics tables correspond to each manuscript figure. |
 | `source_inputs/` | Processed upstream tables copied from the analysis workspace when final figure scripts require them directly. |
 | `region_community_io/` | Zebrafish subject-level community and transfer-entropy arrays. |
 | `figure13/`, `figure5_simulation/`, `figure6_NULL_P_SP/` | Cached simulation and null-model outputs for manuscript Fig. 4 and related supplementary figures. |
