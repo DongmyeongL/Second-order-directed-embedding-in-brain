@@ -1,5 +1,0 @@
-threshold,threshold_value,n_regions_sc,n_regions_fcv_overlap,n_binary_edges
-all,0.0,72,47,2237
-p50,513.5714285714286,72,47,1118
-p75,3282.1428571428573,72,47,559
-p90,10803.514285714286,72,47,224

@@ -1,3 +1,3 @@
 figure,panel,test,metric,r,p_value,n_regions,r2_cv
-figure_sc_fc_final_overview,B,Pearson correlation,PLS LV1 FC score vs SC score,0.6852007934941557,2.0762420795388143e-07,45,
-figure_sc_fc_final_overview,E,5-fold cross-validated linear regression,Observed FCV vs predicted FCV,0.44076037455037576,0.002442944388736485,45,0.13431842274683248
+figure_sc_fc_final_overview,B,Pearson correlation,PLS LV1 FC score vs SC score,0.6852007934941559,2.0762420795388143e-07,45,
+figure_sc_fc_final_overview,E,5-fold cross-validated linear regression,Observed FCV vs predicted FCV,0.44076037455037564,0.002442944388736485,45,0.13431842274683237

@@ -11,9 +11,7 @@ The pack includes figure-ready processed inputs only. It does not include the fu
 - Figure-generation scripts: `code/`
 - One-command rerun scripts: `scripts/`
 - Processed data used by the scripts: `data/`
-- Key statistics and figure tables: `data/final_summary_tables/` and `stats_tables/`
-- Manuscript/SI notes and figure documentation: `docs/`
-- Sensitivity/control provenance: `docs/sensitivity_and_control_provenance.md`
+- Key statistics and figure tables: `data/final_summary_tables/`
 - Package inventory: `MANIFEST.md`
 
 Most users only need `outputs/` to inspect the finished figures. Users who want to reproduce or modify figures should start from the tables below and run the corresponding script from this folder.
@@ -23,19 +21,15 @@ Most users only need `outputs/` to inspect the finished figures. Users who want 
 | Folder | Contents |
 |---|---|
 | `code/` | Python scripts for all included main and supplementary figures, plus shared style/helper modules. |
-| `configs/` | YAML configuration files used by selected figure scripts. |
 | `data/` | Bundled processed inputs required to redraw figures. |
 | `data/final_summary_tables/` | Main statistical summaries, correlations, model outputs, and panel-level values. |
-| `figures/` | Complete working figure set after `scripts/sync_outputs.sh` is run. Main scripts write here directly; supplementary figures that are first written to `output/` are staged here by the sync script. |
-| `output/` | Intermediate working output folder used by selected supplementary scripts before synchronization. |
+| `figures/` | Working figure output folder used by plotting scripts. |
 | `outputs/` | Clean final PNG collection copied from `figures/` for easy viewing, manuscript editing, or upload. Use this folder to inspect all final figures. |
 | `scripts/` | Convenience shell scripts for rerunning all figures and syncing final outputs. |
-| `stats_tables/` | A compact mirror of selected statistics tables. |
-| `docs/` | Caption/manuscript notes, SI notes, and figure-specific documentation. |
 | `MANIFEST.md` | Short inventory of included outputs and exclusions. |
 | `requirements.txt` | Python packages used by the figure scripts. |
 
-Additional folder-specific guides are available at `code/README.md`, `data/README.md`, `outputs/README.md`, and `docs/README.md`.
+Additional folder-specific guides are available at `code/README.md`, `data/README.md`, and `outputs/README.md`.
 
 ## Main Figure Map
 
@@ -45,8 +39,8 @@ Additional folder-specific guides are available at `code/README.md`, `data/READM
 | Fig. 2 | Zebrafish directed structural-connectivity organization | `outputs/figure12_final.png` | `code/figure12_clean.py` |
 | Fig. 3 | SC-FC coupling, PLS, and FCV prediction | `outputs/figure_sc_fc_final_overview.png` | `code/figure_sc_fc_final_overview.py` |
 | Fig. 4 | Directed asymmetry simulations and perturbation models | `outputs/figure13_final.png` | `code/figure13_clean.py` |
-| Fig. 5 | C. elegans and Drosophila cross-species analyses | `outputs/figure14_15_celegans_drosophila_AFHI_combined.png` | `code/figure14_15_celegans_drosophila_AFHI_combined.py` |
-| Fig. 6 | Functional-group synthesis across species | `outputs/figure7_by_species_with_figure5_abc.png` | `code/figure7_by_species_with_figure5_abc.py` |
+| Fig. 5 | C. elegans and Drosophila anatomical-class analyses | `outputs/figure7_14_combined_group_panels_AB.png` | `code/figure7_14_combined_group_panels_AB.py` |
+| Fig. 6 | Functional-group synthesis across species | `outputs/figure7_14_combined_group_panels_CDE.png` | `code/figure7_14_combined_group_panels_CDE.py` |
 
 Only PNG versions are retained in this pack.
 
@@ -91,8 +85,8 @@ python3.10 code/figure9_clean.py
 python3.10 code/figure12_clean.py
 python3.10 code/figure_sc_fc_final_overview.py
 python3.10 code/figure13_clean.py
-python3.10 code/figure14_15_celegans_drosophila_AFHI_combined.py
-python3.10 code/figure7_by_species_with_figure5_abc.py
+python3.10 code/figure7_14_combined_group_panels_AB.py
+python3.10 code/figure7_14_combined_group_panels_CDE.py
 
 python3.10 code/figure_supply_0.py
 python3.10 code/figure_supply_1.py
@@ -104,7 +98,7 @@ python3.10 code/figure_supply_14.py
 python3.10 code/figure_supply_15.py
 ```
 
-Regenerated files are written by the individual scripts to their working output locations: mostly `figures/` for main figures, and either `figures/` or `output/` for supplementary figures. Running `scripts/sync_outputs.sh` first stages all supplementary PNG outputs into `figures/`, then copies the clean final PNG set into `outputs/`. Any generated PDF files are removed by the sync script.
+Regenerated files are written by the individual scripts to their working output locations: mostly `figures/` for main figures, and either `figures/` or a temporary `output/` folder for supplementary figures. Running `scripts/sync_outputs.sh` stages all supplementary PNG outputs into `figures/`, then copies the clean final PNG set into `outputs/`. Any generated PDF files are removed by the sync script.
 
 The same sequence can be run with:
 
@@ -138,11 +132,11 @@ Some scripts also use image or plotting utilities such as `Pillow` through Matpl
 
 This pack is designed for figure reproduction, not full raw-data reanalysis. Included data are processed summaries, figure-specific matrices, cached model outputs, and compact network/trace inputs required by the scripts. Full source datasets should be cited and obtained from the original publications or public repositories described in the manuscript.
 
-## Statistics And Sensitivity Tables
+## Statistics Tables
 
-Caption-level global statistics for the zebrafish FC and SC division panels are stored in `data/final_summary_tables/figure9_global_stats.csv` and `data/final_summary_tables/figure12_global_stats.csv`; pairwise Holm-corrected tests are stored in `figure9_stats.csv` and `figure12_stats.csv`.
+Panel-level statistics generated by the final figure scripts are stored in `data/final_summary_tables/`. Examples include `figure9_stats.csv`, `figure12_stats.csv`, `figure13_stats.csv`, `figure_sc_fc_final_overview_stats.csv`, and the functional-group synthesis tables used by manuscript Fig. 6.
 
-Additional provenance for threshold sensitivity, SC-based FCV prediction residual controls, and sliding-window FCV sensitivity is summarized in `docs/sensitivity_and_control_provenance.md`. The associated scripts and tables are included under `code/` and `data/final_summary_tables/`.
+Only the files needed to redraw the manuscript main and supplementary figures are retained. Broader audit notes and exploratory outputs were removed from this compact figure pack.
 
 ## Notes For Editing
 

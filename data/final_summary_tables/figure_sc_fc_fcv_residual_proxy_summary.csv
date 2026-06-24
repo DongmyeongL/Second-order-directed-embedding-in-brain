@@ -1,4 +1,0 @@
-ProxyGroup,Proxy,N,AbsResidual_r,AbsResidual_p,SqResidual_r,SqResidual_p,Note
-Animal-level variability proxy,FCV_SEM,45,0.13164055590264084,0.38869748370645185,0.17014459874984283,0.2638157022017823,
-Imaging/signal variance proxy,Ca_trace_variance_SEM,45,-0.08454008532049155,0.5808500136965253,-0.07473439262685283,0.6256141529597199,SEM across subjects of each region mean calcium trace temporal variance.
-Neuron count proxy,Log10_mean_neuron_count,45,-0.12893623393032147,0.39860076430823344,-0.28098277713423564,0.06152374338288132,Log10 mean number of neurons assigned to each anatomical region across subjects.

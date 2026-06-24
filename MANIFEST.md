@@ -13,7 +13,6 @@ Standalone figure reproduction package for the manuscript main and supplementary
 - `code/`: plotting scripts.
 - `scripts/run_all_figures.sh`: rerun all included figure scripts.
 - `scripts/sync_outputs.sh`: copy regenerated outputs into `outputs/`.
-- `docs/sensitivity_and_control_provenance.md`: SI sensitivity/control provenance and table index.
 
 ## Included Main Figure Outputs
 
@@ -21,8 +20,8 @@ Standalone figure reproduction package for the manuscript main and supplementary
 - `outputs/figure12_final.png`
 - `outputs/figure_sc_fc_final_overview.png`
 - `outputs/figure13_final.png`
-- `outputs/figure14_15_celegans_drosophila_AFHI_combined.png`
-- `outputs/figure7_by_species_with_figure5_abc.png`
+- `outputs/figure7_14_combined_group_panels_AB.png`
+- `outputs/figure7_14_combined_group_panels_CDE.png`
 
 ## Included Supplementary Figure Outputs
 
@@ -43,18 +42,6 @@ Standalone figure reproduction package for the manuscript main and supplementary
 - PDF figure outputs.
 - Python bytecode/cache files.
 
-## Added Provenance Tables
+## Data Scope
 
-- `data/final_summary_tables/figure9_global_stats.csv`
-- `data/final_summary_tables/figure12_global_stats.csv`
-- `data/final_summary_tables/zebrafish_region_sc_threshold_dca_fcv_correlations.csv`
-- `data/final_summary_tables/zebrafish_region_sc_threshold_summary.csv`
-- `data/final_summary_tables/zebrafish_global_sc_post_dca_region_mean_47_correlations.csv`
-- `data/final_summary_tables/zebrafish_all_candidate_predictors_fcv_correlations_47.csv`
-- `data/final_summary_tables/zebrafish_all_candidate_predictors_fcv_correlations_47_fcv_aligned.csv`
-- `data/final_summary_tables/figure_sc_fc_fcv_prediction_robustness_summary.csv`
-- `data/final_summary_tables/figure_sc_fc_fcv_residual_proxy_summary.csv`
-- `data/final_summary_tables/current_base_window_sensitivity_baseline_stability.csv`
-- `data/final_summary_tables/current_base_window_sensitivity_node_summary.csv`
-- `data/final_summary_tables/current_base_window_sensitivity_qc.csv`
-- `data/final_summary_tables/current_base_window_sensitivity_vs_fcv_correlations.csv`
+Only figure-ready processed inputs and statistics needed by the retained main and supplementary figure scripts are included. Broader audit notes, exploratory outputs, full raw datasets, and unused intermediate tables were removed to keep the package compact.

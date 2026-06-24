@@ -1,23 +1,23 @@
 figure,panel,fc_feature,sc_feature,pearson_r,p_value,p_fdr_bh,fdr_bh_significant,n_regions
-figure_sc_fc_final_overview,A,FCV,$\mathbf{DCA}_{\mathbf{post}}$,0.5769873814300557,3.340407909541996e-05,0.0007991788346751394,True,45
-figure_sc_fc_final_overview,A,FCV,$\mathbf{DCA}_{\mathbf{pre}}$,-0.16976038139040178,0.2649116394339103,0.36793283254709763,False,45
-figure_sc_fc_final_overview,A,FCV,Modularity Q,0.1698379917225633,0.26469002108318174,0.36793283254709763,False,45
+figure_sc_fc_final_overview,A,FCV,$\mathbf{DCA}_{\mathbf{post}}$,0.5769873814300555,3.340407909542025e-05,0.0007991788346751394,True,45
+figure_sc_fc_final_overview,A,FCV,$\mathbf{DCA}_{\mathbf{pre}}$,-0.16976038139040173,0.2649116394339109,0.36793283254709847,False,45
+figure_sc_fc_final_overview,A,FCV,Modularity Q,0.16983799172256328,0.2646900210831824,0.36793283254709847,False,45
 figure_sc_fc_final_overview,A,FCV,log (Out/In),0.3447012347599571,0.02040446140764374,0.059160917435388954,False,45
-figure_sc_fc_final_overview,A,FCV,OO fraction,0.5597531179701639,6.393430677401116e-05,0.0007991788346751394,True,45
-figure_sc_fc_final_overview,A,FCS,$\mathbf{DCA}_{\mathbf{post}}$,-0.35221202447977146,0.01765314438261956,0.059160917435388954,False,45
-figure_sc_fc_final_overview,A,FCS,$\mathbf{DCA}_{\mathbf{pre}}$,0.2665867704858428,0.07669631402520069,0.13241868832237283,False,45
+figure_sc_fc_final_overview,A,FCV,OO fraction,0.559753117970164,6.393430677401116e-05,0.0007991788346751394,True,45
+figure_sc_fc_final_overview,A,FCS,$\mathbf{DCA}_{\mathbf{post}}$,-0.3522120244797714,0.017653144382619636,0.059160917435388954,False,45
+figure_sc_fc_final_overview,A,FCS,$\mathbf{DCA}_{\mathbf{pre}}$,0.26658677048584273,0.07669631402520094,0.13241868832237283,False,45
 figure_sc_fc_final_overview,A,FCS,Modularity Q,-0.26421949474135065,0.0794512129934237,0.13241868832237283,False,45
-figure_sc_fc_final_overview,A,FCS,log (Out/In),-0.32661053207386515,0.028541795390021368,0.0671218676912138,False,45
-figure_sc_fc_final_overview,A,FCS,OO fraction,-0.07216416810630509,0.6375803631525626,0.6641462116172527,False,45
+figure_sc_fc_final_overview,A,FCS,log (Out/In),-0.32661053207386526,0.028541795390021253,0.0671218676912138,False,45
+figure_sc_fc_final_overview,A,FCS,OO fraction,-0.07216416810630512,0.6375803631525616,0.6641462116172517,False,45
 figure_sc_fc_final_overview,A,ProfileCorrDistFCV,$\mathbf{DCA}_{\mathbf{post}}$,0.22609042864365692,0.13533377746278658,0.211459027285604,False,45
-figure_sc_fc_final_overview,A,ProfileCorrDistFCV,$\mathbf{DCA}_{\mathbf{pre}}$,-0.3424457632257126,0.021297930276740023,0.059160917435388954,False,45
-figure_sc_fc_final_overview,A,ProfileCorrDistFCV,Modularity Q,0.48678122292814974,0.0006968915538436565,0.005807429615363804,True,45
-figure_sc_fc_final_overview,A,ProfileCorrDistFCV,log (Out/In),0.36619766320423747,0.013360628987876839,0.059160917435388954,False,45
-figure_sc_fc_final_overview,A,ProfileCorrDistFCV,OO fraction,0.05884484570433869,0.7010020829945737,0.7010020829945737,False,45
+figure_sc_fc_final_overview,A,ProfileCorrDistFCV,$\mathbf{DCA}_{\mathbf{pre}}$,-0.34244576322571263,0.021297930276740023,0.059160917435388954,False,45
+figure_sc_fc_final_overview,A,ProfileCorrDistFCV,Modularity Q,0.4867812229281497,0.0006968915538436611,0.005807429615363843,True,45
+figure_sc_fc_final_overview,A,ProfileCorrDistFCV,log (Out/In),0.3661976632042377,0.013360628987876778,0.059160917435388954,False,45
+figure_sc_fc_final_overview,A,ProfileCorrDistFCV,OO fraction,0.058844845704338726,0.7010020829945737,0.7010020829945737,False,45
 figure_sc_fc_final_overview,A,Net TE,$\mathbf{DCA}_{\mathbf{post}}$,0.3247120494652738,0.029533621784134073,0.0671218676912138,False,45
-figure_sc_fc_final_overview,A,Net TE,$\mathbf{DCA}_{\mathbf{pre}}$,0.11645755665190365,0.44615843505598723,0.5309027637717076,False,45
-figure_sc_fc_final_overview,A,Net TE,Modularity Q,-0.34793762502946435,0.01917764612879364,0.059160917435388954,False,45
-figure_sc_fc_final_overview,A,Net TE,log (Out/In),0.11117422642120946,0.4671944321191027,0.5309027637717076,False,45
+figure_sc_fc_final_overview,A,Net TE,$\mathbf{DCA}_{\mathbf{pre}}$,0.1164575566519037,0.44615843505598723,0.5309027637717076,False,45
+figure_sc_fc_final_overview,A,Net TE,Modularity Q,-0.3479376250294644,0.01917764612879364,0.059160917435388954,False,45
+figure_sc_fc_final_overview,A,Net TE,log (Out/In),0.1111742264212094,0.4671944321191027,0.5309027637717076,False,45
 figure_sc_fc_final_overview,A,Net TE,OO fraction,0.3061620046219802,0.04081448900467069,0.07851366242826521,False,45
 figure_sc_fc_final_overview,A,Neighbor TE,$\mathbf{DCA}_{\mathbf{post}}$,0.3061437669852649,0.04082710446269791,0.07851366242826521,False,45
 figure_sc_fc_final_overview,A,Neighbor TE,$\mathbf{DCA}_{\mathbf{pre}}$,0.13040041712520314,0.3932208281459896,0.49152603518248694,False,45

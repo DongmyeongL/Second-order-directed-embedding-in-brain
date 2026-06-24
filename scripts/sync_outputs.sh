@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-mkdir -p figures outputs/supplementary
+mkdir -p figures outputs/supplementary output/png output/stats
 
 # Stage all supplementary figures into figures/ first. Some supplementary
 # scripts write directly to figures/, while others write to output/png; this
@@ -16,8 +16,8 @@ cp figures/figure9_final.png outputs/
 cp figures/figure12_final.png outputs/
 cp figures/figure_sc_fc_final_overview.png outputs/
 cp figures/figure13_final.png outputs/
-cp figures/figure14_15_celegans_drosophila_AFHI_combined.png outputs/
-cp figures/figure7_by_species_with_figure5_abc.png outputs/
+cp figures/figure7_14_combined_group_panels_AB.png outputs/
+cp figures/figure7_14_combined_group_panels_CDE.png outputs/
 
 cp figures/figure_supply_2_proc.png outputs/supplementary/
 cp figures/figure_supply_10_proc.png outputs/supplementary/

@@ -1,6 +1,0 @@
-figure,panel,measure,test,H,p,eta2_H,n_total,n_Tel,n_Di,n_Mes,n_Hind,groups
-figure9,C,FCV,Kruskal-Wallis,76.847,1.46e-16,0.166,450,79,82,42,247,"Tel;Di;Mes;Hind"
-figure9,D,FCS,Kruskal-Wallis,109.288,1.56e-23,0.238,450,79,82,42,247,"Tel;Di;Mes;Hind"
-figure9,E,FC partner reconfiguration,Kruskal-Wallis,90.553,1.67e-19,0.196,450,79,82,42,247,"Tel;Di;Mes;Hind"
-figure9,F,TE_net,Kruskal-Wallis,39.246,1.54e-08,0.121,450,79,82,42,247,"Tel;Di;Mes;Hind"
-figure9,G,neighborhood TE_net,Kruskal-Wallis,26.755,6.62e-06,0.079,450,79,82,42,247,"Tel;Di;Mes;Hind"
