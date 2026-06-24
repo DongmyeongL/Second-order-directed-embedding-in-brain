@@ -30,6 +30,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE_ROOT = PROJECT_ROOT.parent
 OUTPUT_DIR = PROJECT_ROOT / "figures"
 DATA_DIR = PROJECT_ROOT / "data"
+OUT_STATS = DATA_DIR / "final_summary_tables" / "figure_supply_2_proc_region_summary.csv"
 
 
 def first_existing_path(*paths):
@@ -456,6 +457,29 @@ def _draw_region_bar_main(ax, region_lists, selected_regions):
     ax.spines["right"].set_visible(False)
 
 
+def _summarize_region_lists(panel_label, metric, region_lists, selected_regions):
+    rows = []
+    for idx in selected_regions:
+        arr = np.asarray(region_lists[idx], dtype=float)
+        arr = arr[np.isfinite(arr)]
+        division_code = int(brain_division_list[idx])
+        rows.append(
+            {
+                "figure": "figure_supply_2_proc",
+                "panel": panel_label,
+                "metric": metric,
+                "region": regions[idx],
+                "division": division_names.get(division_code, "Other"),
+                "n": int(arr.size),
+                "mean": float(np.mean(arr)) if arr.size else np.nan,
+                "sem": float(np.std(arr, ddof=1) / np.sqrt(arr.size)) if arr.size > 1 else np.nan,
+                "std": float(np.std(arr, ddof=1)) if arr.size > 1 else np.nan,
+                "median": float(np.median(arr)) if arr.size else np.nan,
+            }
+        )
+    return rows
+
+
 def _display_region_name(region_name):
     region_name = str(region_name)
     if len(region_name) > 1 and region_name[0] == "l" and region_name[1].isupper():
@@ -566,7 +590,11 @@ for ax in axes:
     ax.set_position([pos.x0 + 0.02, pos.y0, pos.width * 0.95, pos.height * 0.90])
 
 
-
+summary_rows = []
+for panel_label, ylabel, region_lists, selected_regions in feature_panels:
+    summary_rows.extend(_summarize_region_lists(panel_label, ylabel, region_lists, selected_regions))
+OUT_STATS.parent.mkdir(parents=True, exist_ok=True)
+pd.DataFrame(summary_rows).to_csv(OUT_STATS, index=False)
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 plt.savefig(OUTPUT_DIR / 'figure_supply_2_proc.png', dpi=600, bbox_inches='tight')

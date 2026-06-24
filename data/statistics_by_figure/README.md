@@ -1,7 +1,7 @@
 # Statistics Tables By Figure
 
 This folder indexes the statistics, plotted-value tables, and compact cache files retained for each manuscript and supplementary figure.
-Most CSV statistics tables remain in `data/final_summary_tables/`; supplementary figures often use compact `.npz`, `.npy`, or `.pkl` cache files and compute simple on-panel statistics during plotting.
+Most CSV statistics tables remain in `data/final_summary_tables/`; supplementary figures may use compact `.npz`, `.npy`, or `.pkl` cache files when the plotted values are not stored as separate CSV tables.
 
 ## Machine-Readable Index
 
@@ -95,6 +95,9 @@ Most CSV statistics tables remain in `data/final_summary_tables/`; supplementary
   - Key columns/arrays: `species, recording_id, node, NetTE, NeighborNetTE, NetTE_z, NeighborNetTE_z, n_communities`
 
 ### Supplementary Fig. S0 / figure_supply_0.png
+- **G-H correlation statistics**: `data/final_summary_tables/figure_supply_0_stats.csv`
+  - Pearson correlations and linear-fit coefficients comparing empirical and simulated FCS/FCV values.
+  - Key columns/arrays: `panel, metric, test, n_regions, pearson_r, p_value, linear_slope, linear_intercept`
 - **empirical/simulation FC summaries**: `data/figure1_emp_variation/figure1_whole_brain_fc_mean_std_data.npz`
   - Cached empirical whole-brain FC mean/std arrays and region labels used as source values for the supplementary empirical/simulation comparison.
   - Key columns/arrays: `NPZ arrays including new_region_array and FC summary arrays`
@@ -103,6 +106,9 @@ Most CSV statistics tables remain in `data/final_summary_tables/`; supplementary
   - Key columns/arrays: `pickle keys include emp_ca_data, sim_ca_data, save_fc, eave_fc, estd_fc, sstd_fc, sel_region`
 
 ### Supplementary Fig. S1 / figure_supply_1.png
+- **B distance-decay fit statistics**: `data/final_summary_tables/figure_supply_1_stats.csv`
+  - Mean lognormal shape parameter and fitted exponential distance-decay model parameters with standard errors.
+  - Key columns/arrays: `panel, model, statistic, value, standard_error, n_bins`
 - **distance-FC source values**: `data/figure9_distance_synapse/figure_supply1_fc_dist_data.npz`
   - Pairwise distance and FC values used to fit binned lognormal FC distributions and an exponential distance-decay curve in the plotting script.
   - Key columns/arrays: `NPZ arrays dist_data, fc_data`
@@ -111,6 +117,9 @@ Most CSV statistics tables remain in `data/final_summary_tables/`; supplementary
   - Key columns/arrays: `NumPy array of distances`
 
 ### Supplementary Fig. S2 / figure_supply_2_proc.png
+- **A-E regional plotted summaries**: `data/final_summary_tables/figure_supply_2_proc_region_summary.csv`
+  - Region-level `n`, mean, SEM, standard deviation, and median for each plotted structural metric panel.
+  - Key columns/arrays: `panel, metric, region, division, n, mean, sem, std, median`
 - **regional SC metric panels**: `data/sc_original_per_area_network_metrics.pkl`
   - Cached zebrafish regional structural network metrics used for clustering, modularity, efficiency, and related SC metric panels.
   - Key columns/arrays: `pickle dictionary of regional network metric arrays`
@@ -125,6 +134,9 @@ Most CSV statistics tables remain in `data/final_summary_tables/`; supplementary
   - Key columns/arrays: `species, node, OO_fraction, OO_count, II_fraction, out_degree, Division`
 
 ### Supplementary Fig. S5 / figure_supply_5.png
+- **A-B statistical tests**: `data/final_summary_tables/figure_supply_5_stats.csv`
+  - Mann-Whitney U tests for Base vs NULL-Out and Base vs NULL-In DCA null-model comparisons, with group sizes, means, medians, U statistics, and p-values.
+  - Key columns/arrays: `panel, metric, test, comparison, n_base, n_null, mean_base, mean_null, median_base, median_null, u_statistic, p_value, p_text`
 - **null-model DCA comparisons**: `data/figure6_NULL_P_SP/figure6_network_properites_in.npz`
   - Base and Null-Out values used for on-panel Mann-Whitney U comparison of DCA_post-related null-model distributions.
   - Key columns/arrays: `NPZ arrays x_data, y_data`
@@ -133,6 +145,9 @@ Most CSV statistics tables remain in `data/final_summary_tables/`; supplementary
   - Key columns/arrays: `NPZ arrays x_data, y_data`
 
 ### Supplementary Fig. S10 / figure_supply_10_proc.png
+- **A-E regional plotted summaries**: `data/final_summary_tables/figure_supply_10_proc_region_summary.csv`
+  - Region-level `n`, mean, SEM, standard deviation, and median for each plotted FC/TE metric panel.
+  - Key columns/arrays: `panel, metric, region, division, n, mean, sem, std, median`
 - **regional FC/TE summaries**: `data/final_summary_tables/figure1_dynamic_fc_fingerprint_overview_values.csv`
   - Zebrafish regional FCV, FCS, FC partner reconfiguration, NetTE, and neighbor NetTE values used for supplementary FC/TE panels.
   - Key columns/arrays: `species, node, EdgeStdFCV, FCS, ProfileCorrDistFCV, ObservedNetTE, NeighborNetTE`
@@ -164,4 +179,4 @@ Most CSV statistics tables remain in `data/final_summary_tables/`; supplementary
 - `figure9_stats.csv` and `figure12_stats.csv` contain pairwise division comparisons and Holm-corrected p-values, not omnibus Kruskal-Wallis rows.
 - `figure_sc_fc_final_overview_*` files contain the Fig. 3 pairwise correlations, PLS summaries, cross-validated FCV predictions, and model/PLS weights.
 - Functional-group statistics for manuscript Fig. 6 are split into group signatures, permutation tests, and planned contrasts.
-- Supplementary figures S0, S1, S2, S5, S10, S13, and S15 primarily rely on compact source-value/cache files; where p-values are shown, they are computed inside the plotting scripts from the listed arrays rather than stored as separate CSV tables.
+- Supplementary Figs. S0, S1, S2, S5, and S10 now store explicit CSV statistics or plotted-summary tables in `data/final_summary_tables/`. Other supplementary figures primarily rely on compact source-value/cache files listed above.

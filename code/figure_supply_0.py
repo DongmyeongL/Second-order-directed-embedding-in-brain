@@ -3,6 +3,7 @@ import numpy as np
 import pickle
 from pathlib import Path
 import os
+import pandas as pd
 from scipy.stats import pearsonr
 
 os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
@@ -21,6 +22,7 @@ fig_help.set_paper_style()
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = PROJECT_ROOT / "data"
 OUT_PNG = PROJECT_ROOT / "output" / "png" / "figure_supply_0.png"
+OUT_STATS = DATA_DIR / "final_summary_tables" / "figure_supply_0_stats.csv"
 
 
 def get_brain_division_list() -> np.ndarray:
@@ -584,6 +586,21 @@ yy = np.array(y_data);
 r, p = pearsonr(x, yy)
 m, b = np.polyfit(x, yy, 1)
 xs = np.linspace(x.min(), x.max(), 100)
+supply0_stats = [
+    {
+        "figure": "figure_supply_0",
+        "panel": "G",
+        "metric": "FCS",
+        "test": "Pearson correlation",
+        "n_regions": int(np.isfinite(x).sum()),
+        "pearson_r": float(r),
+        "p_value": float(p),
+        "linear_slope": float(m),
+        "linear_intercept": float(b),
+        "x_label": "Emp. FCS (z-score)",
+        "y_label": "Sim. FCS (z-score)",
+    }
+]
 
 import seaborn as sns
 sns.regplot(x=x, y=yy, ax=axE,
@@ -634,6 +651,21 @@ yy = np.array(y_data);
 r, p = pearsonr(x, yy)
 m, b = np.polyfit(x, yy, 1)
 xs = np.linspace(x.min(), x.max(), 100)
+supply0_stats.append(
+    {
+        "figure": "figure_supply_0",
+        "panel": "H",
+        "metric": "FCV",
+        "test": "Pearson correlation",
+        "n_regions": int(np.isfinite(x).sum()),
+        "pearson_r": float(r),
+        "p_value": float(p),
+        "linear_slope": float(m),
+        "linear_intercept": float(b),
+        "x_label": "Emp. FCV (z-score)",
+        "y_label": "Sim. FCV (z-score)",
+    }
+)
 
 import seaborn as sns
 sns.regplot(x=x, y=yy, ax=axF,
@@ -745,4 +777,7 @@ fig_help.add_panel_label_fig(fig, axF, 'H', dx=-0.06)
 
 
         
+OUT_PNG.parent.mkdir(parents=True, exist_ok=True)
+OUT_STATS.parent.mkdir(parents=True, exist_ok=True)
+pd.DataFrame(supply0_stats).to_csv(OUT_STATS, index=False)
 plt.savefig(OUT_PNG, dpi=600, bbox_inches='tight')

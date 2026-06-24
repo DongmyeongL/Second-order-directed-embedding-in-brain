@@ -1,0 +1,3 @@
+figure,panel,metric,test,alternative,comparison,source_npz,n_base,n_null,mean_base,mean_null,median_base,median_null,u_statistic,p_value,p_text
+figure_supply_5,A,$\mathrm{DCA}_{\mathrm{post}}$,Mann-Whitney U,two-sided,Base vs Null-Out,data/figure6_NULL_P_SP/figure6_network_properites_in.npz,28,140,0.032515641168119294,0.00322767616205492,0.034840278803606295,0.0011847260816523135,3156.0,3.6170932833813717e-07,p < 0.001
+figure_supply_5,B,$\mathrm{DCA}_{\mathrm{pre}}$,Mann-Whitney U,two-sided,Base vs Null-In,data/figure6_NULL_P_SP/figure6_network_properites_out.npz,28,140,-0.12357374819906715,0.013629350976880563,-0.12473893261355351,0.011756393913225006,296.0,1.4425989866975938e-12,p < 0.001

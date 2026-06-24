@@ -4,6 +4,7 @@ import os
 os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
 
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 from scipy.stats import lognorm
@@ -17,6 +18,7 @@ DATA_DIR = PROJECT_ROOT / "data"
 OUT_PNG = PROJECT_ROOT / "output" / "png" / "figure_supply_1.png"
 FIG_PNG = PROJECT_ROOT / "figures" / "figure_supply_1.png"
 SUPP_PNG = PROJECT_ROOT / "outputs" / "supplementary" / "figure_supply_1.png"
+OUT_STATS = DATA_DIR / "final_summary_tables" / "figure_supply_1_stats.csv"
 
 
 # ============================================================
@@ -108,6 +110,44 @@ d_fit = np.linspace(d.min(), d.max(), 300)
 scale_fit = exp_model(d_fit, A_hat, lambda_hat, C_hat)
 
 print("Mean lognormal shape parameter:", np.mean(lognorm_shape))
+fit_stats = pd.DataFrame([
+    {
+        "figure": "figure_supply_1",
+        "panel": "B",
+        "model": "lognormal FC by distance bin",
+        "statistic": "mean_lognormal_shape",
+        "value": float(np.mean(lognorm_shape)),
+        "standard_error": np.nan,
+        "n_bins": int(len(lognorm_shape)),
+    },
+    {
+        "figure": "figure_supply_1",
+        "panel": "B",
+        "model": "scale(d)=A*exp(-d/lambda)+C",
+        "statistic": "A",
+        "value": float(A_hat),
+        "standard_error": float(perr[0]),
+        "n_bins": int(len(d)),
+    },
+    {
+        "figure": "figure_supply_1",
+        "panel": "B",
+        "model": "scale(d)=A*exp(-d/lambda)+C",
+        "statistic": "lambda",
+        "value": float(lambda_hat),
+        "standard_error": float(perr[1]),
+        "n_bins": int(len(d)),
+    },
+    {
+        "figure": "figure_supply_1",
+        "panel": "B",
+        "model": "scale(d)=A*exp(-d/lambda)+C",
+        "statistic": "C",
+        "value": float(C_hat),
+        "standard_error": float(perr[2]),
+        "n_bins": int(len(d)),
+    },
+])
 
 # ============================================================
 # Plotting
@@ -256,6 +296,8 @@ add_panel_label_fig(fig, axB, 'B', dx=-0.09, dy=0.02)
 OUT_PNG.parent.mkdir(parents=True, exist_ok=True)
 FIG_PNG.parent.mkdir(parents=True, exist_ok=True)
 SUPP_PNG.parent.mkdir(parents=True, exist_ok=True)
+OUT_STATS.parent.mkdir(parents=True, exist_ok=True)
+fit_stats.to_csv(OUT_STATS, index=False)
 plt.savefig(OUT_PNG, dpi=600, bbox_inches='tight')
 plt.savefig(FIG_PNG, dpi=600, bbox_inches='tight')
 plt.savefig(SUPP_PNG, dpi=600, bbox_inches='tight')

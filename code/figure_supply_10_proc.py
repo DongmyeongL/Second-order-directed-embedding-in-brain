@@ -30,11 +30,18 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE_ROOT = PROJECT_ROOT.parent
 DATA = PROJECT_ROOT / "data"
 OUTPUT_DIR = PROJECT_ROOT / "figures"
+OUT_STATS = DATA / "final_summary_tables" / "figure_supply_10_proc_region_summary.csv"
 SUBJECT_IDS = range(12, 19)
 BASE_NET = DATA / "region_community_io"
 
 DIVISION_COLUMNS = ["Tel", "Di", "Mes", "Hind"]
 DIVISION_ORDER = {"Tel": 0, "Di": 1, "Mes": 2, "Hind": 3}
+DIVISION_BY_CODE = {
+    0: "Hind",
+    1: "Di",
+    2: "Tel",
+    3: "Mes",
+}
 
 TEL_REGIONS = {"lOB", "lSP", "lP", "lPO", "rOB", "rSP", "rP", "rPO"}
 DI_REGIONS = {"lHb", "lTh", "lPT", "lPrT", "rHb", "rTh", "rPT", "rPrT"}
@@ -235,6 +242,30 @@ def draw_region_bar_main(ax, region_lists, selected_regions):
     ax.spines["right"].set_visible(False)
 
 
+def summarize_region_lists(panel_label, metric, region_lists, selected_regions):
+    rows = []
+    for idx in selected_regions:
+        arr = np.asarray(region_lists[idx], dtype=float)
+        arr = arr[np.isfinite(arr)]
+        region_name = display_region_name(fs.region[idx])
+        division_code = int(fs.brain_division_list[idx])
+        rows.append(
+            {
+                "figure": "figure_supply_10_proc",
+                "panel": panel_label,
+                "metric": metric,
+                "region": region_name,
+                "division": DIVISION_BY_CODE.get(division_code, "Other"),
+                "n": int(arr.size),
+                "mean": float(np.mean(arr)) if arr.size else np.nan,
+                "sem": float(np.std(arr, ddof=1) / np.sqrt(arr.size)) if arr.size > 1 else np.nan,
+                "std": float(np.std(arr, ddof=1)) if arr.size > 1 else np.nan,
+                "median": float(np.median(arr)) if arr.size else np.nan,
+            }
+        )
+    return rows
+
+
 # ============================================================
 # Load Figure 9 node order
 # ============================================================
@@ -348,6 +379,13 @@ for ax in (axes[0], axes[2]):
 for ax in axes:
     pos = ax.get_position()
     ax.set_position([pos.x0 + 0.02, pos.y0, pos.width * 0.95, pos.height * 0.90])
+
+summary_rows = []
+for panel_label, ylabel, values in feature_panels:
+    region_lists, selected_regions = ordered_lists_to_region_lists(region_order, values)
+    summary_rows.extend(summarize_region_lists(panel_label, ylabel, region_lists, selected_regions))
+OUT_STATS.parent.mkdir(parents=True, exist_ok=True)
+pd.DataFrame(summary_rows).to_csv(OUT_STATS, index=False)
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 plt.savefig(OUTPUT_DIR / "figure_supply_10_proc.png", dpi=600, bbox_inches="tight")

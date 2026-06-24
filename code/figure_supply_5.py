@@ -6,6 +6,7 @@ os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 from matplotlib.colors import Normalize
 from scipy.stats import mannwhitneyu
 
@@ -19,6 +20,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA = PROJECT_ROOT / "data"
 NETWORK_DIR = DATA / "network_diagrams"
 STATS_DIR = DATA / "figure6_NULL_P_SP"
+OUT_STATS = DATA / "final_summary_tables" / "figure_supply_5_stats.csv"
 OUT_PNG = PROJECT_ROOT / "output" / "png" / "figure_supply_5.png"
 
 PAIR_SPECS = [
@@ -56,13 +58,14 @@ def read_network_image(filename):
     return mpimg.imread(path)
 
 
-def plot_null_box(ax, npz_name, ylabel, xticklabels):
+def plot_null_box(ax, npz_name, ylabel, xticklabels, panel_label):
     data = np.load(STATS_DIR / npz_name)
     base = -1 * np.asarray(data["x_data"], dtype=float)
     null = -1 * np.asarray(data["y_data"], dtype=float)
     base = base[np.isfinite(base)]
     null = null[np.isfinite(null)]
-    p_value = mannwhitneyu(base, null, alternative="two-sided").pvalue
+    test_result = mannwhitneyu(base, null, alternative="two-sided")
+    p_value = float(test_result.pvalue)
 
     bp = ax.boxplot(
         [base, null],
@@ -105,6 +108,24 @@ def plot_null_box(ax, npz_name, ylabel, xticklabels):
         fontstyle="italic",
     )
     ax.tick_params(axis="both", which="both", direction="out", length=4, width=1.0)
+    return {
+        "figure": "figure_supply_5",
+        "panel": panel_label,
+        "metric": ylabel,
+        "test": "Mann-Whitney U",
+        "alternative": "two-sided",
+        "comparison": f"{xticklabels[0]} vs {xticklabels[1]}",
+        "source_npz": f"data/figure6_NULL_P_SP/{npz_name}",
+        "n_base": int(len(base)),
+        "n_null": int(len(null)),
+        "mean_base": float(np.mean(base)) if len(base) else np.nan,
+        "mean_null": float(np.mean(null)) if len(null) else np.nan,
+        "median_base": float(np.median(base)) if len(base) else np.nan,
+        "median_null": float(np.median(null)) if len(null) else np.nan,
+        "u_statistic": float(test_result.statistic),
+        "p_value": p_value,
+        "p_text": p_text(p_value),
+    }
 
 
 def add_panel_label(ax, label):
@@ -206,18 +227,21 @@ def make_figure():
 
     ax_stat_out = fig.add_subplot(gs[0, 0:3])
     ax_stat_in = fig.add_subplot(gs[0, 3:6])
-    plot_null_box(
+    stats_rows = []
+    stats_rows.append(plot_null_box(
         ax_stat_out,
         "figure6_network_properites_in.npz",
         r"$\mathrm{DCA}_{\mathrm{post}}$",
         ["Base", "Null-Out"],
-    )
-    plot_null_box(
+        "A",
+    ))
+    stats_rows.append(plot_null_box(
         ax_stat_in,
         "figure6_network_properites_out.npz",
         r"$\mathrm{DCA}_{\mathrm{pre}}$",
         ["Base", "Null-In"],
-    )
+        "B",
+    ))
     shrink_axis_width(ax_stat_out, width_scale=0.70)
     shrink_axis_width(ax_stat_in, width_scale=0.70)
 
@@ -260,6 +284,9 @@ def make_figure():
     shift_axes_down(network_axes, dy=0.030)
     add_dca_colorbar_with_arrows(fig, network_axes)
 
+    OUT_PNG.parent.mkdir(parents=True, exist_ok=True)
+    OUT_STATS.parent.mkdir(parents=True, exist_ok=True)
+    pd.DataFrame(stats_rows).to_csv(OUT_STATS, index=False)
     fig.savefig(OUT_PNG, dpi=600, bbox_inches="tight")
     plt.close(fig)
 
