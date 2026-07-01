@@ -338,7 +338,7 @@ neighbor_net_te_lists = replace_region_with_division_values(
 feature_panels = [
     ("A", "FCV", fcv_lists),
     ("B", "FCS", fcs_lists),
-    ("C", "FC Partner", fc_partner_lists),
+    ("C", "FC Reconfig. Degree", fc_partner_lists),
     ("D", r"$\mathrm{TE}_{\mathrm{net}}$", net_te_lists),
     ("E", "Neighbor " + r"$\mathrm{TE}_{\mathrm{net}}$", neighbor_net_te_lists),
 ]

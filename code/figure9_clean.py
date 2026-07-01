@@ -389,7 +389,7 @@ n_regions = out_data_c.shape[1]
 y_labels  = [
     'FCV',
     'FCS',
-    'FC\nPartner',
+    'FC Recon. \nDeg.',
     r'$\mathbf{TE}_{\mathbf{net}}$',
     'Neighbor\n' + r'$\mathbf{TE}_{\mathbf{net}}$',
 ]
@@ -534,7 +534,7 @@ out_neigh_net_te_data_df = _fig1_measure_division_df(fig1_zf_rec, 'NeighborNetTE
 # Panels C-G: division-level boxplots
 _boxplot_panel(ax_c, _fcv, 'FCV')
 _boxplot_panel(ax_d, _fcs, 'FCS')
-_boxplot_panel(ax_e, _profile_corr, 'FC Partner')
+_boxplot_panel(ax_e, _profile_corr, 'FC Reconfig. Deg')
 _boxplot_panel(ax_f, out_net_te_data_df, r'$\mathrm{TE}_{\mathrm{net}}$')
 _boxplot_panel(ax_g, out_neigh_net_te_data_df, 'Neighbor ' + r'$\mathrm{TE}_{\mathrm{net}}$')
 

@@ -51,9 +51,10 @@ DCA_POST_LABEL = r"$\mathrm{DCA}_{\mathrm{post}}$"
 DCA_PRE_LABEL = r"$\mathrm{DCA}_{\mathrm{pre}}$"
 TE_NET_LABEL = r"$\mathrm{TE}_{\mathrm{net}}$"
 SC_DISPLAY_LABELS = [DCA_POST_LABEL, DCA_PRE_LABEL, "Mod Q", "log\n(O/I)", "OO\nfrac."]
-FC_DISPLAY_LABELS = ["FCV", "FCS", "FC\nPartner", TE_NET_LABEL, "Neigh.\n " + TE_NET_LABEL]
+FC_DISPLAY_LABELS = ["FCV", "FCS", "FC\n Recon.", TE_NET_LABEL, "Neigh.\n " + TE_NET_LABEL]
 SC_HEATMAP_LABELS = [DCA_POST_LABEL, DCA_PRE_LABEL, "Mod Q", "log(O/I)", "OO\nfrac."]
-FC_HEATMAP_LABELS = ["FCV", "FCS", "FC\nPartner", TE_NET_LABEL, "Neigh. \n" + TE_NET_LABEL]
+FC_HEATMAP_LABELS = ["FCV", "FCS", "FC\n Recon.", TE_NET_LABEL, "Neigh. \n" + TE_NET_LABEL]
+
 
 ANNOT_FS = fs.TICK_FS_2COL - 2
 SMALL_FS = fs.TICK_FS_2COL
